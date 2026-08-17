@@ -1,0 +1,593 @@
+[
+  {
+    "record_id": "doc_KoruFlux_Ser_20260610",
+    "source": "koruflux_doc_koruflux_services.docx",
+    "url": "local://docs/KoruFlux_Services.docx.pdf",
+    "original_timestamp": "2026-06-10T07:47:46.977643+00:00",
+    "processed_at": "2026-06-10T07:47:47.070117+00:00",
+    "category": "internal_document",
+    "entities": [
+      "US",
+      "Singapore",
+      "EU",
+      "Web3",
+      "RWA",
+      "DeFi",
+      "UK",
+      "Hong Kong",
+      "AI",
+      "UAE"
+    ],
+    "sectors_detected": [
+      "DeFi",
+      "AI_Fintech",
+      "RWA",
+      "Regulatory"
+    ],
+    "regions_detected": [
+      "European Union",
+      "United Kingdom",
+      "Singapore",
+      "UAE",
+      "Asia",
+      "Global"
+    ],
+    "financial_figures": [],
+    "article_count": 0,
+    "clean_data": {
+      "document_role": "services_detail",
+      "word_count": 472,
+      "service_pillars": [],
+      "pricing_signals": [
+        {
+          "type": "price",
+          "value": "USD 4,500"
+        },
+        {
+          "type": "price",
+          "value": "USD 2,500"
+        },
+        {
+          "type": "price",
+          "value": "USD 15,000"
+        },
+        {
+          "type": "duration",
+          "value": "4-6 week"
+        },
+        {
+          "type": "duration",
+          "value": "8-16 week"
+        }
+      ],
+      "client_types": [
+        "DeFi platform",
+        "RWA project",
+        "infrastructure provider",
+        "crypto-native"
+      ],
+      "markets_mentioned": [
+        "US",
+        "Hong Kong",
+        "EU",
+        "UK",
+        "Singapore",
+        "UAE"
+      ],
+      "technologies": [
+        "Web3",
+        "RWA",
+        "DeFi",
+        "AI"
+      ],
+      "regulators_mentioned": [],
+      "competitors_mentioned": [],
+      "text_excerpt": "KoruFlux\nGlobal Market Entry for Web3 Companies\n\nWHAT WE DO\n\nWe get Web3 companies into new markets.\nThat means knowing which jurisdictions are actually open right now, which regulators and\ninfrastructure providers matter, what the compliance exposure looks like, and who the right\npeople are to talk to. Then making those introductions and helping you land.\nMost Web3 companies trying to expand globally waste months figuring out basics that should\ntake days. They get stuck on licensing questions, make the wrong jurisdictional calls, or fail to\nestablish the relationships that determine whether a market works. We exist to remove that\nfriction.\n\nSERVICES\n\nJurisdiction Intelligence\nA structured briefing on a target market: regulatory status, licensing requirements and timelines,\ntax exposure, enforcement posture, and the political economy of crypto in that jurisdiction.\nDelivered as a working document your legal and strategy teams can actually use, not a generic\noverview.\nCovers all active Web3 markets: US, EU, UK, UAE, Singapore, Hong Kong, and emerging\njurisdictions on request.\n\nMarket Entry Operations\nOnce you know where you are going, we handle the operational groundwork. Entity str"
+    },
+    "text_sample": "{\"document_role\": \"services_detail\", \"word_count\": 472, \"service_pillars\": [], \"pricing_signals\": [{\"type\": \"price\", \"value\": \"USD 4,500\"}, {\"type\": \"price\", \"value\": \"USD 2,500\"}, {\"type\": \"price\", \"value\": \"USD 15,000\"}, {\"type\": \"duration\", \"value\": \"4-6 week\"}, {\"type\": \"duration\", \"value\": \"8-16 week\"}], \"client_types\": [\"DeFi platform\", \"RWA project\", \"infrastructure provider\", \"crypto-native\"], \"markets_mentioned\": [\"US\", \"Hong Kong\", \"EU\", \"UK\", \"Singapore\", \"UAE\"], \"technologies\": [\"Web3\", \"RWA\", \"DeFi\", \"AI\"], \"regulators_mentioned\": [], \"competitors_mentioned\": [], \"text_excerpt\": \""
+  },
+  {
+    "record_id": "doc_KoruFlux (2)_20260610",
+    "source": "koruflux_doc_koruflux_(2)",
+    "url": "local://docs/KoruFlux (2).pdf",
+    "original_timestamp": "2026-06-10T07:47:46.990342+00:00",
+    "processed_at": "2026-06-10T07:47:47.070502+00:00",
+    "category": "internal_document",
+    "entities": [
+      "US",
+      "API",
+      "Nairobi",
+      "DAO",
+      "EU",
+      "Rust",
+      "Web3",
+      "Africa",
+      "NFT",
+      "Solidity",
+      "DeFi",
+      "M-Pesa",
+      "Smart contract",
+      "SEC",
+      "Kenya",
+      "East Africa",
+      "AI",
+      "Tokenomics"
+    ],
+    "sectors_detected": [
+      "DeFi",
+      "NFT",
+      "DAO",
+      "Payments",
+      "AI_Fintech",
+      "Regulatory"
+    ],
+    "regions_detected": [
+      "Kenya",
+      "East Africa",
+      "Pan-Africa",
+      "United States",
+      "European Union",
+      "Global"
+    ],
+    "financial_figures": [],
+    "article_count": 0,
+    "clean_data": {
+      "document_role": "pitch_sheet_alt",
+      "word_count": 256,
+      "service_pillars": [
+        {
+          "pillar": "Build",
+          "description": "Transition End-to-end Web3 and AI product development Web2 \u2192 Web3 migration for established businesses Smart contracts (Solidity, Rust) Web3 readiness assessment DeFi, NFT & DAO infrastructure Tokenisation strategy \u25a0 \u25a0"
+        },
+        {
+          "pillar": "Strategize",
+          "description": "Land Data-driven go-to-market and growth strategy Guided entry into Kenya and East Africa Market sizing & opportunity analysis Market entry strategy GTM strategy for Web3/AI products Regulatory & compliance guidance ENGAGEMENT PACKAGES SPRINT MOST POPULAR FULL PROGRAMME Project Retainer Integrated 4\u20138 wks Monthly 8\u201316 wks Defined scope & deliverables Half-day or full-day increments Multi-pillar tr"
+        },
+        {
+          "pillar": "Land",
+          "description": "Clear milestones & KPIs Market intelligence updates Embedded team model Strategy sprints,"
+        }
+      ],
+      "pricing_signals": [
+        {
+          "type": "duration",
+          "value": "4\u20138 wk"
+        },
+        {
+          "type": "duration",
+          "value": "8\u201316 wk"
+        }
+      ],
+      "client_types": [
+        "Web3 Startup",
+        "International Corp",
+        "African Fintech",
+        "Web2 Business"
+      ],
+      "markets_mentioned": [
+        "US",
+        "Nairobi",
+        "Africa",
+        "Kenya",
+        "East Africa",
+        "EU"
+      ],
+      "technologies": [
+        "API",
+        "DAO",
+        "Rust",
+        "Web3",
+        "NFT",
+        "Solidity",
+        "DeFi",
+        "Smart contract",
+        "M-Pesa",
+        "AI",
+        "Tokenomics"
+      ],
+      "regulators_mentioned": [
+        "SEC"
+      ],
+      "competitors_mentioned": [],
+      "text_excerpt": "NAIROBI, KENYA \u00b7 2024\n\nKoruFlux\nBuild. Transition. Strategize. Land. \u2014 Web3 \u00b7 AI \u00b7 Data \u00b7 Market Entry\n\nNairobi-based technology and strategy consultancy at the intersection of Web3, AI, and African market entry. We connect emerging\ntechnology with Africa's fastest-growing digital economy \u2014 grounded in data, not guesswork.\n\nSERVICE PILLARS\n\n\u25a0\n\n\u25a0\n\nBuild\n\nTransition\n\nEnd-to-end Web3 and AI product development\n\nWeb2 \u2192 Web3 migration for established businesses\n\nSmart contracts (Solidity, Rust)\n\nWeb3 readiness assessment\n\nDeFi, NFT & DAO infrastructure\n\nTokenisation strategy\n\n\u25a0\n\n\u25a0\n\nStrategize\n\nLand\n\nData-driven go-to-market and growth strategy\n\nGuided entry into Kenya and East Africa\n\nMarket sizing & opportunity analysis\n\nMarket entry strategy\n\nGTM strategy for Web3/AI products\n\nRegulatory & compliance guidance\n\nENGAGEMENT PACKAGES\n\nSPRINT\n\nMOST POPULAR\n\nFULL PROGRAMME\n\nProject\n\nRetainer\n\nIntegrated\n\n4\u20138 wks\n\nMonthly\n\n8\u201316 wks\n\nDefined scope & deliverables\n\nHalf-day or full-day increments\n\nMulti-pillar transformation\n\nSingle-pillar engagement\n\nOngoing advisory access\n\nBuild + Strategize + Land\n\nClear milestones & KPIs\n\nMarket intelligence updates\n\nEmbedded team model\n\nStrategy sprints,"
+    },
+    "text_sample": "{\"document_role\": \"pitch_sheet_alt\", \"word_count\": 256, \"service_pillars\": [{\"pillar\": \"Build\", \"description\": \"Transition End-to-end Web3 and AI product development Web2 \\u2192 Web3 migration for established businesses Smart contracts (Solidity, Rust) Web3 readiness assessment DeFi, NFT & DAO infrastructure Tokenisation strategy \\u25a0 \\u25a0\"}, {\"pillar\": \"Strategize\", \"description\": \"Land Data-driven go-to-market and growth strategy Guided entry into Kenya and East Africa Market sizing & opportunity analysis Market entry strategy GTM strategy for Web3/AI products Regulatory & compliance gui"
+  },
+  {
+    "record_id": "doc_KoruFlux_Whi_20260610",
+    "source": "koruflux_doc_koruflux_whitepaper.docx",
+    "url": "local://docs/KoruFlux_Whitepaper.docx.pdf",
+    "original_timestamp": "2026-06-10T07:47:47.026465+00:00",
+    "processed_at": "2026-06-10T07:47:47.070918+00:00",
+    "category": "internal_document",
+    "entities": [
+      "US",
+      "Nairobi",
+      "Blockchain",
+      "DeFi",
+      "Smart contract",
+      "Kenya",
+      "Machine learning",
+      "Solidity",
+      "Data Protection",
+      "DAO",
+      "NFT",
+      "Solana",
+      "Data pipeline",
+      "SEC",
+      "Tokenomics",
+      "EU",
+      "M-Pesa",
+      "LLM",
+      "Rust",
+      "CRM",
+      "Web3",
+      "Africa",
+      "API",
+      "East Africa",
+      "AI"
+    ],
+    "sectors_detected": [
+      "DeFi",
+      "NFT",
+      "DAO",
+      "Payments",
+      "AI_Fintech",
+      "Infrastructure",
+      "Regulatory"
+    ],
+    "regions_detected": [
+      "Kenya",
+      "East Africa",
+      "Pan-Africa",
+      "United States",
+      "European Union",
+      "Global"
+    ],
+    "financial_figures": [],
+    "article_count": 0,
+    "clean_data": {
+      "document_role": "core_whitepaper",
+      "word_count": 1767,
+      "service_pillars": [
+        {
+          "pillar": "Build",
+          "description": "Transition \u2022 Smart contract development \u2022 Web2 \u2192 Web3 migration roadmap"
+        },
+        {
+          "pillar": "Strategize",
+          "description": "Data-driven market strategy Confidential \u00b7 Kora Flux \u00b7 Nairobi, Kenya \u00b7 Page PAGE"
+        },
+        {
+          "pillar": "Land",
+          "description": "Market entry into Kenya & Africa Kora Flux \u00b7 Company Whitepaper \u2022 DeFi, NFT & DAO infrastructure \u2022 AI-powered product features \u2022 Data pipelines & analytics infra \u2022 Blockchain integration into legacy systems \u2022 AI & automation on existing stack \u2022 Web3 readiness assessments \u2022 GTM for Web3 startups \u2022 Tokenomics & community narrative \u2022 Competitor &"
+        },
+        {
+          "pillar": "Build",
+          "description": "For startups and businesses that want to create new technology products. We design and"
+        },
+        {
+          "pillar": "build",
+          "description": "Web3 products end-to-end \u2014 from smart contracts and DeFi protocols to AI-powered features and data infrastructure. We work as your technical co-founder or augment your existing engineering team. \u2022\u200b \u2022\u200b \u2022\u200b \u2022\u200b \u2022\u200b \u2022\u200b Smart contract development and security auditing (Solidity, Rust/Solana) DeFi protocol design and implementation NFT platforms and marketplace infrastructure DAO setup, governance framewo"
+        },
+        {
+          "pillar": "Transition",
+          "description": "For established Web2 businesses exploring or migrating to Web3. We help you understand where blockchain and AI create genuine value for your business \u2014 and"
+        },
+        {
+          "pillar": "Strategize",
+          "description": "For companies at any stage that need a smarter approach to growth. We combine deep market research, on-chain and off-chain data analysis, and strategic frameworks to produce go-to-market strategies that are grounded in evidence \u2014 not assumption. \u2022\u200b \u2022\u200b \u2022\u200b \u2022\u200b \u2022\u200b \u2022\u200b Data-driven market strategy and opportunity sizing Go-to-market strategy for Web3 and AI-native products Tokenomics design and community"
+        },
+        {
+          "pillar": "Land",
+          "description": "For international companies entering the Kenyan and East African market. We act as your local intelligence layer and operational partner \u2014 providing the market knowledge, regulatory guidance, and relationship access that would otherwise take years to"
+        }
+      ],
+      "pricing_signals": [
+        {
+          "type": "duration",
+          "value": "4\u201316 week"
+        }
+      ],
+      "client_types": [
+        "Web3 Startup",
+        "International Corp",
+        "African Fintech",
+        "Web2 Business",
+        "Growth-Stage"
+      ],
+      "markets_mentioned": [
+        "US",
+        "Nairobi",
+        "Africa",
+        "Kenya",
+        "East Africa",
+        "EU"
+      ],
+      "technologies": [
+        "API",
+        "M-Pesa",
+        "Blockchain",
+        "DAO",
+        "LLM",
+        "Rust",
+        "Machine learning",
+        "CRM",
+        "Web3",
+        "NFT",
+        "Solidity",
+        "DeFi",
+        "Solana",
+        "Smart contract",
+        "Data pipeline",
+        "AI",
+        "Tokenomics"
+      ],
+      "regulators_mentioned": [
+        "SEC",
+        "Data Protection"
+      ],
+      "competitors_mentioned": [],
+      "text_excerpt": "Koru Flux\nCompany Overview & Service Whitepaper\n\nBuild. Transition. Strategize. Land.\nWeb3 \u00b7 Artificial Intelligence \u00b7 Data Analytics \u00b7 Market Entry\n\nNairobi, Kenya \u00b7 2024\n\n\fKora Flux \u00b7 Company Whitepaper\n\nExecutive Summary\nKoru Flux is a Nairobi-based technology and strategy consultancy operating at the intersection\nof Web3, Artificial Intelligence, Data Analytics, and African market entry. We serve a diverse\nclient base from Web3 startups that need go-to-market muscle to international corporations\nseeking a foothold in East Africa.\nWhat makes Koru Flux distinct is not just the breadth of our skills, but how we connect them.\nEvery engagement, whether a smart contract build, a market entry strategy, or an AI automation\nproject, is underpinned by data-driven insight. We do not offer generic frameworks; we deliver\ntailored, evidence-based strategies that move with the market.\nHeadquartered in Nairobi Africa\u2019s undisputed technology capital we are positioned to be the\ndefinitive bridge between emerging global technologies and the fastest-growing digital economy\non earth.\n\nThe Opportunity\nAfrica\u2019s Digital Inflection Point\nSub-Saharan Africa is undergoing a structural shift. Mobile-first"
+    },
+    "text_sample": "{\"document_role\": \"core_whitepaper\", \"word_count\": 1767, \"service_pillars\": [{\"pillar\": \"Build\", \"description\": \"Transition \\u2022 Smart contract development \\u2022 Web2 \\u2192 Web3 migration roadmap\"}, {\"pillar\": \"Strategize\", \"description\": \"Data-driven market strategy Confidential \\u00b7 Kora Flux \\u00b7 Nairobi, Kenya \\u00b7 Page PAGE\"}, {\"pillar\": \"Land\", \"description\": \"Market entry into Kenya & Africa Kora Flux \\u00b7 Company Whitepaper \\u2022 DeFi, NFT & DAO infrastructure \\u2022 AI-powered product features \\u2022 Data pipelines & analytics infra \\u2022 Blockchain integration into lega"
+  },
+  {
+    "record_id": "doc_KoruFlux.doc_20260610",
+    "source": "koruflux_doc_koruflux.docx",
+    "url": "local://docs/KoruFlux.docx.pdf",
+    "original_timestamp": "2026-06-10T07:47:47.041996+00:00",
+    "processed_at": "2026-06-10T07:47:47.071281+00:00",
+    "category": "internal_document",
+    "entities": [
+      "US",
+      "API",
+      "Nairobi",
+      "Blockchain",
+      "DeFi",
+      "Smart contract",
+      "Kenya",
+      "Solidity",
+      "DAO",
+      "NFT",
+      "Data pipeline",
+      "SEC",
+      "Tokenomics",
+      "EU",
+      "LLM",
+      "Rust",
+      "Web3",
+      "Africa",
+      "M-Pesa",
+      "East Africa",
+      "AI"
+    ],
+    "sectors_detected": [
+      "DeFi",
+      "NFT",
+      "DAO",
+      "Payments",
+      "AI_Fintech",
+      "Regulatory"
+    ],
+    "regions_detected": [
+      "Kenya",
+      "East Africa",
+      "Pan-Africa",
+      "United States",
+      "European Union",
+      "Global"
+    ],
+    "financial_figures": [],
+    "article_count": 0,
+    "clean_data": {
+      "document_role": "pitch_sheet",
+      "word_count": 330,
+      "service_pillars": [
+        {
+          "pillar": "Build",
+          "description": "Transition End-to-end Web3 and AI product development Web2 \u2192 Web3 migration for established businesses Smart contracts (Solidity, Rust) DeFi, NFT & DAO infrastructure AI-powered product features Data pipeline engineering LLM integration Web3 readiness assessment Tokenisation strategy Blockchain integration into legacy systems AI automation on existing stack Team training & capability"
+        },
+        {
+          "pillar": "Strategize",
+          "description": "Land Data-driven go-to-market and growth strategy Guided entry into Kenya and East Africa Market sizing & opportunity analysis GTM strategy for Web3/AI products Tokenomics design Competitive"
+        },
+        {
+          "pillar": "Land",
+          "description": "\u2713 Embedded team model \u2713 Market entry at scale"
+        }
+      ],
+      "pricing_signals": [
+        {
+          "type": "duration",
+          "value": "4\u20138 wk"
+        },
+        {
+          "type": "duration",
+          "value": "8\u201316 wk"
+        }
+      ],
+      "client_types": [
+        "Web3 Startup",
+        "International Corp",
+        "African Fintech",
+        "Web2 Business"
+      ],
+      "markets_mentioned": [
+        "US",
+        "Nairobi",
+        "Africa",
+        "Kenya",
+        "East Africa",
+        "EU"
+      ],
+      "technologies": [
+        "API",
+        "Blockchain",
+        "DAO",
+        "LLM",
+        "Rust",
+        "Web3",
+        "NFT",
+        "Solidity",
+        "DeFi",
+        "Smart contract",
+        "M-Pesa",
+        "Data pipeline",
+        "AI",
+        "Tokenomics"
+      ],
+      "regulators_mentioned": [
+        "SEC"
+      ],
+      "competitors_mentioned": [],
+      "text_excerpt": "NAIROBI, KENYA \u00b7 2024\n\nKoruFlux\nBuild. Transition. Strategize. Land. \u2014 Web3 \u00b7 AI \u00b7 Data \u00b7 Market Entry\n\nNairobi-based technology and strategy consultancy at the intersection of Web3, AI, and African market entry. We connect\nemerging technology with Africa's fastest-growing digital economy \u2014 grounded in data, not guesswork.\n\nSERVICE PILLARS\n\nBuild\n\nTransition\n\nEnd-to-end Web3 and AI product development\n\nWeb2 \u2192 Web3 migration for established businesses\n\nSmart contracts (Solidity, Rust)\nDeFi, NFT & DAO infrastructure\nAI-powered product features\nData pipeline engineering\nLLM integration\n\nWeb3 readiness assessment\nTokenisation strategy\nBlockchain integration into legacy systems\nAI automation on existing stack\nTeam training & capability building\n\nStrategize\n\nLand\n\nData-driven go-to-market and growth strategy\n\nGuided entry into Kenya and East Africa\n\nMarket sizing & opportunity analysis\nGTM strategy for Web3/AI products\nTokenomics design\nCompetitive landscape analysis\nInvestor narrative & pitch decks\n\nMarket entry strategy\nRegulatory & compliance guidance\nLocal partnerships & vendor intros\nFractional CTO / tech leadership\nOngoing market intelligence retainer\n\nENGAGEMENT PACKAGES\nSPRINT\n\nM"
+    },
+    "text_sample": "{\"document_role\": \"pitch_sheet\", \"word_count\": 330, \"service_pillars\": [{\"pillar\": \"Build\", \"description\": \"Transition End-to-end Web3 and AI product development Web2 \\u2192 Web3 migration for established businesses Smart contracts (Solidity, Rust) DeFi, NFT & DAO infrastructure AI-powered product features Data pipeline engineering LLM integration Web3 readiness assessment Tokenisation strategy Blockchain integration into legacy systems AI automation on existing stack Team training & capability\"}, {\"pillar\": \"Strategize\", \"description\": \"Land Data-driven go-to-market and growth strategy Guided"
+  },
+  {
+    "record_id": "doc_KoruFlux_Com_20260610",
+    "source": "koruflux_doc_koruflux_company_overview.docx",
+    "url": "local://docs/KoruFlux_Company_Overview.docx.pdf",
+    "original_timestamp": "2026-06-10T07:47:47.067825+00:00",
+    "processed_at": "2026-06-10T07:47:47.071614+00:00",
+    "category": "internal_document",
+    "entities": [
+      "Stablecoin",
+      "US",
+      "Nairobi",
+      "Blockchain",
+      "DeFi",
+      "Smart contract",
+      "CBK",
+      "UK",
+      "Kenya",
+      "Hong Kong",
+      "FATF",
+      "MAS",
+      "VASP",
+      "Solidity",
+      "RWA",
+      "CBDC",
+      "Singapore",
+      "DAO",
+      "NFT",
+      "Data pipeline",
+      "SEC",
+      "EU",
+      "Tokenomics",
+      "VARA",
+      "CMA",
+      "LLM",
+      "Rust",
+      "Web3",
+      "Africa",
+      "API",
+      "East Africa",
+      "AI",
+      "UAE"
+    ],
+    "sectors_detected": [
+      "DeFi",
+      "NFT",
+      "DAO",
+      "Payments",
+      "AI_Fintech",
+      "RWA",
+      "Regulatory"
+    ],
+    "regions_detected": [
+      "Kenya",
+      "East Africa",
+      "Pan-Africa",
+      "United States",
+      "European Union",
+      "United Kingdom",
+      "Singapore",
+      "UAE",
+      "Asia",
+      "Global"
+    ],
+    "financial_figures": [],
+    "article_count": 0,
+    "clean_data": {
+      "document_role": "company_overview",
+      "word_count": 1003,
+      "service_pillars": [
+        {
+          "pillar": "Build",
+          "description": "\u200b \u200b We design and guide the development of production-ready Web3 and AI systems \u25cf\u200b \u25cf\u200b \u25cf\u200b \u25cf\u200b \u25cf\u200b Smart contract architecture (Solidity, Rust) DeFi, NFT & DAO system design AI product integration strategy Data pipeline architecture LLM system planning"
+        },
+        {
+          "pillar": "Transition",
+          "description": "\u200b We support companies moving from Web2 to Web3 and AI-enabled infrastructure \u25cf\u200b \u25cf\u200b \u25cf\u200b \u25cf\u200b \u25cf\u200b \u25cf\u200b System audits and readiness assessment Architecture redesign advisory Tokenisation feasibility strategy Blockchain integration planning AI automation roadmap Technical team structuring"
+        },
+        {
+          "pillar": "Strategize",
+          "description": "\u200b We design data-backed frameworks for product and market decisions \u25cf\u200b \u25cf\u200b \u25cf\u200b \u25cf\u200b \u25cf\u200b Market entry analysis (Africa & global) Tokenomics and incentive design Competitive intelligence Growth strategy frameworks Investor narrative development"
+        },
+        {
+          "pillar": "Land",
+          "description": "\u200b We guide companies entering and operating in African markets with technical and regulatory context \u25cf\u200b \u25cf\u200b \u25cf\u200b \u25cf\u200b \u25cf\u200b Market entry strategy (Kenya & East Africa) Regulatory and compliance navigation Local ecosystem mapping Partnership strategy Fractional CTO / technical advisory Engagement Packages Sprint (Project) Retainer (Advisory) 4\u20138 wks\u200b Defined scope\u200b Single-pillar\u200b Strategy/"
+        },
+        {
+          "pillar": "Transition",
+          "description": "\u25cf\u200b Topic: How \"unregulated\" crypto-economies (common in Africa/SEA) move into \"regulated\" institutional frameworks. \u25cf\u200b Focus: The FATF (Financial Action Task Force) \"Travel Rule.\" This is the single biggest headache for global protocols. If you know how to help them comply without killing their UX, you are indispensable. 3. Structural Content: Your \"Social Media\" Reading List To sound like a \"Glob"
+        }
+      ],
+      "pricing_signals": [
+        {
+          "type": "duration",
+          "value": "4\u20138 wk"
+        },
+        {
+          "type": "duration",
+          "value": "8\u201316 wk"
+        }
+      ],
+      "client_types": [],
+      "markets_mentioned": [
+        "US",
+        "Singapore",
+        "UK",
+        "Nairobi",
+        "Hong Kong",
+        "Africa",
+        "UAE",
+        "Kenya",
+        "East Africa",
+        "EU"
+      ],
+      "technologies": [
+        "Stablecoin",
+        "API",
+        "Blockchain",
+        "DAO",
+        "LLM",
+        "Rust",
+        "Web3",
+        "NFT",
+        "Solidity",
+        "DeFi",
+        "Smart contract",
+        "CBDC",
+        "Data pipeline",
+        "RWA",
+        "AI",
+        "Tokenomics"
+      ],
+      "regulators_mentioned": [
+        "CMA",
+        "CBK",
+        "SEC",
+        "MAS",
+        "VARA",
+        "VASP",
+        "FATF"
+      ],
+      "competitors_mentioned": [],
+      "text_excerpt": "Nairobi, Kenya \u00b7 2024\n\nKoruFlux\nBuild. Transition. Strategize. Land. \u2014 Web3 \u00b7 AI \u00b7 Data \u00b7 Market Entry\nNairobi-based technology and strategy consultancy operating at the intersection of Web3,\nAI, and African market entry. We help companies turn emerging technologies into working\nsystems inside Africa\u2019s fastest-growing digital economy grounded in data, not guesswork.\n*Nairobi-based technology and strategy consulting firm helping companies design, evaluate,\nand scale Web3 and AI-driven systems across African and emerging markets.\nWe operate at the intersection of engineering, data intelligence, and market execution\nhelping teams make clear decisions in complex, high-uncertainty environments.\n*\n\nService Pillars\n\u200bBuild:\u200b \u200b\nWe design and guide the development of production-ready Web3 and AI systems\n\u25cf\u200b\n\u25cf\u200b\n\u25cf\u200b\n\u25cf\u200b\n\u25cf\u200b\n\nSmart contract architecture (Solidity, Rust)\nDeFi, NFT & DAO system design\nAI product integration strategy\nData pipeline architecture\nLLM system planning\n\nTransition: \u200b\nWe support companies moving from Web2 to Web3 and AI-enabled infrastructure\n\u25cf\u200b\n\u25cf\u200b\n\u25cf\u200b\n\u25cf\u200b\n\u25cf\u200b\n\u25cf\u200b\n\nSystem audits and readiness assessment\nArchitecture redesign advisory\nTokenisation feasibility strategy\nBlockchain"
+    },
+    "text_sample": "{\"document_role\": \"company_overview\", \"word_count\": 1003, \"service_pillars\": [{\"pillar\": \"Build\", \"description\": \"\\u200b \\u200b We design and guide the development of production-ready Web3 and AI systems \\u25cf\\u200b \\u25cf\\u200b \\u25cf\\u200b \\u25cf\\u200b \\u25cf\\u200b Smart contract architecture (Solidity, Rust) DeFi, NFT & DAO system design AI product integration strategy Data pipeline architecture LLM system planning\"}, {\"pillar\": \"Transition\", \"description\": \"\\u200b We support companies moving from Web2 to Web3 and AI-enabled infrastructure \\u25cf\\u200b \\u25cf\\u200b \\u25cf\\u200b \\u25cf\\u200"
+  }
+]

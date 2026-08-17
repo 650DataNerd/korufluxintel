@@ -1,0 +1,226 @@
+# ============================================================
+# KoruFlux Intelligence System — Config v2
+# ============================================================
+
+system:
+  name: "KoruFlux Intelligence Agent"
+  version: "2.0.0"
+  output_dir: "data"
+  log_level: "INFO"
+
+# ── Scraping Targets ─────────────────────────────────────────
+# type: api_json | rss | html
+# NOTE: Sources tested and confirmed working as of May 2026
+scrape_targets:
+
+  # ── Crypto / Web3 Market Data ──────────────────────────────
+
+  - id: "coingecko_coins_markets"
+    url: "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=25&page=1"
+    category: "crypto_market"
+    type: "api_json"
+    enabled: true
+
+  - id: "coingecko_trending"
+    url: "https://api.coingecko.com/api/v3/search/trending"
+    category: "crypto_trending"
+    type: "api_json"
+    enabled: true
+
+  - id: "coingecko_global"
+    url: "https://api.coingecko.com/api/v3/global"
+    category: "crypto_market"
+    type: "api_json"
+    enabled: true
+
+  - id: "defillama_protocols"
+    url: "https://api.llama.fi/protocols"
+    category: "web3_tvl"
+    type: "api_json"
+    enabled: true
+
+  # ── Africa Tech & Startup News (RSS) ──────────────────────
+
+  - id: "ventureburn_rss"
+    url: "https://ventureburn.com/feed/"
+    category: "africa_startup_news"
+    type: "rss"
+    enabled: true
+
+  - id: "techpoint_africa_rss"
+    url: "https://techpoint.africa/feed/"
+    category: "africa_tech_news"
+    type: "rss"
+    enabled: true
+
+  - id: "bitcoinke_rss"
+    url: "https://bitcoinke.io/feed/"
+    category: "kenya_crypto_news"
+    type: "rss"
+    enabled: true
+
+  - id: "africanews_business_rss"
+    url: "https://www.africanews.com/rss/business"
+    category: "africa_business_news"
+    type: "rss"
+    enabled: true
+
+  - id: "coindesk_rss"
+    url: "https://www.coindesk.com/arc/outboundfeeds/rss/"
+    category: "crypto_news"
+    type: "rss"
+    enabled: true
+
+  - id: "cointelegraph_rss"
+    url: "https://cointelegraph.com/rss"
+    category: "crypto_news"
+    type: "rss"
+    enabled: true
+
+  # ── Developer / Ecosystem Activity ────────────────────────
+
+  - id: "github_web3_africa"
+    url: "https://api.github.com/search/repositories?q=web3+africa+kenya&sort=stars&per_page=20"
+    category: "dev_activity"
+    type: "api_json"
+    enabled: true
+
+  - id: "github_defi_kenya"
+    url: "https://api.github.com/search/repositories?q=defi+nairobi+OR+defi+kenya+OR+blockchain+kenya&sort=updated&per_page=15"
+    category: "ecosystem_signals"
+    type: "api_json"
+    enabled: true
+
+  # ── Regulatory / Policy (HTML) ─────────────────────────────
+
+  - id: "coingecko_defi_market"
+    url: "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&category=decentralized-finance-defi&order=market_cap_desc&per_page=20&page=1"
+    category: "defi_market"
+    type: "api_json"
+    enabled: true
+
+  - id: "bis_africa_research"
+    url: "https://www.bis.org/list/cbspeech/index.htm"
+    category: "regulatory"
+    type: "html"
+    enabled: false
+    selectors:
+      articles: "td.item a"
+
+# ── GitHub query params (handled in scraper directly) ─────────
+github_queries:
+  web3_africa: "q=web3+africa+kenya&sort=stars&per_page=20"
+  defi_kenya: "q=defi+nairobi+OR+defi+kenya+OR+blockchain+kenya&sort=updated&per_page=15"
+
+# ── Analysis Settings ────────────────────────────────────────
+analysis:
+  opportunity_weights:
+    market_size: 0.25
+    growth_rate: 0.20
+    regulatory_clarity: 0.20
+    ecosystem_maturity: 0.15
+    competitive_gap: 0.10
+    tech_readiness: 0.10
+
+  sentiment_keywords:
+    positive:
+      - "launch"
+      - "funding"
+      - "partnership"
+      - "growth"
+      - "adoption"
+      - "regulation clarity"
+      - "approved"
+      - "investment"
+      - "expansion"
+      - "milestone"
+      - "record"
+      - "breakthrough"
+      - "license"
+      - "raises"
+      - "secures"
+      - "acquires"
+      - "integrates"
+    negative:
+      - "ban"
+      - "crackdown"
+      - "fraud"
+      - "hack"
+      - "exploit"
+      - "lawsuit"
+      - "regulatory concern"
+      - "shutdown"
+      - "suspended"
+      - "scam"
+      - "breach"
+      - "collapse"
+      - "warning"
+      - "probe"
+    neutral:
+      - "proposal"
+      - "review"
+      - "framework"
+      - "draft"
+      - "consultation"
+      - "research"
+      - "pilot"
+      - "study"
+      - "committee"
+
+  focus_sectors:
+    - "DeFi"
+    - "NFT"
+    - "DAO"
+    - "AI_Fintech"
+    - "CBDC"
+    - "RWA"
+    - "Payments"
+    - "Infrastructure"
+    - "AgriTech"
+    - "Regulatory"
+
+  focus_regions:
+    # Africa
+    - "Kenya"
+    - "Nairobi"
+    - "East Africa"
+    - "Nigeria"
+    - "South Africa"
+    - "Ghana"
+    - "Rwanda"
+    - "Ethiopia"
+    - "Tanzania"
+    - "Uganda"
+    - "Africa"
+    # Global expansion markets (KoruFlux target regions)
+    - "United States"
+    - "US"
+    - "European Union"
+    - "EU"
+    - "Europe"
+    - "United Kingdom"
+    - "UK"
+    - "Singapore"
+    - "UAE"
+    - "Dubai"
+    - "Abu Dhabi"
+    - "Asia"
+
+# ── Rate Limiting ─────────────────────────────────────────────
+scraper:
+  request_delay_seconds: 2
+  max_retries: 3
+  timeout_seconds: 15
+  respect_robots_txt: true
+
+# ── Scheduler ─────────────────────────────────────────────────
+scheduler:
+  enabled: false          # set true to activate cron-style runner
+  run_time: "07:00"       # daily run time (24h, local timezone)
+  skip_scrape_on_fail: true
+
+# ── History / Trend Tracking ──────────────────────────────────
+history:
+  enabled: true
+  store_path: "data/history/scores.json"
+  max_weeks: 52

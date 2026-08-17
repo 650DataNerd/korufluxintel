@@ -1,0 +1,253 @@
+{
+  "region_code": "SG",
+  "region_name": "MAS Project Guardian \u2014 $10B+ institutional RWA tokenisation",
+  "generated_at": "2026-06-08T06:05:47.024500+00:00",
+  "records_used": 0,
+  "region_meta": {
+    "gdp_usd_bn": 497,
+    "mobile_penetration_pct": 99,
+    "internet_penetration_pct": 99,
+    "unbanked_pct": 2,
+    "key_stat": "MAS Project Guardian \u2014 $10B+ institutional RWA tokenisation",
+    "risk_level": "LOW",
+    "regulatory_stance": "Most progressive Web3 jurisdiction in Asia"
+  },
+  "opportunity_leaderboard": [
+    {
+      "sector": "RWA",
+      "region": "SG",
+      "opportunity_score": 83.4,
+      "tier": "HIGH OPPORTUNITY",
+      "base_score": 83.4,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 85,
+        "growth_rate": 92,
+        "regulatory_clarity": 90,
+        "ecosystem_maturity": 80,
+        "competitive_gap": 42,
+        "tech_readiness": 95
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "AI_Fintech",
+      "region": "SG",
+      "opportunity_score": 82.4,
+      "tier": "HIGH OPPORTUNITY",
+      "base_score": 82.4,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 85,
+        "growth_rate": 92,
+        "regulatory_clarity": 85,
+        "ecosystem_maturity": 85,
+        "competitive_gap": 32,
+        "tech_readiness": 98
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "Payments",
+      "region": "SG",
+      "opportunity_score": 80.5,
+      "tier": "HIGH OPPORTUNITY",
+      "base_score": 80.5,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 85,
+        "growth_rate": 75,
+        "regulatory_clarity": 90,
+        "ecosystem_maturity": 90,
+        "competitive_gap": 30,
+        "tech_readiness": 98
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "Infrastructure",
+      "region": "SG",
+      "opportunity_score": 80.5,
+      "tier": "HIGH OPPORTUNITY",
+      "base_score": 80.5,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 82,
+        "growth_rate": 82,
+        "regulatory_clarity": 88,
+        "ecosystem_maturity": 85,
+        "competitive_gap": 38,
+        "tech_readiness": 95
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "Regulatory",
+      "region": "SG",
+      "opportunity_score": 79.9,
+      "tier": "HIGH OPPORTUNITY",
+      "base_score": 79.9,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 80,
+        "growth_rate": 78,
+        "regulatory_clarity": 92,
+        "ecosystem_maturity": 88,
+        "competitive_gap": 35,
+        "tech_readiness": 92
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "DeFi",
+      "region": "SG",
+      "opportunity_score": 79.6,
+      "tier": "HIGH OPPORTUNITY",
+      "base_score": 79.6,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 80,
+        "growth_rate": 82,
+        "regulatory_clarity": 88,
+        "ecosystem_maturity": 82,
+        "competitive_gap": 38,
+        "tech_readiness": 95
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "DAO",
+      "region": "SG",
+      "opportunity_score": 71.0,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 71.0,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 70,
+        "growth_rate": 68,
+        "regulatory_clarity": 75,
+        "ecosystem_maturity": 75,
+        "competitive_gap": 48,
+        "tech_readiness": 88
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "NFT",
+      "region": "SG",
+      "opportunity_score": 70.8,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 70.8,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 72,
+        "growth_rate": 58,
+        "regulatory_clarity": 80,
+        "ecosystem_maturity": 78,
+        "competitive_gap": 45,
+        "tech_readiness": 90
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "AgriTech",
+      "region": "SG",
+      "opportunity_score": 69.3,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 69.3,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 60,
+        "growth_rate": 62,
+        "regulatory_clarity": 82,
+        "ecosystem_maturity": 78,
+        "competitive_gap": 50,
+        "tech_readiness": 88
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    }
+  ],
+  "top_entities": [],
+  "news_articles": [],
+  "regulatory_updates": [],
+  "social_signals": {
+    "available": false,
+    "platforms": [],
+    "total_posts": 0
+  },
+  "market_data": {},
+  "risk_flags": [],
+  "watch_list": []
+}

@@ -1,0 +1,431 @@
+{
+  "region_code": "SG",
+  "region_name": "Singapore",
+  "generated_at": "2026-06-25T12:22:11.754088+00:00",
+  "data_points": 0,
+  "meta": {
+    "name": "Singapore",
+    "gdp_usd": "501B",
+    "unbanked_pct": 2,
+    "mobile_money_users": "N/A",
+    "internet_penetration_pct": 92,
+    "key_stat": "MAS Project Guardian: $10B+ institutional RWA committed 2024",
+    "key_regulator": "MAS",
+    "sandbox": true,
+    "data_source": "MAS Annual Report 2024, Project Guardian Progress Report 2024"
+  },
+  "market_sentiment": {
+    "score": 0.0,
+    "label": "neutral",
+    "momentum": "Stable",
+    "positive_signals": 0,
+    "negative_signals": 0
+  },
+  "opportunity_leaderboard": [
+    {
+      "sector": "RWA",
+      "opportunity_score": 82.8,
+      "tier": "HIGH OPPORTUNITY",
+      "base_score": 82.8,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 88,
+        "growth_rate": 92,
+        "regulatory_clarity": 88,
+        "ecosystem_maturity": 72,
+        "competitive_gap": 50,
+        "tech_readiness": 90
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 77.9,
+        "tier": "STRONG FIT"
+      }
+    },
+    {
+      "sector": "AI_Fintech",
+      "opportunity_score": 81.2,
+      "tier": "HIGH OPPORTUNITY",
+      "base_score": 81.2,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 85,
+        "growth_rate": 90,
+        "regulatory_clarity": 80,
+        "ecosystem_maturity": 80,
+        "competitive_gap": 48,
+        "tech_readiness": 92
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 76.7,
+        "tier": "STRONG FIT"
+      }
+    },
+    {
+      "sector": "DeFi",
+      "opportunity_score": 80.2,
+      "tier": "HIGH OPPORTUNITY",
+      "base_score": 80.2,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 85,
+        "growth_rate": 85,
+        "regulatory_clarity": 82,
+        "ecosystem_maturity": 80,
+        "competitive_gap": 45,
+        "tech_readiness": 90
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 75.8,
+        "tier": "STRONG FIT"
+      }
+    },
+    {
+      "sector": "Infrastructure",
+      "opportunity_score": 79.6,
+      "tier": "HIGH OPPORTUNITY",
+      "base_score": 79.6,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 82,
+        "growth_rate": 82,
+        "regulatory_clarity": 85,
+        "ecosystem_maturity": 82,
+        "competitive_gap": 42,
+        "tech_readiness": 92
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 76.4,
+        "tier": "STRONG FIT"
+      }
+    },
+    {
+      "sector": "Regulatory",
+      "opportunity_score": 78.5,
+      "tier": "HIGH OPPORTUNITY",
+      "base_score": 78.5,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 78,
+        "growth_rate": 80,
+        "regulatory_clarity": 90,
+        "ecosystem_maturity": 80,
+        "competitive_gap": 42,
+        "tech_readiness": 88
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 76.5,
+        "tier": "STRONG FIT"
+      }
+    },
+    {
+      "sector": "Payments",
+      "opportunity_score": 77.5,
+      "tier": "HIGH OPPORTUNITY",
+      "base_score": 77.5,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 80,
+        "growth_rate": 75,
+        "regulatory_clarity": 85,
+        "ecosystem_maturity": 85,
+        "competitive_gap": 38,
+        "tech_readiness": 90
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 75.1,
+        "tier": "STRONG FIT"
+      }
+    },
+    {
+      "sector": "NFT",
+      "opportunity_score": 68.8,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 68.8,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 72,
+        "growth_rate": 58,
+        "regulatory_clarity": 75,
+        "ecosystem_maturity": 70,
+        "competitive_gap": 52,
+        "tech_readiness": 85
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 69.0,
+        "tier": "GOOD FIT"
+      }
+    },
+    {
+      "sector": "DAO",
+      "opportunity_score": 66.6,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 66.6,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 65,
+        "growth_rate": 68,
+        "regulatory_clarity": 65,
+        "ecosystem_maturity": 65,
+        "competitive_gap": 55,
+        "tech_readiness": 85
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 66.3,
+        "tier": "GOOD FIT"
+      }
+    },
+    {
+      "sector": "AgriTech",
+      "opportunity_score": 64.9,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 64.9,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 60,
+        "growth_rate": 62,
+        "regulatory_clarity": 72,
+        "ecosystem_maturity": 62,
+        "competitive_gap": 58,
+        "tech_readiness": 80
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 66.8,
+        "tier": "GOOD FIT"
+      }
+    }
+  ],
+  "top_sector": {
+    "sector": "RWA",
+    "opportunity_score": 82.8,
+    "tier": "HIGH OPPORTUNITY",
+    "base_score": 82.8,
+    "sentiment_adjustment": 0,
+    "mention_boost": 0.0,
+    "dimensions": {
+      "market_size": 88,
+      "growth_rate": 92,
+      "regulatory_clarity": 88,
+      "ecosystem_maturity": 72,
+      "competitive_gap": 50,
+      "tech_readiness": 90
+    },
+    "mention_count": 0,
+    "sentiment": {
+      "score": 0,
+      "label": "neutral",
+      "momentum": "Stable"
+    },
+    "client_relevance": {
+      "score": 77.9,
+      "tier": "STRONG FIT"
+    }
+  },
+  "high_opportunity_count": 6,
+  "news_items": [],
+  "social_items": [],
+  "regulatory_items": [],
+  "risk_signals": [],
+  "sources_used": [],
+  "client_relevance_ranking": [
+    {
+      "sector": "RWA",
+      "score": 77.9,
+      "tier": "STRONG FIT"
+    },
+    {
+      "sector": "AI_Fintech",
+      "score": 76.7,
+      "tier": "STRONG FIT"
+    },
+    {
+      "sector": "Regulatory",
+      "score": 76.5,
+      "tier": "STRONG FIT"
+    },
+    {
+      "sector": "Infrastructure",
+      "score": 76.4,
+      "tier": "STRONG FIT"
+    },
+    {
+      "sector": "DeFi",
+      "score": 75.8,
+      "tier": "STRONG FIT"
+    },
+    {
+      "sector": "Payments",
+      "score": 75.1,
+      "tier": "STRONG FIT"
+    },
+    {
+      "sector": "NFT",
+      "score": 69.0,
+      "tier": "GOOD FIT"
+    },
+    {
+      "sector": "AgriTech",
+      "score": 66.8,
+      "tier": "GOOD FIT"
+    },
+    {
+      "sector": "DAO",
+      "score": 66.3,
+      "tier": "GOOD FIT"
+    }
+  ],
+  "jurisdiction_intelligence": {
+    "entity_structure": "Singapore Pte Ltd. MAS Payment Services Act (PSA) Major Payment Institution (MPI) licence required for DPT services at scale.",
+    "tax_exposure": "17% corporate tax. No capital gains tax \u2014 significant advantage for token issuers and treasuries.",
+    "compliance_framework": "MAS PSA is mature and well-understood. MPI licence applications take 6-12 months. MAS is selective but transparent.",
+    "rwa_tokenization_status": "Most advanced in Asia \u2014 MAS Project Guardian has $10B+ committed with JPMorgan, DBS, and others tokenising bonds, funds, and FX.",
+    "recommended_engagement": "Full Entry Programme",
+    "engagement_rationale": "MAS licensing requires structured preparation \u2014 Entry Programme sequences the MPI application and Project Guardian participation.",
+    "network_access": "KoruFlux's network includes MAS-licensed MPI holders and Project Guardian ecosystem participants."
+  },
+  "client_archetypes": [
+    {
+      "archetype": "RWA Project",
+      "description": "Real-world asset tokenisation projects evaluating jurisdictions for issuer registration.",
+      "avg_opportunity_score": 80.3,
+      "avg_client_fit_score": 76.9,
+      "best_sector": "RWA",
+      "best_sector_score": 82.8,
+      "recommended_engagement": "Full Entry Programme",
+      "engagement_rationale": "MAS licensing requires structured preparation \u2014 Entry Programme sequences the MPI application and Project Guardian participation.",
+      "priority_sectors": [
+        {
+          "sector": "RWA",
+          "opportunity": 82.8,
+          "client_fit": 77.9
+        },
+        {
+          "sector": "Regulatory",
+          "opportunity": 78.5,
+          "client_fit": 76.5
+        },
+        {
+          "sector": "Infrastructure",
+          "opportunity": 79.6,
+          "client_fit": 76.4
+        }
+      ]
+    },
+    {
+      "archetype": "DeFi Platform",
+      "description": "Lending, trading, and yield platforms seeking regulatory clarity for market entry.",
+      "avg_opportunity_score": 79.6,
+      "avg_client_fit_score": 75.9,
+      "best_sector": "AI_Fintech",
+      "best_sector_score": 81.2,
+      "recommended_engagement": "Full Entry Programme",
+      "engagement_rationale": "MAS licensing requires structured preparation \u2014 Entry Programme sequences the MPI application and Project Guardian participation.",
+      "priority_sectors": [
+        {
+          "sector": "DeFi",
+          "opportunity": 80.2,
+          "client_fit": 75.8
+        },
+        {
+          "sector": "Payments",
+          "opportunity": 77.5,
+          "client_fit": 75.1
+        },
+        {
+          "sector": "AI_Fintech",
+          "opportunity": 81.2,
+          "client_fit": 76.7
+        }
+      ]
+    },
+    {
+      "archetype": "Web3 Protocol",
+      "description": "Infrastructure, L2s, oracles, and developer tooling expanding into new jurisdictions.",
+      "avg_opportunity_score": 75.5,
+      "avg_client_fit_score": 72.8,
+      "best_sector": "DeFi",
+      "best_sector_score": 80.2,
+      "recommended_engagement": "Full Entry Programme",
+      "engagement_rationale": "MAS licensing requires structured preparation \u2014 Entry Programme sequences the MPI application and Project Guardian participation.",
+      "priority_sectors": [
+        {
+          "sector": "Infrastructure",
+          "opportunity": 79.6,
+          "client_fit": 76.4
+        },
+        {
+          "sector": "DeFi",
+          "opportunity": 80.2,
+          "client_fit": 75.8
+        },
+        {
+          "sector": "DAO",
+          "opportunity": 66.6,
+          "client_fit": 66.3
+        }
+      ]
+    }
+  ]
+}

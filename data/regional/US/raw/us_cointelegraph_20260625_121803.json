@@ -1,0 +1,280 @@
+{
+  "source": "us_cointelegraph",
+  "url": "https://cointelegraph.com/rss",
+  "timestamp": "2026-06-25T12:18:03.125964+00:00",
+  "category": "us_crypto_news",
+  "entities": [
+    "DeFi",
+    "Web3",
+    "Europe",
+    "SEC",
+    "AI",
+    "Bitcoin",
+    "MiCA",
+    "crypto",
+    "blockchain"
+  ],
+  "raw_data": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\" xmlns:media=\"http://search.yahoo.com/mrss/\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\" xmlns:atom=\"http://www.w3.org/2005/Atom\" xmlns:content=\"http://purl.org/rss/1.0/modules/content/\">\n  <channel>\n    <title>Cointelegraph.com News</title>\n    <link>https://cointelegraph.com</link>\n    <description><![CDATA[Cointelegraph covers fintech, blockchain and Bitcoin bringing you the latest news and analyses.]]></description>\n    <language>en</language>\n    <lastBuildDate>Thu, 25 Jun 2026 12:15:00 GMT</lastBuildDate>\n    <atom:link href=\"https://cointelegraph.com/rss\" rel=\"self\" type=\"application/rss+xml\"/>\n    <item>\n      <title>Circle, Nomura eye Japan corporate FX with stablecoin settlement: Report</title>\n      <link>https://cointelegraph.com/news/circle-nomura-partner-instant-fx-settlement-business?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=rss</link>\n      <guid isPermaLink=\"false\">44134</guid>\n      <pubDate>Thu, 25 Jun",
+  "clean_data": {
+    "feed_title": "Cointelegraph.com News",
+    "region": "US",
+    "article_count": 19,
+    "articles": [
+      {
+        "title": "Circle, Nomura eye Japan corporate FX with stablecoin settlement: Report",
+        "summary": "Circle and Nomura are reportedly partnering to enable stablecoin-based foreign exchange settlement for Japanese companies as the country's regulated blockchain-based financial infrastructure expands.",
+        "url": "https://cointelegraph.com/news/circle-nomura-partner-instant-fx-settlement-business?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Thu, 25 Jun 2026 11:42:52 GMT",
+        "entities": [
+          "blockchain",
+          "AI"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "Indonesia sets certification rules for influencers recommending crypto",
+        "summary": "Indonesia\u2019s financial regulator will require influencers recommending crypto and other digital assets to hold relevant certifications as regulators worldwide tighten oversight of finfluencers.",
+        "url": "https://cointelegraph.com/news/indonesia-certification-rules-influencers-recommending-crypto?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Thu, 25 Jun 2026 08:44:15 GMT",
+        "entities": [
+          "crypto"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "Polish crypto exchange Kanga secures MiCA license in Latvia",
+        "summary": "Poland-founded crypto exchange Kanga has secured a Class 3 MiCA license in Latvia, enabling EU-wide crypto services as Polish lawmakers debate framework's implementation.",
+        "url": "https://cointelegraph.com/news/poland-kanga-secures-mica-license-latvia?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Thu, 25 Jun 2026 08:24:41 GMT",
+        "entities": [
+          "crypto",
+          "SEC",
+          "MiCA"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "House Democrats seek SEC answers on AI investment advisers",
+        "summary": "House Democrats have questioned the SEC over trading platforms offering AI agent advisers making \u201cconsequential investment decisions on behalf of retail investors.\u201d",
+        "url": "https://cointelegraph.com/news/dems-want-secs-answers-on-ai-investment-advisors?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Thu, 25 Jun 2026 05:47:21 GMT",
+        "entities": [
+          "SEC",
+          "AI"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "Here\u2019s what happened in crypto today",
+        "summary": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, Web3 and crypto regulation.",
+        "url": "https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Thu, 25 Jun 2026 05:16:56 GMT",
+        "entities": [
+          "DeFi",
+          "Web3",
+          "blockchain",
+          "crypto",
+          "Bitcoin",
+          "AI"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "FTX exec\u2019s wife scheduled for November trial on campaign finance charges",
+        "summary": "A Manhattan judge ordered that Michelle Bond\u2019s criminal trial start in November after he denied a motion to dismiss the indictment based on claims that prosecutors misled her husband over her charges.",
+        "url": "https://cointelegraph.com/news/ftx-exec-wife-november-trial-campaign-finance-charges?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Wed, 24 Jun 2026 21:07:03 GMT",
+        "entities": [
+          "SEC",
+          "AI"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "Bitcoin nearly loses $59K as DXY surges: Are traders bracing for more pain?",
+        "summary": "Bitcoin drops toward new 2026 lows as spot BTC ETF outflows and slowing accumulation from Strategy weigh on market sentiment.",
+        "url": "https://cointelegraph.com/markets/bitcoin-nearly-loses-59k-as-dxy-surges-are-traders-bracing-for-more-pain?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Wed, 24 Jun 2026 20:58:28 GMT",
+        "entities": [
+          "Bitcoin",
+          "AI"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "Crypto-backed candidates notch wins in three US state primaries",
+        "summary": "The crypto-aligned Fairshake PAC and its affiliates spent a combined $8 million on media to support candidates in Maryland, New York and Utah amid pushback from many criticizing \u201ccrypto billionaires.\u201d",
+        "url": "https://cointelegraph.com/news/crypto-backed-candidates-new-york-maryland-primaries?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Wed, 24 Jun 2026 17:34:57 GMT",
+        "entities": [
+          "crypto",
+          "AI"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "Bitcoin falls under $60K, but traders anticipate 15% bounce",
+        "summary": "Bitcoin price dropped below $60,000 for the first time in weeks, but data shows traders betting on a relief bounce.",
+        "url": "https://cointelegraph.com/markets/bitcoin-hits-2-week-lows?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Wed, 24 Jun 2026 17:06:46 GMT",
+        "entities": [
+          "Bitcoin"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "Bitcoin crash to $60K opens new $530M demand zone: Will bulls buy in?",
+        "summary": "A $525 million Bitcoin buy wall intersects with a major liquidation zone, creating a key battleground between $60,500 and $65,000.",
+        "url": "https://cointelegraph.com/markets/bitcoin-daily-close-points-to-the-next-demand-zone-as-530m-in-buy-bids-emerge?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Wed, 24 Jun 2026 16:21:52 GMT",
+        "entities": [
+          "Bitcoin",
+          "SEC"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "Binance withdraws Greece-filed MiCA application",
+        "summary": "Binance said it plans to seek authorization in another EU jurisdiction just days ahead of the July 1 MiCA deadline, as unlicensed crypto firms are expected to wind down activities in the bloc.",
+        "url": "https://cointelegraph.com/news/binance-eu-license-greece-mica-setback?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Wed, 24 Jun 2026 15:47:05 GMT",
+        "entities": [
+          "crypto",
+          "MiCA",
+          "AI"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "The Impossibility of Perfect Fairness in Transaction Ordering",
+        "summary": "Why perfect fairness cannot hold in asynchronous networks, and how different blockchains adopt different relaxations to fairness.",
+        "url": "https://cointelegraph.com/research/the-impossibility-of-perfect-fairness-in-transaction-ordering?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Wed, 24 Jun 2026 15:00:00 GMT",
+        "entities": [
+          "blockchain",
+          "AI"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "DeFi TVL drops 39% in 2026 amid market downturn and record hack activity",
+        "summary": "DeFi TVL fell 39% in 2026 as a broader market downturn and fallout from major exploits, including the Kelp DAO hack, weighed on the sector.",
+        "url": "https://cointelegraph.com/news/defi-tvl-falls-39-2026-erases-45b-value?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Wed, 24 Jun 2026 14:14:39 GMT",
+        "entities": [
+          "DeFi",
+          "SEC"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "SecondFi traces Cardano wallet exploit to address-level issue",
+        "summary": "Cardano wallet SecondFi traced the incident to an address-level issue and secured 129 million ADA after attackers drained funds from 374 addresses.",
+        "url": "https://cointelegraph.com/news/cardano-wallet-secondfi-flaw-16-million-ada-exploit?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Wed, 24 Jun 2026 12:38:43 GMT",
+        "entities": [
+          "SEC",
+          "AI"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "CryptoQuant warns on Strategy's dividend coverage as cash reserve falls 38%",
+        "summary": "Strategy's cash reserves are now enough to pay only 14 months of dividends from the previous seven-year level. CryptoQuant said the company should pause Bitcoin purchases and rebuild its reserves.",
+        "url": "https://cointelegraph.com/news/strategys-dividend-coverage-falls-14-months-cryptoquant?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Wed, 24 Jun 2026 11:34:40 GMT",
+        "entities": [
+          "crypto",
+          "Bitcoin",
+          "AI"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "Aave positioned to capture tokenized asset growth in DeFi: Standard Chartered",
+        "summary": "Standard Chartered said tokenized assets moving into DeFi could drive deposits into Aave and help the protocol rebuild its position as a dominant onchain lending platform.",
+        "url": "https://cointelegraph.com/news/standard-chartered-aave-tokenized-assets-defi-lending?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Wed, 24 Jun 2026 11:21:01 GMT",
+        "entities": [
+          "DeFi",
+          "AI"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "BTC price four-year trend calls for $76K as analysis says Bitcoin 'not broken'",
+        "summary": "Bitcoin research said that BTC price action remained in tune with previous cycles as the bear market produces a 20% discount to its four-year \"adoption structure\" trend line.",
+        "url": "https://cointelegraph.com/markets/bitcoin-four-year-trend-calls-for-76k-as-analysis-says-btc-price-not-broken?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Wed, 24 Jun 2026 09:40:13 GMT",
+        "entities": [
+          "Bitcoin",
+          "AI"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "South Korea adds token securities to capital market overhaul",
+        "summary": "South Korea\u2019s Financial Services Commission has placed token securities infrastructure within a wider capital-market modernization plan covering faster settlement, longer trading hours and digital transformation.",
+        "url": "https://cointelegraph.com/news/south-korea-token-securities-capital-market-overhaul?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Wed, 24 Jun 2026 08:56:14 GMT",
+        "entities": [
+          "SEC"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      },
+      {
+        "title": "OpenPayd secures MiCA license as stablecoin adoption grows in Europe",
+        "summary": "OpenPayd, which provides infrastructure to companies including Kraken crypto exchange, can now offer regulated crypto services across Europe under MiCA.",
+        "url": "https://cointelegraph.com/news/openpayd-mica-license-stablecoin-adoption-europe?utm_source=rss&utm_medium=rss&utm_campaign=rss",
+        "published": "Wed, 24 Jun 2026 07:17:46 GMT",
+        "entities": [
+          "Europe",
+          "crypto",
+          "SEC",
+          "MiCA"
+        ],
+        "source_name": "CoinTelegraph",
+        "verified": true,
+        "source_url": "https://cointelegraph.com/rss"
+      }
+    ],
+    "source_url": "https://cointelegraph.com/rss"
+  },
+  "record_hash": "us_cointelegraph_20260625"
+}

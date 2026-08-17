@@ -1,0 +1,16 @@
+[Unit]
+Description=KoruFlux Intelligence System
+After=network.target
+
+[Service]
+Type=simple
+User=koruflux
+WorkingDirectory=/opt/koruflux/app
+Environment="PATH=/opt/koruflux/venv/bin"
+Environment="PYTHONPATH=/opt/koruflux/app"
+ExecStart=/opt/koruflux/venv/bin/python webui/app.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

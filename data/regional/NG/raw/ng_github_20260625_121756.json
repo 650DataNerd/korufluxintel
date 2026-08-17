@@ -1,0 +1,151 @@
+{
+  "source": "ng_github",
+  "url": "https://api.github.com/search/repositories",
+  "timestamp": "2026-06-25T12:17:56.835683+00:00",
+  "category": "ng_dev_activity",
+  "entities": [
+    "Darkjay123/nigeria-web3-pulse",
+    "Ajibobo-3/N2C",
+    "brownstoneresearch/burnaverseprotocol",
+    "Whiznifitech/Web3-Startup-Opportunities-in-the-Stellar-Ecosystem",
+    "rogersterkaa/StacksBit",
+    "F3LIXBuilds/Sudomus",
+    "Emmy54/Web3-Ajo",
+    "qraza1100/Febila",
+    "jvcByte/TLN",
+    "Smartbabbe/wid-onboarding-portal",
+    "musasalako756-prog/My-first-smart-contract",
+    "bigdreamsweb3/artist-ticket-selling-app",
+    "onyahIsrael/VeriReview-Protocol-",
+    "FIK001/safeflow-backend",
+    "shittuisrael004/DragonYield"
+  ],
+  "raw_data": "{}",
+  "clean_data": {
+    "total": 34,
+    "repos": [
+      {
+        "name": "Darkjay123/nigeria-web3-pulse",
+        "desc": null,
+        "stars": 0,
+        "lang": "TypeScript",
+        "updated": "2026-06-20T02:47:13Z",
+        "url": "https://github.com/Darkjay123/nigeria-web3-pulse"
+      },
+      {
+        "name": "Ajibobo-3/N2C",
+        "desc": "Naira-to-Crypto On-Ramp \u2014 Instantly fund Web3 wallets via Nigerian bank transfers",
+        "stars": 0,
+        "lang": "TypeScript",
+        "updated": "2026-06-17T18:55:43Z",
+        "url": "https://github.com/Ajibobo-3/N2C"
+      },
+      {
+        "name": "brownstoneresearch/burnaverseprotocol",
+        "desc": "Culture to Capital. Capital to Community.  Burnaverse Protocol (BUV) is a Web3 investor + impact hybrid building a culture-powered growth network for Nigeria and Africa. We fund talent, support youth development, enable learning, and execute community programs \u2014 with transparent reporting and partner-ready structure.",
+        "stars": 0,
+        "lang": "HTML",
+        "updated": "2026-06-15T18:28:54Z",
+        "url": "https://github.com/brownstoneresearch/burnaverseprotocol"
+      },
+      {
+        "name": "Whiznifitech/Web3-Startup-Opportunities-in-the-Stellar-Ecosystem",
+        "desc": "Web3 Startup Opportunities in the Stellar Ecosystem Ideas for fintech, remittance, agriculture, supply chain, and microfinance startups using Stellar technology in emerging markets like Nigeria.",
+        "stars": 0,
+        "lang": null,
+        "updated": "2026-05-17T16:21:40Z",
+        "url": "https://github.com/Whiznifitech/Web3-Startup-Opportunities-in-the-Stellar-Ecosystem"
+      },
+      {
+        "name": "rogersterkaa/StacksBit",
+        "desc": "Non-custodial Bitcoin payment gateway for African merchants built on Stacks blockchain",
+        "stars": 1,
+        "lang": "Clarity",
+        "updated": "2026-05-12T11:54:40Z",
+        "url": "https://github.com/rogersterkaa/StacksBit"
+      },
+      {
+        "name": "F3LIXBuilds/Sudomus",
+        "desc": "First Nigerian Proptech Company, a mix of Web3 and Real Estate",
+        "stars": 0,
+        "lang": null,
+        "updated": "2026-05-10T16:51:45Z",
+        "url": "https://github.com/F3LIXBuilds/Sudomus"
+      },
+      {
+        "name": "Emmy54/Web3-Ajo",
+        "desc": "A decentralized, Web3-native implementation of the traditional **Ajo (Rotational Savings)** system used in South-West Nigeria.",
+        "stars": 1,
+        "lang": "Solidity",
+        "updated": "2026-01-07T13:41:39Z",
+        "url": "https://github.com/Emmy54/Web3-Ajo"
+      },
+      {
+        "name": "qraza1100/Febila",
+        "desc": "A Vite-powered frontend for a fundraising platform, developed for a client in Nigeria. Implements a decentralized ticketing system utilizing blockchain and Web3 principles to enhance transparency, auditability, and trust in financial transactions.",
+        "stars": 0,
+        "lang": "TypeScript",
+        "updated": "2026-04-13T13:29:41Z",
+        "url": "https://github.com/qraza1100/Febila"
+      },
+      {
+        "name": "jvcByte/TLN",
+        "desc": "TechLaunch Nigeria \u2014 AI, Automation & Web3 Training",
+        "stars": 0,
+        "lang": "HTML",
+        "updated": "2026-04-09T22:16:45Z",
+        "url": "https://github.com/jvcByte/TLN"
+      },
+      {
+        "name": "Smartbabbe/wid-onboarding-portal",
+        "desc": "The official onboarding portal for the Women in DeFi Enugu chapter. A structured, beginner-friendly Web3 learning platform with interactive modules, quizzes, cohort registration, and a curated resource library \u2014 built to lower the barrier to entry for women in Eastern Nigeria.",
+        "stars": 0,
+        "lang": "TypeScript",
+        "updated": "2026-03-22T03:38:31Z",
+        "url": "https://github.com/Smartbabbe/wid-onboarding-portal"
+      },
+      {
+        "name": "musasalako756-prog/My-first-smart-contract",
+        "desc": "My first Solidity smart contract \u2013 Hello World example for learning Web3 \ud83d\ude80 Built in Lagos, Nigeria.",
+        "stars": 1,
+        "lang": null,
+        "updated": "2026-03-19T15:52:29Z",
+        "url": "https://github.com/musasalako756-prog/My-first-smart-contract"
+      },
+      {
+        "name": "bigdreamsweb3/artist-ticket-selling-app",
+        "desc": "Next.js ticket-selling platform custom-built for Nigerian rapper Nuno Zigi (@Nuno_zigi). Empower independent artists to sell concert & event tickets directly to fans.",
+        "stars": 0,
+        "lang": "TypeScript",
+        "updated": "2026-02-26T12:32:29Z",
+        "url": "https://github.com/bigdreamsweb3/artist-ticket-selling-app"
+      },
+      {
+        "name": "onyahIsrael/VeriReview-Protocol-",
+        "desc": "A decentralized trust protocol that eliminates fake reviews in African ecommerce using onchain purchase verification.",
+        "stars": 0,
+        "lang": "Solidity",
+        "updated": "2026-02-12T02:40:10Z",
+        "url": "https://github.com/onyahIsrael/VeriReview-Protocol-"
+      },
+      {
+        "name": "FIK001/safeflow-backend",
+        "desc": "SafeFlow Backend: An AI-powered financial safety platform for Nigeria featuring SMS scam detection, Pidgin literacy lessons, and Web3 trust scoring",
+        "stars": 0,
+        "lang": "Python",
+        "updated": "2025-12-12T11:57:57Z",
+        "url": "https://github.com/FIK001/safeflow-backend"
+      },
+      {
+        "name": "shittuisrael004/DragonYield",
+        "desc": "DragonYield is a Web3 fintech app on the Celo network that lets Nigerians deposit Naira and instantly get cNGN, a tokenized Naira that earns yield automatically. Your Naira is converted into stablecoins and safely deposited into trusted DeFi platforms like Aave to generate interest for you.This is all done in the background.",
+        "stars": 0,
+        "lang": "Solidity",
+        "updated": "2025-12-09T01:27:07Z",
+        "url": "https://github.com/shittuisrael004/DragonYield"
+      }
+    ],
+    "source_url": "https://api.github.com/search/repositories"
+  },
+  "record_hash": "ng_github_20260625"
+}

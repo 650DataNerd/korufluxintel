@@ -1,0 +1,264 @@
+{
+  "source": "coingecko_coins_markets",
+  "url": "https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=25&page=1",
+  "timestamp": "2026-06-25T12:12:33.864054+00:00",
+  "category": "crypto_market",
+  "entities": [
+    "Bitcoin",
+    "Ethereum",
+    "Tether",
+    "BNB",
+    "USDC",
+    "XRP",
+    "Solana",
+    "TRON",
+    "Figure Heloc",
+    "Hyperliquid",
+    "Dogecoin",
+    "USDS",
+    "Rain",
+    "LEO Token",
+    "Zcash",
+    "Stellar",
+    "Canton",
+    "Monero",
+    "WhiteBIT Coin",
+    "Chainlink",
+    "Cardano",
+    "LAB",
+    "USD1",
+    "Dai",
+    "Ethena USDe"
+  ],
+  "raw_data": "[{\"id\": \"bitcoin\", \"symbol\": \"btc\", \"name\": \"Bitcoin\", \"image\": \"https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400\", \"current_price\": 61152, \"market_cap\": 1225968222888, \"market_cap_rank\": 1, \"fully_diluted_valuation\": 1225968222888, \"total_volume\": 44491870751, \"high_24h\": 62803, \"low_24h\": 59175, \"price_change_24h\": -1617.5919264440527, \"price_change_percentage_24h\": -2.57702, \"market_cap_change_24h\": -32241006664.34961, \"market_cap_change_percentage_24h\": -2.56245, \"circulating_supply\": 20047881.0, \"total_supply\": 20047881.0, \"max_supply\": 21000000.0, \"ath\": 126080, \"ath_change_percentage\": -51.49727, \"ath_date\": \"2025-10-06T18:57:42.558Z\", \"atl\": 67.81, \"atl_change_percentage\": 90082.99964, \"atl_date\": \"2013-07-06T00:00:00.000Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:57.383Z\"}, {\"id\": \"ethereum\", \"symbol\": \"eth\", \"name\": \"Ethereum\", \"image\": \"https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628\", \"current_price\": 1630.06, \"market_cap\": 196720985605, \"market_cap_rank\": 2, \"fully_diluted_valuation\": 196720985605, \"total_volume\": 15604700648, \"high_24h\": 1676.93, \"low_24h\": 1557.87, \"price_change_24h\": -46.53388121095281, \"price_change_percentage_24h\": -2.7755, \"market_cap_change_24h\": -5528129749.622131, \"market_cap_change_percentage_24h\": -2.73333, \"circulating_supply\": 120683706.658434, \"total_supply\": 120683706.658434, \"max_supply\": null, \"ath\": 4946.05, \"ath_change_percentage\": -67.0432, \"ath_date\": \"2025-08-24T19:21:03.333Z\", \"atl\": 0.432979, \"atl_change_percentage\": 376375.52442, \"atl_date\": \"2015-10-20T00:00:00.000Z\", \"roi\": {\"times\": 34.63661630621146, \"currency\": \"btc\", \"percentage\": 3463.6616306211463}, \"last_updated\": \"2026-06-25T12:11:57.170Z\"}, {\"id\": \"tether\", \"symbol\": \"usdt\", \"name\": \"Tether\", \"image\": \"https://coin-images.coingecko.com/coins/images/325/large/Tether.png?1696501661\", \"current_price\": 0.998596, \"market_cap\": 186073787379, \"market_cap_rank\": 3, \"fully_diluted_valuation\": 191533053096, \"total_volume\": 66768208652, \"high_24h\": 0.998819, \"low_24h\": 0.998301, \"price_change_24h\": -0.000151944838669871, \"price_change_percentage_24h\": -0.01521, \"market_cap_change_24h\": -28788179.446655273, \"market_cap_change_percentage_24h\": -0.01547, \"circulating_supply\": 186335414603.6357, \"total_supply\": 191802356267.6862, \"max_supply\": null, \"ath\": 1.32, \"ath_change_percentage\": -24.52596, \"ath_date\": \"2018-07-24T00:00:00.000Z\", \"atl\": 0.572521, \"atl_change_percentage\": 74.42042, \"atl_date\": \"2015-03-02T00:00:00.000Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:57.346Z\"}, {\"id\": \"binancecoin\", \"symbol\": \"bnb\", \"name\": \"BNB\", \"image\": \"https://coin-images.coingecko.com/coins/images/825/large/bnb-icon2_2x.png?1696501970\", \"current_price\": 562.18, \"market_cap\": 75769716002, \"market_cap_rank\": 4, \"fully_diluted_valuation\": 75769716002, \"total_volume\": 979458972, \"high_24h\": 578.44, \"low_24h\": 548.55, \"price_change_24h\": -16.10689474117987, \"price_change_percentage_24h\": -2.78529, \"market_cap_change_24h\": -2207274749.4361877, \"market_cap_change_percentage_24h\": -2.83067, \"circulating_supply\": 134783062.2099999, \"total_supply\": 134783062.2099999, \"max_supply\": 200000000.0, \"ath\": 1369.99, \"ath_change_percentage\": -58.96486, \"ath_date\": \"2025-10-13T08:41:24.131Z\", \"atl\": 0.0398177, \"atl_change_percentage\": 1411779.75432, \"atl_date\": \"2017-10-19T00:00:00.000Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:59.375Z\"}, {\"id\": \"usd-coin\", \"symbol\": \"usdc\", \"name\": \"USDC\", \"image\": \"https://coin-images.coingecko.com/coins/images/6319/large/USDC.png?1769615602\", \"current_price\": 0.999772, \"market_cap\": 73760830667, \"market_cap_rank\": 5, \"fully_diluted_valuation\": 73762854069, \"total_volume\": 16428912606, \"high_24h\": 1.0, \"low_24h\": 0.999576, \"price_change_24h\": 8.02e-06, \"price_change_percentage_24h\": 0.0008, \"market_cap_change_24h\": -284461467.76101685, \"market_cap_change_percentage_24h\": -0.38417, \"circulating_supply\": 73776969575.4734, \"total_supply\": 73778993420.61136, \"max_supply\": null, \"ath\": 1.043, \"ath_change_percentage\": -4.18817, \"ath_date\": \"2018-11-15T00:00:00.000Z\", \"atl\": 0.877647, \"atl_change_percentage\": 13.91402, \"atl_date\": \"2023-03-11T08:02:13.981Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:57.286Z\"}, {\"id\": \"ripple\", \"symbol\": \"xrp\", \"name\": \"XRP\", \"image\": \"https://coin-images.coingecko.com/coins/images/44/large/xrp-symbol-white-128.png?1696501442\", \"current_price\": 1.07, \"market_cap\": 66405273839, \"market_cap_rank\": 6, \"fully_diluted_valuation\": 106996894202, \"total_volume\": 2099765224, \"high_24h\": 1.093, \"low_24h\": 1.048, \"price_change_24h\": -0.022619851664481105, \"price_change_percentage_24h\": -2.07002, \"market_cap_change_24h\": -1407775235.757103, \"market_cap_change_percentage_24h\": -2.07597, \"circulating_supply\": 62053900985.0, \"total_supply\": 99985653167.0, \"max_supply\": 100000000000.0, \"ath\": 3.65, \"ath_change_percentage\": -70.65258, \"ath_date\": \"2025-07-18T03:40:53.808Z\", \"atl\": 0.00268621, \"atl_change_percentage\": 39737.51399, \"atl_date\": \"2014-05-22T00:00:00.000Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:57.157Z\"}, {\"id\": \"solana\", \"symbol\": \"sol\", \"name\": \"Solana\", \"image\": \"https://coin-images.coingecko.com/coins/images/4128/large/solana.png?1718769756\", \"current_price\": 68.13, \"market_cap\": 39547374995, \"market_cap_rank\": 7, \"fully_diluted_valuation\": 42855404751, \"total_volume\": 3347246024, \"high_24h\": 69.75, \"low_24h\": 64.9, \"price_change_24h\": -1.6047447039131129, \"price_change_percentage_24h\": -2.30129, \"market_cap_change_24h\": -902449809.1266251, \"market_cap_change_percentage_24h\": -2.23104, \"circulating_supply\": 580518566.2591225, \"total_supply\": 629077356.6026583, \"max_supply\": null, \"ath\": 293.31, \"ath_change_percentage\": -76.77299, \"ath_date\": \"2025-01-19T11:15:27.957Z\", \"atl\": 0.500801, \"atl_change_percentage\": 13503.72092, \"atl_date\": \"2020-05-11T19:35:23.449Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:56.956Z\"}, {\"id\": \"tron\", \"symbol\": \"trx\", \"name\": \"TRON\", \"image\": \"https://coin-images.coingecko.com/coins/images/1094/large/photo_2026-04-13_09-59-16.png?1776048311\", \"current_price\": 0.327946, \"market_cap\": 31103100531, \"market_cap_rank\": 8, \"fully_diluted_valuation\": 31103505873, \"total_volume\": 794833601, \"high_24h\": 0.331051, \"low_24h\": 0.32481, \"price_change_24h\": -0.003067863728356823, \"price_change_percentage_24h\": -0.92681, \"market_cap_change_24h\": -289993151.6614151, \"market_cap_change_percentage_24h\": -0.92375, \"circulating_supply\": 94841893206.10947, \"total_supply\": 94843129205.50026, \"max_supply\": null, \"ath\": 0.431288, \"ath_change_percentage\": -23.96134, \"ath_date\": \"2024-12-04T00:10:40.323Z\", \"atl\": 0.00180434, \"atl_change_percentage\": 18075.37728, \"atl_date\": \"2017-11-12T00:00:00.000Z\", \"roi\": {\"times\": 171.60310499239122, \"currency\": \"usd\", \"percentage\": 17160.31049923912}, \"last_updated\": \"2026-06-25T12:11:57.329Z\"}, {\"id\": \"figure-heloc\", \"symbol\": \"figr_heloc\", \"name\": \"Figure Heloc\", \"image\": \"https://coin-images.coingecko.com/coins/images/68480/large/figure.png?1755863954\", \"current_price\": 1.027, \"market_cap\": 19678593993, \"market_cap_rank\": 9, \"fully_diluted_valuation\": 19678593993, \"total_volume\": 40072838, \"high_24h\": 1.034, \"low_24h\": 1.022, \"price_change_24h\": -0.006674000000000069, \"price_change_percentage_24h\": -0.6458, \"market_cap_change_24h\": -70923879.88766098, \"market_cap_change_percentage_24h\": -0.35912, \"circulating_supply\": 19165459886.798, \"total_supply\": 19165459886.798, \"max_supply\": null, \"ath\": 1.049, \"ath_change_percentage\": -2.12985, \"ath_date\": \"2026-03-09T17:00:25.937Z\", \"atl\": 0.155357, \"atl_change_percentage\": 560.91425, \"atl_date\": \"2025-10-31T14:27:24.456Z\", \"roi\": null, \"last_updated\": \"2026-06-25T06:00:12.040Z\"}, {\"id\": \"hyperliquid\", \"symbol\": \"hype\", \"name\": \"Hyperliquid\", \"image\": \"https://coin-images.coingecko.com/coins/images/50882/large/hyperliquid.jpg?1729431300\", \"current_price\": 62.76, \"market_cap\": 13960909510, \"market_cap_rank\": 10, \"fully_diluted_valuation\": 59956002057, \"total_volume\": 725823899, \"high_24h\": 64.36, \"low_24h\": 59.18, \"price_change_24h\": 0.368407, \"price_change_percentage_24h\": 0.5905, \"market_cap_change_24h\": 79264763, \"market_cap_change_percentage_24h\": 0.571, \"circulating_supply\": 222445714.0741414, \"total_supply\": 955307079.4341414, \"max_supply\": 1000000000.0, \"ath\": 76.7, \"ath_change_percentage\": -18.18085, \"ath_date\": \"2026-06-16T13:02:04.375Z\", \"atl\": 3.81, \"atl_change_percentage\": 1547.73112, \"atl_date\": \"2024-11-29T09:30:30.871Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:49.083Z\"}, {\"id\": \"dogecoin\", \"symbol\": \"doge\", \"name\": \"Dogecoin\", \"image\": \"https://coin-images.coingecko.com/coins/images/5/large/dogecoin.png?1696501409\", \"current_price\": 0.075905, \"market_cap\": 11750164159, \"market_cap_rank\": 11, \"fully_diluted_valuation\": 12942782610, \"total_volume\": 929196178, \"high_24h\": 0.078879, \"low_24h\": 0.072976, \"price_change_24h\": -0.002935314253544818, \"price_change_percentage_24h\": -3.72309, \"market_cap_change_24h\": -453230308.92730904, \"market_cap_change_percentage_24h\": -3.71397, \"circulating_supply\": 154805936383.7052, \"total_supply\": 170518433126.579, \"max_supply\": null, \"ath\": 0.731578, \"ath_change_percentage\": -89.62442, \"ath_date\": \"2021-05-08T05:08:23.458Z\", \"atl\": 8.69e-05, \"atl_change_percentage\": 87244.26858, \"atl_date\": \"2015-05-06T00:00:00.000Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:48.503Z\"}, {\"id\": \"usds\", \"symbol\": \"usds\", \"name\": \"USDS\", \"image\": \"https://coin-images.coingecko.com/coins/images/39926/large/usds.webp?1726666683\", \"current_price\": 0.999831, \"market_cap\": 10326342968, \"market_cap_rank\": 12, \"fully_diluted_valuation\": 10326342968, \"total_volume\": 28715229, \"high_24h\": 0.99986, \"low_24h\": 0.999256, \"price_change_24h\": 0.00047376, \"price_change_percentage_24h\": 0.04741, \"market_cap_change_24h\": 29454189, \"market_cap_change_percentage_24h\": 0.28605, \"circulating_supply\": 10328092483.00512, \"total_supply\": 10328092483.00512, \"max_supply\": null, \"ath\": 1.15, \"ath_change_percentage\": -13.21452, \"ath_date\": \"2026-04-02T07:21:14.655Z\", \"atl\": 0.948265, \"atl_change_percentage\": 5.43946, \"atl_date\": \"2024-10-03T13:19:28.826Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:51.274Z\"}, {\"id\": \"rain\", \"symbol\": \"rain\", \"name\": \"Rain\", \"image\": \"https://coin-images.coingecko.com/coins/images/69134/large/Rain_logo_1_.png?1762952191\", \"current_price\": 0.01580205, \"market_cap\": 9839740289, \"market_cap_rank\": 13, \"fully_diluted_valuation\": 18170050106, \"total_volume\": 36727136, \"high_24h\": 0.01607862, \"low_24h\": 0.01574868, \"price_change_24h\": -0.000267820565559473, \"price_change_percentage_24h\": -1.6666, \"market_cap_change_24h\": -172287418.35964966, \"market_cap_change_percentage_24h\": -1.7208, \"circulating_supply\": 622687739662.1042, \"total_supply\": 1149854274451.137, \"max_supply\": 1150000000000.0, \"ath\": 0.01614328, \"ath_change_percentage\": -2.05274, \"ath_date\": \"2026-06-22T20:10:11.458Z\", \"atl\": 0.00222126, \"atl_change_percentage\": 611.8439, \"atl_date\": \"2025-09-14T08:56:57.416Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:57.652Z\"}, {\"id\": \"leo-token\", \"symbol\": \"leo\", \"name\": \"LEO Token\", \"image\": \"https://coin-images.coingecko.com/coins/images/8418/large/leo-token.png?1696508607\", \"current_price\": 9.47, \"market_cap\": 8719609330, \"market_cap_rank\": 14, \"fully_diluted_valuation\": 9334808227, \"total_volume\": 775335, \"high_24h\": 9.59, \"low_24h\": 9.29, \"price_change_24h\": -0.041052844984367454, \"price_change_percentage_24h\": -0.43143, \"market_cap_change_24h\": -32156052.636219025, \"market_cap_change_percentage_24h\": -0.36742, \"circulating_supply\": 920308522.9, \"total_supply\": 985239504.0, \"max_supply\": null, \"ath\": 10.57, \"ath_change_percentage\": -10.48027, \"ath_date\": \"2026-05-04T09:45:26.809Z\", \"atl\": 0.799859, \"atl_change_percentage\": 1082.94547, \"atl_date\": \"2019-12-24T15:14:35.376Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:53.504Z\"}, {\"id\": \"zcash\", \"symbol\": \"zec\", \"name\": \"Zcash\", \"image\": \"https://coin-images.coingecko.com/coins/images/486/large/circle-zcash-color.png?1696501740\", \"current_price\": 413.55, \"market_cap\": 6942355844, \"market_cap_rank\": 15, \"fully_diluted_valuation\": 6942386215, \"total_volume\": 411284349, \"high_24h\": 420.22, \"low_24h\": 388.82, \"price_change_24h\": -5.48398309056347, \"price_change_percentage_24h\": -1.30871, \"market_cap_change_24h\": -89821099.38531685, \"market_cap_change_percentage_24h\": -1.27729, \"circulating_supply\": 16786637.6655448, \"total_supply\": 16786711.1030448, \"max_supply\": 21000000.0, \"ath\": 3191.93, \"ath_change_percentage\": -87.04375, \"ath_date\": \"2016-10-29T00:00:00.000Z\", \"atl\": 16.08, \"atl_change_percentage\": 2471.83508, \"atl_date\": \"2024-07-05T04:22:29.321Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:55.944Z\"}, {\"id\": \"stellar\", \"symbol\": \"xlm\", \"name\": \"Stellar\", \"image\": \"https://coin-images.coingecko.com/coins/images/100/large/fmpFRHHQ_400x400.jpg?1735231350\", \"current_price\": 0.182218, \"market_cap\": 6181189172, \"market_cap_rank\": 16, \"fully_diluted_valuation\": 9110400348, \"total_volume\": 203423262, \"high_24h\": 0.191865, \"low_24h\": 0.181805, \"price_change_24h\": -0.009647119541006333, \"price_change_percentage_24h\": -5.02807, \"market_cap_change_24h\": -314225875.32763577, \"market_cap_change_percentage_24h\": -4.83766, \"circulating_supply\": 33925018833.0731, \"total_supply\": 50001786839.91258, \"max_supply\": null, \"ath\": 0.875563, \"ath_change_percentage\": -79.21807, \"ath_date\": \"2018-01-03T00:00:00.000Z\", \"atl\": 0.00047612, \"atl_change_percentage\": 38116.74818, \"atl_date\": \"2015-03-05T00:00:00.000Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:55.922Z\"}, {\"id\": \"canton-network\", \"symbol\": \"cc\", \"name\": \"Canton\", \"image\": \"https://coin-images.coingecko.com/coins/images/70468/large/Canton-Ticker_%281%29.png?1762826299\", \"current_price\": 0.152894, \"market_cap\": 5947972150, \"market_cap_rank\": 17, \"fully_diluted_valuation\": 5947972150, \"total_volume\": 12415429, \"high_24h\": 0.152915, \"low_24h\": 0.148664, \"price_change_24h\": 0.00229074, \"price_change_percentage_24h\": 1.52104, \"market_cap_change_24h\": 101408412, \"market_cap_change_percentage_24h\": 1.7345, \"circulating_supply\": 38898779284.78568, \"total_supply\": 38898779284.78568, \"max_supply\": null, \"ath\": 0.194152, \"ath_change_percentage\": -21.34223, \"ath_date\": \"2026-02-03T08:02:08.411Z\", \"atl\": 0.059024, \"atl_change_percentage\": 158.73411, \"atl_date\": \"2025-12-06T10:32:09.784Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:52.632Z\"}, {\"id\": \"monero\", \"symbol\": \"xmr\", \"name\": \"Monero\", \"image\": \"https://coin-images.coingecko.com/coins/images/69/large/monero_logo.png?1696501460\", \"current_price\": 314.86, \"market_cap\": 5910905591, \"market_cap_rank\": 18, \"fully_diluted_valuation\": 5910905591, \"total_volume\": 132144094, \"high_24h\": 324.6, \"low_24h\": 307.18, \"price_change_24h\": -9.544805431379757, \"price_change_percentage_24h\": -2.94225, \"market_cap_change_24h\": -185522213.19097996, \"market_cap_change_percentage_24h\": -3.04313, \"circulating_supply\": 18769564.76869498, \"total_supply\": 18769564.76869498, \"max_supply\": null, \"ath\": 797.73, \"ath_change_percentage\": -60.53069, \"ath_date\": \"2026-01-14T19:34:07.049Z\", \"atl\": 0.216177, \"atl_change_percentage\": 145549.57294, \"atl_date\": \"2015-01-14T00:00:00.000Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:52.062Z\"}, {\"id\": \"whitebit\", \"symbol\": \"wbt\", \"name\": \"WhiteBIT Coin\", \"image\": \"https://coin-images.coingecko.com/coins/images/27045/large/wbt_token.png?1696526096\", \"current_price\": 49.73, \"market_cap\": 5882472416, \"market_cap_rank\": 19, \"fully_diluted_valuation\": 14637894866, \"total_volume\": 102949766, \"high_24h\": 51.12, \"low_24h\": 48.13, \"price_change_24h\": -1.3860000000000028, \"price_change_percentage_24h\": -2.71132, \"market_cap_change_24h\": -158362893.75999928, \"market_cap_change_percentage_24h\": -2.62154, \"circulating_supply\": 118181264.0, \"total_supply\": 294081263.0, \"max_supply\": 400000000.0, \"ath\": 64.11, \"ath_change_percentage\": -22.49372, \"ath_date\": \"2025-12-10T20:16:13.582Z\", \"atl\": 3.06, \"atl_change_percentage\": 1522.82639, \"atl_date\": \"2023-02-13T19:01:21.899Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:44.842Z\"}, {\"id\": \"chainlink\", \"symbol\": \"link\", \"name\": \"Chainlink\", \"image\": \"https://coin-images.coingecko.com/coins/images/877/large/Chainlink_Logo_500.png?1760023405\", \"current_price\": 7.43, \"market_cap\": 5558886220, \"market_cap_rank\": 20, \"fully_diluted_valuation\": 7430672958, \"total_volume\": 287945765, \"high_24h\": 7.61, \"low_24h\": 7.13, \"price_change_24h\": -0.18458731697665254, \"price_change_percentage_24h\": -2.42403, \"market_cap_change_24h\": -138580077.3223734, \"market_cap_change_percentage_24h\": -2.43231, \"circulating_supply\": 748099970.4250377, \"total_supply\": 1000000000.0, \"max_supply\": 1000000000.0, \"ath\": 52.7, \"ath_change_percentage\": -85.89975, \"ath_date\": \"2021-05-10T00:13:57.214Z\", \"atl\": 0.148183, \"atl_change_percentage\": 4914.30076, \"atl_date\": \"2017-11-29T00:00:00.000Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:53.993Z\"}, {\"id\": \"cardano\", \"symbol\": \"ada\", \"name\": \"Cardano\", \"image\": \"https://coin-images.coingecko.com/coins/images/975/large/cardano.png?1696502090\", \"current_price\": 0.147436, \"market_cap\": 5490679260, \"market_cap_rank\": 21, \"fully_diluted_valuation\": 6634474923, \"total_volume\": 549679376, \"high_24h\": 0.150179, \"low_24h\": 0.13998, \"price_change_24h\": -0.000739776559980393, \"price_change_percentage_24h\": -0.49925, \"market_cap_change_24h\": -27462051.87505436, \"market_cap_change_percentage_24h\": -0.49767, \"circulating_supply\": 37241917348.40765, \"total_supply\": 45000000000.0, \"max_supply\": 45000000000.0, \"ath\": 3.09, \"ath_change_percentage\": -95.22382, \"ath_date\": \"2021-09-02T06:00:10.474Z\", \"atl\": 0.01925275, \"atl_change_percentage\": 665.79407, \"atl_date\": \"2020-03-13T02:22:55.044Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:54.047Z\"}, {\"id\": \"lab\", \"symbol\": \"lab\", \"name\": \"LAB\", \"image\": \"https://coin-images.coingecko.com/coins/images/70014/large/lab.png?1760352822\", \"current_price\": 17.51, \"market_cap\": 5466172487, \"market_cap_rank\": 22, \"fully_diluted_valuation\": 17489354043, \"total_volume\": 52894602, \"high_24h\": 20.63, \"low_24h\": 15.67, \"price_change_24h\": 0.265652, \"price_change_percentage_24h\": 1.54074, \"market_cap_change_24h\": 98964830, \"market_cap_change_percentage_24h\": 1.84388, \"circulating_supply\": 312542846.0, \"total_supply\": 1000000000.0, \"max_supply\": 1000000000.0, \"ath\": 27.3, \"ath_change_percentage\": -36.51538, \"ath_date\": \"2026-06-02T21:05:47.499Z\", \"atl\": 0.074235, \"atl_change_percentage\": 23247.30649, \"atl_date\": \"2025-12-02T03:30:39.644Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:52.585Z\"}, {\"id\": \"usd1-wlfi\", \"symbol\": \"usd1\", \"name\": \"USD1\", \"image\": \"https://coin-images.coingecko.com/coins/images/54977/large/USD1_1000x1000_transparent.png?1749297002\", \"current_price\": 0.99901, \"market_cap\": 4710362900, \"market_cap_rank\": 23, \"fully_diluted_valuation\": 4710362900, \"total_volume\": 1061157179, \"high_24h\": 0.999957, \"low_24h\": 0.998203, \"price_change_24h\": -0.00034759012747676, \"price_change_percentage_24h\": -0.03478, \"market_cap_change_24h\": -23213595.59917164, \"market_cap_change_percentage_24h\": -0.4904, \"circulating_supply\": 4715078337.072642, \"total_supply\": 4715078337.072642, \"max_supply\": null, \"ath\": 1.025, \"ath_change_percentage\": -2.50929, \"ath_date\": \"2025-05-12T12:36:39.412Z\", \"atl\": 0.989633, \"atl_change_percentage\": 0.95767, \"atl_date\": \"2025-10-01T08:51:32.103Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:50.432Z\"}, {\"id\": \"dai\", \"symbol\": \"dai\", \"name\": \"Dai\", \"image\": \"https://coin-images.coingecko.com/coins/images/9956/large/Badge_Dai.png?1696509996\", \"current_price\": 0.999608, \"market_cap\": 4641117648, \"market_cap_rank\": 24, \"fully_diluted_valuation\": 4641117648, \"total_volume\": 233359654, \"high_24h\": 0.999916, \"low_24h\": 0.999357, \"price_change_24h\": -0.000128356406122854, \"price_change_percentage_24h\": -0.01284, \"market_cap_change_24h\": -4863392.997359276, \"market_cap_change_percentage_24h\": -0.10468, \"circulating_supply\": 4642899143.480581, \"total_supply\": 4642899143.480581, \"max_supply\": null, \"ath\": 1.22, \"ath_change_percentage\": -17.98438, \"ath_date\": \"2020-03-13T03:02:50.373Z\", \"atl\": 0.88196, \"atl_change_percentage\": 13.35135, \"atl_date\": \"2023-03-11T07:50:50.514Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:53.910Z\"}, {\"id\": \"ethena-usde\", \"symbol\": \"usde\", \"name\": \"Ethena USDe\", \"image\": \"https://coin-images.coingecko.com/coins/images/33613/large/usde.png?1733810059\", \"current_price\": 0.998206, \"market_cap\": 4471478063, \"market_cap_rank\": 25, \"fully_diluted_valuation\": 4471478063, \"total_volume\": 130030184, \"high_24h\": 0.998499, \"low_24h\": 0.997867, \"price_change_24h\": -0.000277765741581559, \"price_change_percentage_24h\": -0.02782, \"market_cap_change_24h\": -10108614.983224869, \"market_cap_change_percentage_24h\": -0.22556, \"circulating_supply\": 4479531377.126584, \"total_supply\": 4479531377.126584, \"max_supply\": null, \"ath\": 1.034, \"ath_change_percentage\": -3.46674, \"ath_date\": \"2025-12-09T17:10:12.652Z\", \"atl\": 0.929486, \"atl_change_percentage\": 7.3902, \"atl_date\": \"2024-10-04T07:57:15.809Z\", \"roi\": null, \"last_updated\": \"2026-06-25T12:11:57.456Z\"}]",
+  "clean_data": {
+    "coins": [
+      {
+        "id": "bitcoin",
+        "name": "Bitcoin",
+        "symbol": "btc",
+        "market_cap_rank": 1,
+        "price_usd": 61152,
+        "market_cap_usd": 1225968222888,
+        "change_24h_pct": -2.57702
+      },
+      {
+        "id": "ethereum",
+        "name": "Ethereum",
+        "symbol": "eth",
+        "market_cap_rank": 2,
+        "price_usd": 1630.06,
+        "market_cap_usd": 196720985605,
+        "change_24h_pct": -2.7755
+      },
+      {
+        "id": "tether",
+        "name": "Tether",
+        "symbol": "usdt",
+        "market_cap_rank": 3,
+        "price_usd": 0.998596,
+        "market_cap_usd": 186073787379,
+        "change_24h_pct": -0.01521
+      },
+      {
+        "id": "binancecoin",
+        "name": "BNB",
+        "symbol": "bnb",
+        "market_cap_rank": 4,
+        "price_usd": 562.18,
+        "market_cap_usd": 75769716002,
+        "change_24h_pct": -2.78529
+      },
+      {
+        "id": "usd-coin",
+        "name": "USDC",
+        "symbol": "usdc",
+        "market_cap_rank": 5,
+        "price_usd": 0.999772,
+        "market_cap_usd": 73760830667,
+        "change_24h_pct": 0.0008
+      },
+      {
+        "id": "ripple",
+        "name": "XRP",
+        "symbol": "xrp",
+        "market_cap_rank": 6,
+        "price_usd": 1.07,
+        "market_cap_usd": 66405273839,
+        "change_24h_pct": -2.07002
+      },
+      {
+        "id": "solana",
+        "name": "Solana",
+        "symbol": "sol",
+        "market_cap_rank": 7,
+        "price_usd": 68.13,
+        "market_cap_usd": 39547374995,
+        "change_24h_pct": -2.30129
+      },
+      {
+        "id": "tron",
+        "name": "TRON",
+        "symbol": "trx",
+        "market_cap_rank": 8,
+        "price_usd": 0.327946,
+        "market_cap_usd": 31103100531,
+        "change_24h_pct": -0.92681
+      },
+      {
+        "id": "figure-heloc",
+        "name": "Figure Heloc",
+        "symbol": "figr_heloc",
+        "market_cap_rank": 9,
+        "price_usd": 1.027,
+        "market_cap_usd": 19678593993,
+        "change_24h_pct": -0.6458
+      },
+      {
+        "id": "hyperliquid",
+        "name": "Hyperliquid",
+        "symbol": "hype",
+        "market_cap_rank": 10,
+        "price_usd": 62.76,
+        "market_cap_usd": 13960909510,
+        "change_24h_pct": 0.5905
+      },
+      {
+        "id": "dogecoin",
+        "name": "Dogecoin",
+        "symbol": "doge",
+        "market_cap_rank": 11,
+        "price_usd": 0.075905,
+        "market_cap_usd": 11750164159,
+        "change_24h_pct": -3.72309
+      },
+      {
+        "id": "usds",
+        "name": "USDS",
+        "symbol": "usds",
+        "market_cap_rank": 12,
+        "price_usd": 0.999831,
+        "market_cap_usd": 10326342968,
+        "change_24h_pct": 0.04741
+      },
+      {
+        "id": "rain",
+        "name": "Rain",
+        "symbol": "rain",
+        "market_cap_rank": 13,
+        "price_usd": 0.01580205,
+        "market_cap_usd": 9839740289,
+        "change_24h_pct": -1.6666
+      },
+      {
+        "id": "leo-token",
+        "name": "LEO Token",
+        "symbol": "leo",
+        "market_cap_rank": 14,
+        "price_usd": 9.47,
+        "market_cap_usd": 8719609330,
+        "change_24h_pct": -0.43143
+      },
+      {
+        "id": "zcash",
+        "name": "Zcash",
+        "symbol": "zec",
+        "market_cap_rank": 15,
+        "price_usd": 413.55,
+        "market_cap_usd": 6942355844,
+        "change_24h_pct": -1.30871
+      },
+      {
+        "id": "stellar",
+        "name": "Stellar",
+        "symbol": "xlm",
+        "market_cap_rank": 16,
+        "price_usd": 0.182218,
+        "market_cap_usd": 6181189172,
+        "change_24h_pct": -5.02807
+      },
+      {
+        "id": "canton-network",
+        "name": "Canton",
+        "symbol": "cc",
+        "market_cap_rank": 17,
+        "price_usd": 0.152894,
+        "market_cap_usd": 5947972150,
+        "change_24h_pct": 1.52104
+      },
+      {
+        "id": "monero",
+        "name": "Monero",
+        "symbol": "xmr",
+        "market_cap_rank": 18,
+        "price_usd": 314.86,
+        "market_cap_usd": 5910905591,
+        "change_24h_pct": -2.94225
+      },
+      {
+        "id": "whitebit",
+        "name": "WhiteBIT Coin",
+        "symbol": "wbt",
+        "market_cap_rank": 19,
+        "price_usd": 49.73,
+        "market_cap_usd": 5882472416,
+        "change_24h_pct": -2.71132
+      },
+      {
+        "id": "chainlink",
+        "name": "Chainlink",
+        "symbol": "link",
+        "market_cap_rank": 20,
+        "price_usd": 7.43,
+        "market_cap_usd": 5558886220,
+        "change_24h_pct": -2.42403
+      },
+      {
+        "id": "cardano",
+        "name": "Cardano",
+        "symbol": "ada",
+        "market_cap_rank": 21,
+        "price_usd": 0.147436,
+        "market_cap_usd": 5490679260,
+        "change_24h_pct": -0.49925
+      },
+      {
+        "id": "lab",
+        "name": "LAB",
+        "symbol": "lab",
+        "market_cap_rank": 22,
+        "price_usd": 17.51,
+        "market_cap_usd": 5466172487,
+        "change_24h_pct": 1.54074
+      },
+      {
+        "id": "usd1-wlfi",
+        "name": "USD1",
+        "symbol": "usd1",
+        "market_cap_rank": 23,
+        "price_usd": 0.99901,
+        "market_cap_usd": 4710362900,
+        "change_24h_pct": -0.03478
+      },
+      {
+        "id": "dai",
+        "name": "Dai",
+        "symbol": "dai",
+        "market_cap_rank": 24,
+        "price_usd": 0.999608,
+        "market_cap_usd": 4641117648,
+        "change_24h_pct": -0.01284
+      },
+      {
+        "id": "ethena-usde",
+        "name": "Ethena USDe",
+        "symbol": "usde",
+        "market_cap_rank": 25,
+        "price_usd": 0.998206,
+        "market_cap_usd": 4471478063,
+        "change_24h_pct": -0.02782
+      }
+    ]
+  },
+  "record_hash": "2ca07c5a1e"
+}

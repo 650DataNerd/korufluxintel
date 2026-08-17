@@ -1,0 +1,712 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-06-25T12:06:37.564910+00:00",
+    "system": "KoruFlux Intelligence Agent v2.0",
+    "records_analyzed": 5,
+    "sources_included": [
+      "koruflux_doc_koruflux_(2)",
+      "koruflux_doc_koruflux.docx",
+      "koruflux_doc_koruflux_whitepaper.docx",
+      "koruflux_doc_koruflux_services.docx",
+      "koruflux_doc_koruflux_company_overview.docx"
+    ],
+    "markets_covered": [
+      "Kenya",
+      "East Africa",
+      "Nigeria",
+      "United States",
+      "European Union",
+      "United Kingdom",
+      "Singapore",
+      "UAE"
+    ]
+  },
+  "market_summary": {
+    "top_sectors_by_mention": [
+      [
+        "DeFi",
+        5
+      ],
+      [
+        "AI_Fintech",
+        5
+      ],
+      [
+        "Regulatory",
+        5
+      ],
+      [
+        "NFT",
+        4
+      ],
+      [
+        "DAO",
+        4
+      ],
+      [
+        "Payments",
+        4
+      ],
+      [
+        "RWA",
+        2
+      ],
+      [
+        "Infrastructure",
+        1
+      ]
+    ],
+    "top_regions_by_mention": [
+      [
+        "European Union",
+        5
+      ],
+      [
+        "Global",
+        5
+      ],
+      [
+        "Kenya",
+        4
+      ],
+      [
+        "East Africa",
+        4
+      ],
+      [
+        "Pan-Africa",
+        4
+      ],
+      [
+        "United States",
+        4
+      ],
+      [
+        "United Kingdom",
+        2
+      ],
+      [
+        "Singapore",
+        2
+      ],
+      [
+        "UAE",
+        2
+      ],
+      [
+        "Asia",
+        2
+      ]
+    ],
+    "top_entities": [
+      [
+        "US",
+        5
+      ],
+      [
+        "EU",
+        5
+      ],
+      [
+        "DeFi",
+        5
+      ],
+      [
+        "Web3",
+        5
+      ],
+      [
+        "AI",
+        5
+      ],
+      [
+        "SEC",
+        4
+      ],
+      [
+        "Solidity",
+        4
+      ],
+      [
+        "East Africa",
+        4
+      ],
+      [
+        "Kenya",
+        4
+      ],
+      [
+        "Smart contract",
+        4
+      ],
+      [
+        "Africa",
+        4
+      ],
+      [
+        "Tokenomics",
+        4
+      ],
+      [
+        "API",
+        4
+      ],
+      [
+        "Nairobi",
+        4
+      ],
+      [
+        "Rust",
+        4
+      ]
+    ],
+    "data_freshness": "2026-06-25T12:06:36.925671+00:00"
+  },
+  "opportunity_leaderboard": [
+    {
+      "sector": "Payments",
+      "opportunity_score": 95.0,
+      "tier": "HIGH OPPORTUNITY",
+      "baseline_score": 76.0,
+      "sentiment_adjustment": 15.0,
+      "mention_boost": 4.0,
+      "dimensions": {
+        "market_size": 90,
+        "growth_rate": 75,
+        "regulatory_clarity": 70,
+        "ecosystem_maturity": 80,
+        "competitive_gap": 40,
+        "tech_readiness": 85
+      },
+      "sentiment": {
+        "score": 1.0,
+        "label": "positive",
+        "momentum": "\u2191 growing",
+        "positive_signals": 1,
+        "negative_signals": 0
+      },
+      "mention_count": 4
+    },
+    {
+      "sector": "AI_Fintech",
+      "opportunity_score": 90.0,
+      "tier": "HIGH OPPORTUNITY",
+      "baseline_score": 70.5,
+      "sentiment_adjustment": 15.0,
+      "mention_boost": 4.5,
+      "dimensions": {
+        "market_size": 80,
+        "growth_rate": 90,
+        "regulatory_clarity": 55,
+        "ecosystem_maturity": 50,
+        "competitive_gap": 80,
+        "tech_readiness": 60
+      },
+      "sentiment": {
+        "score": 1.0,
+        "label": "positive",
+        "momentum": "\u2191 growing",
+        "positive_signals": 1,
+        "negative_signals": 0
+      },
+      "mention_count": 5
+    },
+    {
+      "sector": "DeFi",
+      "opportunity_score": 85.2,
+      "tier": "HIGH OPPORTUNITY",
+      "baseline_score": 65.8,
+      "sentiment_adjustment": 15.0,
+      "mention_boost": 4.5,
+      "dimensions": {
+        "market_size": 70,
+        "growth_rate": 85,
+        "regulatory_clarity": 45,
+        "ecosystem_maturity": 55,
+        "competitive_gap": 75,
+        "tech_readiness": 65
+      },
+      "sentiment": {
+        "score": 1.0,
+        "label": "positive",
+        "momentum": "\u2191 growing",
+        "positive_signals": 1,
+        "negative_signals": 0
+      },
+      "mention_count": 5
+    },
+    {
+      "sector": "Regulatory",
+      "opportunity_score": 77.5,
+      "tier": "HIGH OPPORTUNITY",
+      "baseline_score": 58.0,
+      "sentiment_adjustment": 15.0,
+      "mention_boost": 4.5,
+      "dimensions": {
+        "market_size": 50,
+        "growth_rate": 60,
+        "regulatory_clarity": 65,
+        "ecosystem_maturity": 60,
+        "competitive_gap": 55,
+        "tech_readiness": 60
+      },
+      "sentiment": {
+        "score": 1.0,
+        "label": "positive",
+        "momentum": "\u2191 growing",
+        "positive_signals": 1,
+        "negative_signals": 0
+      },
+      "mention_count": 5
+    },
+    {
+      "sector": "RWA",
+      "opportunity_score": 65.5,
+      "tier": "MODERATE OPPORTUNITY",
+      "baseline_score": 62.8,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 2.7,
+      "dimensions": {
+        "market_size": 75,
+        "growth_rate": 80,
+        "regulatory_clarity": 40,
+        "ecosystem_maturity": 40,
+        "competitive_gap": 85,
+        "tech_readiness": 55
+      },
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "\u2192 stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      },
+      "mention_count": 2
+    },
+    {
+      "sector": "NFT",
+      "opportunity_score": 63.8,
+      "tier": "MODERATE OPPORTUNITY",
+      "baseline_score": 44.8,
+      "sentiment_adjustment": 15.0,
+      "mention_boost": 4.0,
+      "dimensions": {
+        "market_size": 40,
+        "growth_rate": 50,
+        "regulatory_clarity": 30,
+        "ecosystem_maturity": 35,
+        "competitive_gap": 85,
+        "tech_readiness": 50
+      },
+      "sentiment": {
+        "score": 1.0,
+        "label": "positive",
+        "momentum": "\u2191 growing",
+        "positive_signals": 1,
+        "negative_signals": 0
+      },
+      "mention_count": 4
+    },
+    {
+      "sector": "DAO",
+      "opportunity_score": 61.8,
+      "tier": "MODERATE OPPORTUNITY",
+      "baseline_score": 42.8,
+      "sentiment_adjustment": 15.0,
+      "mention_boost": 4.0,
+      "dimensions": {
+        "market_size": 35,
+        "growth_rate": 60,
+        "regulatory_clarity": 20,
+        "ecosystem_maturity": 30,
+        "competitive_gap": 90,
+        "tech_readiness": 45
+      },
+      "sentiment": {
+        "score": 1.0,
+        "label": "positive",
+        "momentum": "\u2191 growing",
+        "positive_signals": 1,
+        "negative_signals": 0
+      },
+      "mention_count": 4
+    },
+    {
+      "sector": "AgriTech",
+      "opportunity_score": 61.5,
+      "tier": "MODERATE OPPORTUNITY",
+      "baseline_score": 61.5,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 65,
+        "growth_rate": 65,
+        "regulatory_clarity": 60,
+        "ecosystem_maturity": 55,
+        "competitive_gap": 70,
+        "tech_readiness": 50
+      },
+      "sentiment": {
+        "score": 0
+      },
+      "mention_count": 0
+    },
+    {
+      "sector": "Infrastructure",
+      "opportunity_score": 60.2,
+      "tier": "MODERATE OPPORTUNITY",
+      "baseline_score": 58.5,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 1.7,
+      "dimensions": {
+        "market_size": 60,
+        "growth_rate": 70,
+        "regulatory_clarity": 50,
+        "ecosystem_maturity": 50,
+        "competitive_gap": 65,
+        "tech_readiness": 55
+      },
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "\u2192 stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      },
+      "mention_count": 1
+    }
+  ],
+  "theme_clusters": {
+    "Market Demand": {
+      "sectors": [
+        {
+          "sector": "Payments",
+          "score": 95.0
+        },
+        {
+          "sector": "AI_Fintech",
+          "score": 90.0
+        },
+        {
+          "sector": "RWA",
+          "score": 65.5
+        },
+        {
+          "sector": "AgriTech",
+          "score": 61.5
+        }
+      ],
+      "theme_score": 78.0,
+      "signal": "\u2191 Strong"
+    },
+    "Competitive Landscape": {
+      "sectors": [
+        {
+          "sector": "Payments",
+          "score": 95.0
+        },
+        {
+          "sector": "DeFi",
+          "score": 85.2
+        },
+        {
+          "sector": "Infrastructure",
+          "score": 60.2
+        }
+      ],
+      "theme_score": 80.1,
+      "signal": "\u2191 Strong"
+    },
+    "Technology Trends": {
+      "sectors": [
+        {
+          "sector": "DeFi",
+          "score": 85.2
+        },
+        {
+          "sector": "AI_Fintech",
+          "score": 90.0
+        },
+        {
+          "sector": "Infrastructure",
+          "score": 60.2
+        },
+        {
+          "sector": "DAO",
+          "score": 61.8
+        }
+      ],
+      "theme_score": 74.3,
+      "signal": "\u2191 Strong"
+    },
+    "Investment Signals": {
+      "sectors": [
+        {
+          "sector": "DeFi",
+          "score": 85.2
+        },
+        {
+          "sector": "RWA",
+          "score": 65.5
+        },
+        {
+          "sector": "AI_Fintech",
+          "score": 90.0
+        },
+        {
+          "sector": "NFT",
+          "score": 63.8
+        }
+      ],
+      "theme_score": 76.1,
+      "signal": "\u2191 Strong"
+    },
+    "Regulatory Environment": {
+      "sectors": [
+        {
+          "sector": "Regulatory",
+          "score": 77.5
+        },
+        {
+          "sector": "Payments",
+          "score": 95.0
+        },
+        {
+          "sector": "DeFi",
+          "score": 85.2
+        }
+      ],
+      "theme_score": 85.9,
+      "signal": "\u2191 Strong"
+    }
+  },
+  "client_insights": {
+    "web3_startup_kenya": {
+      "profile": "Web3 Startup Entering Kenya",
+      "markets": [
+        "Kenya",
+        "East Africa"
+      ],
+      "recommendations": [
+        {
+          "sector": "Payments",
+          "score": 95.0,
+          "tier": "HIGH OPPORTUNITY",
+          "recommendation": "Payments is hyper-competitive (M-Pesa ~95% mobile money dominance) but cross-border and B2B stablecoin rails remain open. Focus on the $48B East African remittance corridor \u2014 USDT/USDC rails outcompete SWIFT on cost. Regulatory path: engage CBK directly, use KoruFlux's existing contacts.",
+          "action_items": [
+            "Identify cross-border stablecoin corridor (KES/UGX/TZS)",
+            "Engage CBK FinTech liaison office",
+            "Pilot with 3 Kenyan SMEs on B2B payment flows",
+            "Legal: review VASP framework timeline"
+          ]
+        },
+        {
+          "sector": "DeFi",
+          "score": 85.2,
+          "tier": "HIGH OPPORTUNITY",
+          "recommendation": "Kenya's DeFi market shows strong upside. Regulatory clarity is improving post-CMA sandbox framework. Entry via lending/stablecoin products aligned with existing M-Pesa corridors offers fastest PMF path. Partner with local SACCOs or MFIs to build trust and distribution.",
+          "action_items": [
+            "Engage CMA Kenya sandbox programme",
+            "Map existing SACCO and MFI networks for distribution partnerships",
+            "Audit competitor protocols (no EA-native DeFi leaders yet)",
+            "Commission KoruFlux Jurisdiction Intelligence sprint"
+          ]
+        },
+        {
+          "sector": "Infrastructure",
+          "score": 60.2,
+          "tier": "MODERATE OPPORTUNITY",
+          "recommendation": "Node infrastructure and oracle networks in EA are thin \u2014 significant gap for middleware/tooling plays. Low-risk entry: build developer tooling that doesn't require local regulatory approval. GitHub activity in 'blockchain Kenya' is growing 40%+ YoY signalling developer demand.",
+          "action_items": [
+            "Research Infrastructure landscape in target market",
+            "Identify 3-5 potential local partners",
+            "Assess regulatory requirements",
+            "Develop pilot scope with KoruFlux advisory support"
+          ]
+        }
+      ]
+    },
+    "ai_fintech_ea": {
+      "profile": "AI Fintech \u2014 East Africa",
+      "markets": [
+        "Kenya",
+        "East Africa",
+        "Nigeria"
+      ],
+      "recommendations": [
+        {
+          "sector": "Payments",
+          "score": 95.0,
+          "tier": "HIGH OPPORTUNITY",
+          "recommendation": "AI + Payments convergence is the core opportunity. M-Pesa processes $314B/year in Kenya alone. Embedding AI credit, risk, and personalisation layers into existing payment flows \u2014 without replacing the rails \u2014 is the fastest GTM. Regulatory path: partner with licensed EMI or bank for immediate market access.",
+          "action_items": [
+            "Secure API partnership with Safaricom Daraja",
+            "Build AI fraud layer as white-label offering to PSPs",
+            "Engage CBK on AI model risk disclosure requirements",
+            "KoruFlux can facilitate Safaricom / Equity Bank introductions"
+          ]
+        },
+        {
+          "sector": "AI_Fintech",
+          "score": 90.0,
+          "tier": "HIGH OPPORTUNITY",
+          "recommendation": "East Africa represents one of the highest-upside AI fintech markets globally. Thin incumbent AI infrastructure, massive mobile-first data pools, and a young (median age 20) digitally-native population. Priority use cases: alternative credit scoring (67% unbanked in EA), fraud detection for mobile money, and AI-driven KYC automation.",
+          "action_items": [
+            "Source anonymised mobile money transaction datasets",
+            "Pilot alternative credit scoring model with MFI partner",
+            "Register data processor under Kenya Data Protection Act 2019",
+            "Build local AI/ML team (Nairobi has 3rd-largest AI talent pool in Africa)"
+          ]
+        },
+        {
+          "sector": "AgriTech",
+          "score": 61.5,
+          "tier": "MODERATE OPPORTUNITY",
+          "recommendation": "Agricultural AI in EA is underserved and high-impact. 70%+ of EA workforce is in agriculture. AI-driven crop prediction, supply chain finance, and satellite data-based insurance represent a $2B+ addressable market by 2028. USAID and WFP actively funding pilot programmes \u2014 useful non-dilutive entry path.",
+          "action_items": [
+            "Research AgriTech landscape in target market",
+            "Identify 3-5 potential local partners",
+            "Assess regulatory requirements",
+            "Develop pilot scope with KoruFlux advisory support"
+          ]
+        }
+      ]
+    },
+    "intl_corp_africa_entry": {
+      "profile": "International Corp Entering Africa (US/EU/UK)",
+      "markets": [
+        "United States",
+        "European Union",
+        "United Kingdom",
+        "Kenya",
+        "East Africa"
+      ],
+      "recommendations": [
+        {
+          "sector": "Payments",
+          "score": 95.0,
+          "tier": "HIGH OPPORTUNITY",
+          "recommendation": "Africa's payment infrastructure is the primary entry vector for international corps. The $48B EA remittance corridor and $700B+ pan-Africa mobile money volume offer immediate B2B revenue. Regulatory path: partner with a licensed Kenyan EMI or bank, structure under CBK's Payment Service Provider framework. US/EU compliance teams should note Kenya's AML/CFT framework is FATF-aligned since 2022.",
+          "action_items": [
+            "Engage CBK Payment Service Provider licensing process",
+            "Map SWIFT vs stablecoin cost comparison for target corridors",
+            "Identify licensed Kenyan bank or EMI for partnership",
+            "KoruFlux: East Africa regulatory compliance sprint (6 weeks)"
+          ]
+        },
+        {
+          "sector": "AI_Fintech",
+          "score": 90.0,
+          "tier": "HIGH OPPORTUNITY",
+          "recommendation": "International AI fintech firms have a structural advantage in Africa: proprietary models trained on global data can be fine-tuned on African datasets at low marginal cost. Target: SME credit underwriting, trade finance automation, and B2B payment intelligence. East Africa is the beachhead; Nigeria is scale.",
+          "action_items": [
+            "Source African financial dataset partnerships (telcos, MFIs)",
+            "Register under Kenya Data Protection Act 2019",
+            "Pilot AI credit model with 1 Kenyan MFI",
+            "Scale to Nigeria in month 6 via KoruFlux partner network"
+          ]
+        },
+        {
+          "sector": "Regulatory",
+          "score": 77.5,
+          "tier": "HIGH OPPORTUNITY",
+          "recommendation": "Regulatory arbitrage is a genuine opportunity. Kenya's CMA sandbox, Dubai's VARA, and Singapore's MAS all offer fast-track licensing for international firms. KoruFlux recommends a multi-jurisdiction structure: Singapore or UAE holding, Kenya/EA operating entity. Reduces tax burden and maximises regulatory optionality.",
+          "action_items": [
+            "Engage KoruFlux for multi-jurisdiction regulatory map",
+            "Assess: Kenya CMA sandbox, Dubai VARA, Singapore MAS",
+            "Structure: Singapore/UAE holding + Kenya operating entity",
+            "Timeline: 3-4 months to operational licensing"
+          ]
+        },
+        {
+          "sector": "RWA",
+          "score": 65.5,
+          "tier": "MODERATE OPPORTUNITY",
+          "recommendation": "Real World Asset tokenisation is the highest-signal opportunity for international corporates in Africa. Kenya's land registry digitisation, Nairobi's commercial real estate market, and agricultural commodity tokenisation all represent multi-billion dollar TAMs with thin competition. MiCA (EU) and SEC frameworks are converging \u2014 structure now for dual compliance.",
+          "action_items": [
+            "Identify tokenisable asset class in target African market",
+            "Engage CMA Kenya on digital securities framework",
+            "Structure dual-compliance: MiCA/SEC + CMA",
+            "KoruFlux: RWA market entry programme (12 weeks)"
+          ]
+        }
+      ]
+    },
+    "web3_hub_expansion": {
+      "profile": "Web3 Protocol Expanding to Singapore / UAE",
+      "markets": [
+        "Singapore",
+        "UAE",
+        "United States"
+      ],
+      "recommendations": [
+        {
+          "sector": "DeFi",
+          "score": 85.2,
+          "tier": "HIGH OPPORTUNITY",
+          "recommendation": "Singapore (MAS) and UAE (VARA/ADGM) are the two most permissive DeFi jurisdictions globally as of 2026. Singapore's MAS Payment Services Act covers DeFi protocols under a clear licensing regime. UAE's VARA issued comprehensive DeFi regulations in 2024. Both offer 0% capital gains on crypto. Recommended structure: Singapore entity for Asia-Pacific, ADGM for MENA, with Kenya as Africa gateway.",
+          "action_items": [
+            "File MAS Payment Services Act licence application (Singapore)",
+            "Engage VARA for UAE Virtual Asset Service Provider licence",
+            "Structure ADGM SPV for MENA operations",
+            "KoruFlux: Singapore + UAE dual-jurisdiction setup programme"
+          ]
+        },
+        {
+          "sector": "RWA",
+          "score": 65.5,
+          "tier": "MODERATE OPPORTUNITY",
+          "recommendation": "RWA tokenisation is the dominant narrative in Singapore and UAE financial markets. MAS Project Guardian (RWA tokenisation) has $10B+ in committed institutional capital. DIFC and ADGM both have sandbox frameworks specifically for tokenised securities. KoruFlux can structure end-to-end: protocol architecture, regulatory filing, and Africa-side asset origination pipeline.",
+          "action_items": [
+            "Apply to MAS Project Guardian RWA framework",
+            "Engage DIFC Innovation Testing Licence for RWA pilot",
+            "Identify Africa-side asset origination partner (KoruFlux network)",
+            "Timeline: 4-6 months to first tokenised asset on-chain"
+          ]
+        },
+        {
+          "sector": "DAO",
+          "score": 61.8,
+          "tier": "MODERATE OPPORTUNITY",
+          "recommendation": "DAO presents a MODERATE OPPORTUNITY with score 61.8/100. Monitor and evaluate entry timing.",
+          "action_items": [
+            "Research DAO landscape in target market",
+            "Identify 3-5 potential local partners",
+            "Assess regulatory requirements",
+            "Develop pilot scope with KoruFlux advisory support"
+          ]
+        },
+        {
+          "sector": "Infrastructure",
+          "score": 60.2,
+          "tier": "MODERATE OPPORTUNITY",
+          "recommendation": "Web3 infrastructure protocols face minimal regulatory friction in Singapore and UAE. Both jurisdictions actively recruit node operators, validator sets, and oracle networks. MAS's $150M Financial Sector Technology and Innovation grant scheme covers blockchain infrastructure. Dubai's Crypto Oasis has 1,500+ Web3 companies. KoruFlux provides: entity setup, MAS/VARA regulatory mapping, team hiring support.",
+          "action_items": [
+            "Register Singapore entity (Pte Ltd) \u2014 1 week via KoruFlux",
+            "Apply for MAS FSTI grant (up to SGD 200K)",
+            "Set up Dubai Crypto Oasis presence for MENA access",
+            "KoruFlux: end-to-end hub expansion programme (8 weeks)"
+          ]
+        }
+      ]
+    }
+  },
+  "risk_flags": [],
+  "strategic_watch_list": [
+    {
+      "sector": "RWA",
+      "score": 65.5,
+      "reason": "High growth (80/100) but maturing. Watch 6-12 months."
+    },
+    {
+      "sector": "AgriTech",
+      "score": 61.5,
+      "reason": "High growth (65/100) but maturing. Watch 6-12 months."
+    },
+    {
+      "sector": "Infrastructure",
+      "score": 60.2,
+      "reason": "High growth (70/100) but maturing. Watch 6-12 months."
+    }
+  ]
+}

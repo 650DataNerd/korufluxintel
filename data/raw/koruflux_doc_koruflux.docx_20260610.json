@@ -1,0 +1,94 @@
+{
+  "source": "koruflux_doc_koruflux.docx",
+  "url": "local://docs/KoruFlux.docx.pdf",
+  "timestamp": "2026-06-10T07:47:47.041996+00:00",
+  "category": "internal_document",
+  "entities": [
+    "US",
+    "API",
+    "Nairobi",
+    "Blockchain",
+    "DeFi",
+    "Smart contract",
+    "Kenya",
+    "Solidity",
+    "DAO",
+    "NFT",
+    "Data pipeline",
+    "SEC",
+    "EU",
+    "Tokenomics",
+    "LLM",
+    "Rust",
+    "Web3",
+    "Africa",
+    "M-Pesa",
+    "East Africa",
+    "AI"
+  ],
+  "raw_data": "NAIROBI, KENYA \u00b7 2024\n\nKoruFlux\nBuild. Transition. Strategize. Land. \u2014 Web3 \u00b7 AI \u00b7 Data \u00b7 Market Entry\n\nNairobi-based technology and strategy consultancy at the intersection of Web3, AI, and African market entry. We connect\nemerging technology with Africa's fastest-growing digital economy \u2014 grounded in data, not guesswork.\n\nSERVICE PILLARS\n\nBuild\n\nTransition\n\nEnd-to-end Web3 and AI product development\n\nWeb2 \u2192 Web3 migration for established businesses\n\nSmart contracts (Solidity, Rust)\nDeFi, NFT & DAO infrastructure\nAI-powered product features\nData pipeline engineering\nLLM integration\n\nWeb3 readiness assessment\nTokenisation strategy\nBlockchain integration into legacy systems\nAI automation on existing stack\nTeam training & capability building\n\nStrategize\n\nLand\n\nData-driven go-to-market and growth strategy\n\nGuided entry into Kenya and East Africa\n\nMarket sizing & opportunity analysis\nGTM strategy for Web3/AI products\nTokenomics design\nCompetitive landscape analysis\nInvestor narrative & pitch decks\n\nMarket entry strategy\nRegulatory & compliance guidance\nLocal partnerships & vendor intros\nFractional CTO / tech leadership\nOngoing market intelligence retainer\n\nENGAGEMENT PACKAGES\nSPRINT\n\nMOST POPULAR\n\nFULL PROGRAMME\n\nProject\n\nRetainer\n\nIntegrated\n\n4\u20138 wks\n\nMonthly\n\n8\u201316 wks\n\nDefined scope & deliverables\n\u2713 Single-pillar engagement\n\u2713 Clear milestones & KPIs\n\u2713 Strategy sprints, builds, audits\n\nHalf-day or full-day increments\n\u2713 Ongoing advisory access\n\u2713 Market intelligence updates\n\u2713 Fractional tech leadership\n\nMulti-pillar transformation\n\u2713 Build + Strategize + Land\n\u2713 Embedded team model\n\u2713 Market entry at scale\n\nWHO WE WORK WITH\n\nWeb3 startups\n\nInternational corps (EU/US/Gulf)\n\nGTM, positioning, on-chain data intelligence\n\nKenya/Africa entry, local network, compliance\n\nAfrican fintechs & startups\n\nWeb2 businesses\n\nAI automation, data strategy, Web3 readiness\n\nMigration roadmap, tokenomics, opportunity analysis\n\nWHY KORUFLUX\n\nNairobi HQ Africa's tech capital \u2014 M-Pesa ecosystem, thriving startup scene, gateway to East & Central Africa\nRare skill stack Web3 + AI + Data + Strategy in one team \u2014 connected, not siloed\nData backbone Every recommendation built on market, on-chain, and client data \u2014 never guesswork\nBridge positioning Fluent in both Web3-native and corporate enterprise language\n\nBuild the future. From Africa, for the world.\nhello@koruflux.io \u00b7 Nairobi, Kenya\n\n\f",
+  "clean_data": {
+    "document_role": "pitch_sheet",
+    "word_count": 330,
+    "service_pillars": [
+      {
+        "pillar": "Build",
+        "description": "Transition End-to-end Web3 and AI product development Web2 \u2192 Web3 migration for established businesses Smart contracts (Solidity, Rust) DeFi, NFT & DAO infrastructure AI-powered product features Data pipeline engineering LLM integration Web3 readiness assessment Tokenisation strategy Blockchain integration into legacy systems AI automation on existing stack Team training & capability"
+      },
+      {
+        "pillar": "Strategize",
+        "description": "Land Data-driven go-to-market and growth strategy Guided entry into Kenya and East Africa Market sizing & opportunity analysis GTM strategy for Web3/AI products Tokenomics design Competitive"
+      },
+      {
+        "pillar": "Land",
+        "description": "\u2713 Embedded team model \u2713 Market entry at scale"
+      }
+    ],
+    "pricing_signals": [
+      {
+        "type": "duration",
+        "value": "4\u20138 wk"
+      },
+      {
+        "type": "duration",
+        "value": "8\u201316 wk"
+      }
+    ],
+    "client_types": [
+      "Web3 Startup",
+      "International Corp",
+      "African Fintech",
+      "Web2 Business"
+    ],
+    "markets_mentioned": [
+      "US",
+      "Nairobi",
+      "Africa",
+      "Kenya",
+      "East Africa",
+      "EU"
+    ],
+    "technologies": [
+      "API",
+      "Blockchain",
+      "DAO",
+      "LLM",
+      "Rust",
+      "Web3",
+      "NFT",
+      "Solidity",
+      "DeFi",
+      "Smart contract",
+      "M-Pesa",
+      "Data pipeline",
+      "AI",
+      "Tokenomics"
+    ],
+    "regulators_mentioned": [
+      "SEC"
+    ],
+    "competitors_mentioned": [],
+    "text_excerpt": "NAIROBI, KENYA \u00b7 2024\n\nKoruFlux\nBuild. Transition. Strategize. Land. \u2014 Web3 \u00b7 AI \u00b7 Data \u00b7 Market Entry\n\nNairobi-based technology and strategy consultancy at the intersection of Web3, AI, and African market entry. We connect\nemerging technology with Africa's fastest-growing digital economy \u2014 grounded in data, not guesswork.\n\nSERVICE PILLARS\n\nBuild\n\nTransition\n\nEnd-to-end Web3 and AI product development\n\nWeb2 \u2192 Web3 migration for established businesses\n\nSmart contracts (Solidity, Rust)\nDeFi, NFT & DAO infrastructure\nAI-powered product features\nData pipeline engineering\nLLM integration\n\nWeb3 readiness assessment\nTokenisation strategy\nBlockchain integration into legacy systems\nAI automation on existing stack\nTeam training & capability building\n\nStrategize\n\nLand\n\nData-driven go-to-market and growth strategy\n\nGuided entry into Kenya and East Africa\n\nMarket sizing & opportunity analysis\nGTM strategy for Web3/AI products\nTokenomics design\nCompetitive landscape analysis\nInvestor narrative & pitch decks\n\nMarket entry strategy\nRegulatory & compliance guidance\nLocal partnerships & vendor intros\nFractional CTO / tech leadership\nOngoing market intelligence retainer\n\nENGAGEMENT PACKAGES\nSPRINT\n\nM"
+  },
+  "record_hash": "doc_KoruFlux.doc_20260610"
+}

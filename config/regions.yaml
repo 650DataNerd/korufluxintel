@@ -1,0 +1,571 @@
+regions:
+  KE:
+    name: Kenya / Nairobi
+    full_name: Kenya
+    city: Nairobi
+    color: '#006600'
+    accent2: '#BB0000'
+    light: '#E8F5E9'
+    tag: Primary Africa Hub
+    currency: KES
+    population_m: 56
+    internet_pct: 42
+    key_stat: M-Pesa processes $314B/year
+    gdp_usd_b: 118
+    regulators:
+    - CMA
+    - CBK
+    - Competition Authority
+    - ODPC
+    focus_sectors:
+    - Payments
+    - DeFi
+    - AI_Fintech
+    - AgriTech
+    - RWA
+    - Regulatory
+    twitter_terms:
+    - kenya crypto
+    - mpesa blockchain
+    - nairobi web3
+    - cbk fintech
+    - cma kenya
+    farcaster_terms:
+    - kenya web3
+    - nairobi crypto
+    - mpesa
+    - africa defi
+    sources:
+    - id: ke_bitcoinke
+      name: BitcoinKE
+      url: https://bitcoinke.io/feed/
+      type: rss
+      category: ke_crypto_news
+      label: "BitcoinKE \u2014 Kenya's Bitcoin/crypto news"
+    - id: ke_techpoint
+      name: TechPoint Africa
+      url: https://techpoint.africa/feed/
+      type: rss
+      category: ke_tech_news
+      label: TechPoint Africa
+    - id: ke_ventureburn
+      name: VentureBurn
+      url: https://ventureburn.com/feed/
+      type: rss
+      category: ke_startup_news
+      label: "VentureBurn \u2014 Africa startup news"
+    - id: ke_cbk_html
+      name: Central Bank of Kenya
+      url: https://www.centralbank.go.ke/press-releases/
+      type: html
+      category: ke_regulatory
+      label: CBK Press Releases
+      selectors:
+        articles: h3 a, .press-release a, article h2 a, .entry-title a
+    - id: ke_github
+      name: GitHub Kenya Web3
+      url: https://api.github.com/search/repositories
+      type: api_json
+      category: ke_dev_activity
+      label: GitHub Kenya/Nairobi Web3
+      params:
+        q: web3 kenya OR nairobi blockchain OR mpesa defi OR kenya fintech
+        sort: updated
+        per_page: 15
+    - id: ke_coingecko_markets
+      name: CoinGecko Markets
+      url: https://api.coingecko.com/api/v3/coins/markets
+      type: api_json
+      category: ke_market_data
+      label: CoinGecko Top 25
+      params:
+        vs_currency: usd
+        order: market_cap_desc
+        per_page: 25
+        page: 1
+  EA:
+    name: East Africa
+    full_name: East Africa Bloc
+    city: Regional
+    color: '#1565C0'
+    accent2: '#0288D1'
+    light: '#E3F2FD'
+    tag: Regional Bloc
+    currency: Multi
+    population_m: 450
+    internet_pct: 28
+    key_stat: $48B regional remittance corridor
+    gdp_usd_b: 380
+    regulators:
+    - CBK
+    - BoU
+    - BNR
+    - NBE
+    - BoT
+    focus_sectors:
+    - Payments
+    - AgriTech
+    - AI_Fintech
+    - Infrastructure
+    - RWA
+    twitter_terms:
+    - east africa fintech
+    - africa blockchain
+    - kigali tech
+    - addis crypto
+    - kampala web3
+    farcaster_terms:
+    - east africa web3
+    - africa fintech
+    - remittance africa
+    sources:
+    - id: ea_techpoint
+      name: TechPoint Africa
+      url: https://techpoint.africa/feed/
+      type: rss
+      category: ea_tech_news
+      label: TechPoint Africa
+    - id: ea_ventureburn
+      name: VentureBurn
+      url: https://ventureburn.com/feed/
+      type: rss
+      category: ea_startup_news
+      label: VentureBurn
+    - id: ea_bitcoinke
+      name: BitcoinKE
+      url: https://bitcoinke.io/feed/
+      type: rss
+      category: ea_crypto_news
+      label: BitcoinKE
+    - id: ea_defillama
+      name: DeFiLlama
+      url: https://api.llama.fi/protocols
+      type: api_json
+      category: ea_defi_data
+      label: DeFiLlama Top Protocols
+    - id: ea_github
+      name: GitHub EA Fintech
+      url: https://api.github.com/search/repositories
+      type: api_json
+      category: ea_dev_activity
+      label: GitHub East Africa
+      params:
+        q: east africa fintech OR tanzania blockchain OR uganda crypto OR rwanda web3
+        sort: updated
+        per_page: 15
+  NG:
+    name: Nigeria
+    full_name: Nigeria
+    city: Lagos
+    color: '#1B5E20'
+    accent2: '#2E7D32'
+    light: '#E8F5E9'
+    tag: Largest Africa Economy
+    currency: NGN
+    population_m: 223
+    internet_pct: 51
+    key_stat: Largest crypto P2P market in Africa
+    gdp_usd_b: 477
+    regulators:
+    - SEC Nigeria
+    - CBN
+    - FCCPC
+    focus_sectors:
+    - Payments
+    - DeFi
+    - AI_Fintech
+    - Infrastructure
+    - NFT
+    twitter_terms:
+    - nigeria crypto
+    - lagos defi
+    - cbn blockchain
+    - naira stablecoin
+    - sec nigeria
+    farcaster_terms:
+    - nigeria web3
+    - lagos crypto
+    - naira defi
+    - africa nft
+    sources:
+    - id: ng_techpoint
+      name: TechPoint Africa
+      url: https://techpoint.africa/feed/
+      type: rss
+      category: ng_tech_news
+      label: TechPoint Africa
+    - id: ng_bitcoinke
+      name: BitcoinKE
+      url: https://bitcoinke.io/feed/
+      type: rss
+      category: ng_crypto_news
+      label: BitcoinKE
+    - id: ng_ventureburn
+      name: VentureBurn
+      url: https://ventureburn.com/feed/
+      type: rss
+      category: ng_startup_news
+      label: VentureBurn
+    - id: ng_github
+      name: GitHub Nigeria Web3
+      url: https://api.github.com/search/repositories
+      type: api_json
+      category: ng_dev_activity
+      label: GitHub Nigeria
+      params:
+        q: nigeria blockchain OR lagos defi OR naira crypto OR nigeria web3
+        sort: updated
+        per_page: 15
+    - id: ng_coingecko_trending
+      name: CoinGecko Trending
+      url: https://api.coingecko.com/api/v3/search/trending
+      type: api_json
+      category: ng_market_data
+      label: CoinGecko Trending
+  US:
+    name: United States
+    full_name: United States
+    city: New York / SF
+    color: '#0D47A1'
+    accent2: '#B71C1C'
+    light: '#E8EAF6'
+    tag: Largest Web3 Capital Market
+    currency: USD
+    population_m: 335
+    internet_pct: 92
+    key_stat: SEC oversees $2T+ crypto market cap
+    gdp_usd_b: 27000
+    regulators:
+    - SEC
+    - CFTC
+    - FinCEN
+    - OCC
+    - Federal Reserve
+    focus_sectors:
+    - DeFi
+    - RWA
+    - AI_Fintech
+    - Infrastructure
+    - Regulatory
+    twitter_terms:
+    - defi sec
+    - ethereum protocol
+    - crypto regulation usa
+    - RWA tokenization
+    - bitcoin etf
+    farcaster_terms:
+    - ethereum defi
+    - base chain
+    - optimism
+    - arbitrum
+    - rwa crypto
+    sources:
+    - id: us_coindesk
+      name: CoinDesk
+      url: https://www.coindesk.com/arc/outboundfeeds/rss/
+      type: rss
+      category: us_crypto_news
+      label: CoinDesk
+    - id: us_cointelegraph
+      name: CoinTelegraph
+      url: https://cointelegraph.com/rss
+      type: rss
+      category: us_crypto_news
+      label: CoinTelegraph
+    - id: us_defillama
+      name: DeFiLlama Protocols
+      url: https://api.llama.fi/protocols
+      type: api_json
+      category: us_defi_data
+      label: DeFiLlama
+    - id: us_coingecko_global
+      name: CoinGecko Global
+      url: https://api.coingecko.com/api/v3/global
+      type: api_json
+      category: us_market_data
+      label: CoinGecko Global
+    - id: us_github_defi
+      name: GitHub DeFi
+      url: https://api.github.com/search/repositories
+      type: api_json
+      category: us_dev_activity
+      label: GitHub Top DeFi
+      params:
+        q: defi protocol ethereum solana RWA tokenization
+        sort: stars
+        per_page: 15
+  EU:
+    name: European Union
+    full_name: European Union
+    city: Frankfurt / Paris
+    color: '#1A237E'
+    accent2: '#FFD600'
+    light: '#E8EAF6'
+    tag: MiCA Regulation Leader
+    currency: EUR
+    population_m: 450
+    internet_pct: 89
+    key_stat: "MiCA framework \u2014 world's most comprehensive crypto law"
+    gdp_usd_b: 18000
+    regulators:
+    - ESMA
+    - EBA
+    - ECB
+    - National Competent Authorities
+    focus_sectors:
+    - RWA
+    - Regulatory
+    - DeFi
+    - Infrastructure
+    - Payments
+    twitter_terms:
+    - mica regulation
+    - european defi
+    - ecb digital euro
+    - eu crypto law
+    - esma blockchain
+    farcaster_terms:
+    - mica crypto
+    - european web3
+    - digital euro
+    - eu defi
+    sources:
+    - id: eu_coindesk
+      name: CoinDesk
+      url: https://www.coindesk.com/arc/outboundfeeds/rss/
+      type: rss
+      category: eu_crypto_news
+      label: CoinDesk
+    - id: eu_cointelegraph
+      name: CoinTelegraph
+      url: https://cointelegraph.com/rss
+      type: rss
+      category: eu_crypto_news
+      label: CoinTelegraph
+    - id: eu_defillama
+      name: DeFiLlama
+      url: https://api.llama.fi/protocols
+      type: api_json
+      category: eu_defi_data
+      label: DeFiLlama
+    - id: eu_github_mica
+      name: GitHub EU Web3
+      url: https://api.github.com/search/repositories
+      type: api_json
+      category: eu_dev_activity
+      label: GitHub EU DeFi
+      params:
+        q: mica compliance OR european defi OR euro stablecoin OR eu crypto
+        sort: updated
+        per_page: 15
+  GB:
+    name: United Kingdom
+    full_name: United Kingdom
+    city: London
+    color: '#1A237E'
+    accent2: '#C62828'
+    light: '#E8EAF6'
+    tag: FCA Sandbox Leader
+    currency: GBP
+    population_m: 68
+    internet_pct: 95
+    key_stat: FCA has 250+ crypto-registered firms
+    gdp_usd_b: 3100
+    regulators:
+    - FCA
+    - Bank of England
+    - HM Treasury
+    - PSR
+    focus_sectors:
+    - AI_Fintech
+    - RWA
+    - Regulatory
+    - DeFi
+    - Payments
+    twitter_terms:
+    - fca crypto
+    - london fintech
+    - uk blockchain
+    - bank england cbdc
+    - uk defi
+    farcaster_terms:
+    - london web3
+    - fca regulation
+    - uk defi
+    - sterling crypto
+    sources:
+    - id: gb_coindesk
+      name: CoinDesk
+      url: https://www.coindesk.com/arc/outboundfeeds/rss/
+      type: rss
+      category: gb_crypto_news
+      label: CoinDesk
+    - id: gb_cointelegraph
+      name: CoinTelegraph
+      url: https://cointelegraph.com/rss
+      type: rss
+      category: gb_crypto_news
+      label: CoinTelegraph
+    - id: gb_github
+      name: GitHub UK Fintech
+      url: https://api.github.com/search/repositories
+      type: api_json
+      category: gb_dev_activity
+      label: GitHub UK Web3
+      params:
+        q: london fintech OR uk blockchain OR fca crypto OR british defi
+        sort: updated
+        per_page: 15
+    - id: gb_defillama
+      name: DeFiLlama
+      url: https://api.llama.fi/protocols
+      type: api_json
+      category: gb_defi_data
+      label: DeFiLlama
+  SG:
+    name: Singapore
+    full_name: Singapore
+    city: Singapore
+    color: '#B71C1C'
+    accent2: '#FFFFFF'
+    light: '#FFEBEE'
+    tag: "MAS \xB7 Asia Gateway"
+    currency: SGD
+    population_m: 6
+    internet_pct: 96
+    key_stat: "MAS Project Guardian \u2014 $10B+ committed RWA tokenisation"
+    gdp_usd_b: 467
+    regulators:
+    - MAS
+    - SGX
+    - ACRA
+    focus_sectors:
+    - RWA
+    - DeFi
+    - Infrastructure
+    - Regulatory
+    - AI_Fintech
+    twitter_terms:
+    - mas singapore
+    - project guardian
+    - singapore fintech
+    - token2049
+    - mas psa
+    farcaster_terms:
+    - singapore web3
+    - mas crypto
+    - project guardian
+    - token2049
+    sources:
+    - id: sg_coindesk
+      name: CoinDesk
+      url: https://www.coindesk.com/arc/outboundfeeds/rss/
+      type: rss
+      category: sg_crypto_news
+      label: CoinDesk
+    - id: sg_cointelegraph
+      name: CoinTelegraph
+      url: https://cointelegraph.com/rss
+      type: rss
+      category: sg_crypto_news
+      label: CoinTelegraph
+    - id: sg_defillama
+      name: DeFiLlama
+      url: https://api.llama.fi/protocols
+      type: api_json
+      category: sg_defi_data
+      label: DeFiLlama
+    - id: sg_github
+      name: GitHub Singapore Web3
+      url: https://api.github.com/search/repositories
+      type: api_json
+      category: sg_dev_activity
+      label: GitHub Singapore
+      params:
+        q: singapore fintech OR mas blockchain OR project guardian OR token2049
+        sort: updated
+        per_page: 15
+    - id: sg_coingecko_trending
+      name: CoinGecko Trending
+      url: https://api.coingecko.com/api/v3/search/trending
+      type: api_json
+      category: sg_market_data
+      label: CoinGecko Trending
+  AE:
+    name: UAE / Dubai
+    full_name: United Arab Emirates
+    city: Dubai / Abu Dhabi
+    color: '#006400'
+    accent2: '#CC0001'
+    light: '#E8F5E9'
+    tag: "VARA \xB7 MENA Hub"
+    currency: AED
+    population_m: 10
+    internet_pct: 98
+    key_stat: VARA issued world's first comprehensive DeFi regulations
+    gdp_usd_b: 503
+    regulators:
+    - VARA
+    - ADGM
+    - DIFC
+    - CBUAE
+    - SCA
+    focus_sectors:
+    - DeFi
+    - RWA
+    - Infrastructure
+    - DAO
+    - Regulatory
+    twitter_terms:
+    - vara dubai
+    - difc crypto
+    - abu dhabi web3
+    - uae blockchain
+    - adgm fintech
+    farcaster_terms:
+    - dubai web3
+    - vara regulation
+    - difc crypto
+    - abu dhabi defi
+    - token2049 dubai
+    sources:
+    - id: ae_coindesk
+      name: CoinDesk
+      url: https://www.coindesk.com/arc/outboundfeeds/rss/
+      type: rss
+      category: ae_crypto_news
+      label: CoinDesk
+    - id: ae_cointelegraph
+      name: CoinTelegraph
+      url: https://cointelegraph.com/rss
+      type: rss
+      category: ae_crypto_news
+      label: CoinTelegraph
+    - id: ae_defillama
+      name: DeFiLlama
+      url: https://api.llama.fi/protocols
+      type: api_json
+      category: ae_defi_data
+      label: DeFiLlama
+    - id: ae_github
+      name: GitHub UAE Web3
+      url: https://api.github.com/search/repositories
+      type: api_json
+      category: ae_dev_activity
+      label: GitHub UAE
+      params:
+        q: VARA dubai OR UAE crypto OR DIFC blockchain OR abu dhabi web3
+        sort: updated
+        per_page: 15
+    - id: ae_coingecko_markets
+      name: CoinGecko Markets
+      url: https://api.coingecko.com/api/v3/coins/markets
+      type: api_json
+      category: ae_market_data
+      label: CoinGecko Markets
+      params:
+        vs_currency: usd
+        order: market_cap_desc
+        per_page: 25
+        page: 1
+social: {}

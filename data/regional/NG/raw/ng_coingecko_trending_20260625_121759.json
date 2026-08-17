@@ -1,0 +1,75 @@
+{
+  "source": "ng_coingecko_trending",
+  "url": "https://api.coingecko.com/api/v3/search/trending",
+  "timestamp": "2026-06-25T12:17:59.099608+00:00",
+  "category": "ng_market_data",
+  "entities": [
+    "Zano",
+    "MemeCore",
+    "Bitcoin",
+    "Rain",
+    "Solana",
+    "Synapse",
+    "Ethereum",
+    "Pudgy Penguins",
+    "Solstice",
+    "Bittensor"
+  ],
+  "raw_data": "{}",
+  "clean_data": {
+    "trending": [
+      {
+        "name": "Zano",
+        "symbol": "ZANO",
+        "rank": 191
+      },
+      {
+        "name": "MemeCore",
+        "symbol": "M",
+        "rank": 62
+      },
+      {
+        "name": "Bitcoin",
+        "symbol": "BTC",
+        "rank": 1
+      },
+      {
+        "name": "Rain",
+        "symbol": "RAIN",
+        "rank": 13
+      },
+      {
+        "name": "Solana",
+        "symbol": "SOL",
+        "rank": 7
+      },
+      {
+        "name": "Synapse",
+        "symbol": "SYN",
+        "rank": 280
+      },
+      {
+        "name": "Ethereum",
+        "symbol": "ETH",
+        "rank": 2
+      },
+      {
+        "name": "Pudgy Penguins",
+        "symbol": "PENGU",
+        "rank": 118
+      },
+      {
+        "name": "Solstice",
+        "symbol": "SLX",
+        "rank": 299
+      },
+      {
+        "name": "Bittensor",
+        "symbol": "TAO",
+        "rank": 41
+      }
+    ],
+    "source_url": "https://api.coingecko.com/api/v3/search/trending"
+  },
+  "record_hash": "ng_coingecko_trending_20260625"
+}

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}KoruFlux · Source Health{% endblock %}
+{% block page_title %}Source Health Check{% endblock %}
+{% block content %}
+<div style="display:flex;gap:16px;margin-bottom:20px">
+  <div class="stat-card" style="border-top-color:#2EC4B6;flex:1;text-align:center">
+    <div class="stat-value" style="color:#2EC4B6">{{ ok_count }}</div>
+    <div class="stat-sub">Sources Working</div>
+  </div>
+  <div class="stat-card" style="border-top-color:#E63946;flex:1;text-align:center">
+    <div class="stat-value" style="color:#E63946">{{ total - ok_count }}</div>
+    <div class="stat-sub">Failed / Blocked</div>
+  </div>
+  <div class="stat-card" style="border-top-color:#8D99AE;flex:1;text-align:center">
+    <div class="stat-value" style="color:#8D99AE">{{ total }}</div>
+    <div class="stat-sub">Total Checked</div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header">
+    <div class="card-title"><i data-lucide="activity"></i> Live Connectivity Results</div>
+    <a href="/health" class="btn btn-outline btn-sm"><i data-lucide="refresh-cw"></i> Re-run</a>
+  </div>
+  <div class="card-body" style="padding:0">
+    <table>
+      <thead><tr><th>Source</th><th>Status</th><th>Response Size</th><th>URL</th></tr></thead>
+      <tbody>
+        {% for r in results %}
+        <tr>
+          <td><strong>{{ r.label }}</strong></td>
+          <td>
+            {% if r.ok %}<span class="badge badge-green"><i data-lucide="check"></i> {{ r.status }}</span>
+            {% else %}<span class="badge badge-red"><i data-lucide="x"></i> {{ r.status }}</span>{% endif %}
+          </td>
+          <td style="color:var(--muted);font-size:12px">{{ r.size }}</td>
+          <td style="font-size:11px"><a href="{{ r.url }}" target="_blank" style="color:var(--secondary)">{{ r.url[:55] }}{% if r.url|length>55 %}...{% endif %}</a></td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

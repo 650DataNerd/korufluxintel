@@ -1,0 +1,354 @@
+{
+  "region_code": "NG",
+  "region_name": "Largest crypto market by volume in Africa, 6th globally",
+  "generated_at": "2026-06-08T06:05:47.022139+00:00",
+  "records_used": 0,
+  "region_meta": {
+    "gdp_usd_bn": 477,
+    "mobile_penetration_pct": 72,
+    "internet_penetration_pct": 55,
+    "unbanked_pct": 38,
+    "key_stat": "Largest crypto market by volume in Africa, 6th globally",
+    "risk_level": "HIGH",
+    "regulatory_stance": "Volatile \u2014 CBN historically restrictive, SEC progressive"
+  },
+  "opportunity_leaderboard": [
+    {
+      "sector": "Payments",
+      "region": "NG",
+      "opportunity_score": 68.2,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 68.2,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 88,
+        "growth_rate": 70,
+        "regulatory_clarity": 45,
+        "ecosystem_maturity": 75,
+        "competitive_gap": 45,
+        "tech_readiness": 75
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "AI_Fintech",
+      "region": "NG",
+      "opportunity_score": 67.8,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 67.8,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 82,
+        "growth_rate": 88,
+        "regulatory_clarity": 40,
+        "ecosystem_maturity": 55,
+        "competitive_gap": 70,
+        "tech_readiness": 65
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "DeFi",
+      "region": "NG",
+      "opportunity_score": 67.2,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 67.2,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 80,
+        "growth_rate": 90,
+        "regulatory_clarity": 35,
+        "ecosystem_maturity": 65,
+        "competitive_gap": 55,
+        "tech_readiness": 70
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "AgriTech",
+      "region": "NG",
+      "opportunity_score": 62.0,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 62.0,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 75,
+        "growth_rate": 65,
+        "regulatory_clarity": 50,
+        "ecosystem_maturity": 50,
+        "competitive_gap": 72,
+        "tech_readiness": 55
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "Infrastructure",
+      "region": "NG",
+      "opportunity_score": 59.0,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 59.0,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 65,
+        "growth_rate": 75,
+        "regulatory_clarity": 35,
+        "ecosystem_maturity": 55,
+        "competitive_gap": 65,
+        "tech_readiness": 60
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "RWA",
+      "region": "NG",
+      "opportunity_score": 57.6,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 57.6,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 72,
+        "growth_rate": 72,
+        "regulatory_clarity": 30,
+        "ecosystem_maturity": 38,
+        "competitive_gap": 80,
+        "tech_readiness": 55
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "NFT",
+      "region": "NG",
+      "opportunity_score": 51.2,
+      "tier": "EMERGING",
+      "base_score": 51.2,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 55,
+        "growth_rate": 60,
+        "regulatory_clarity": 25,
+        "ecosystem_maturity": 50,
+        "competitive_gap": 70,
+        "tech_readiness": 60
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "Regulatory",
+      "region": "NG",
+      "opportunity_score": 50.2,
+      "tier": "EMERGING",
+      "base_score": 50.2,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 55,
+        "growth_rate": 50,
+        "regulatory_clarity": 40,
+        "ecosystem_maturity": 50,
+        "competitive_gap": 55,
+        "tech_readiness": 55
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "DAO",
+      "region": "NG",
+      "opportunity_score": 46.5,
+      "tier": "EMERGING",
+      "base_score": 46.5,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 40,
+        "growth_rate": 65,
+        "regulatory_clarity": 20,
+        "ecosystem_maturity": 40,
+        "competitive_gap": 80,
+        "tech_readiness": 55
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    }
+  ],
+  "top_entities": [],
+  "news_articles": [],
+  "regulatory_updates": [],
+  "social_signals": {
+    "available": false,
+    "platforms": [],
+    "total_posts": 0
+  },
+  "market_data": {},
+  "risk_flags": [],
+  "watch_list": [
+    {
+      "sector": "AgriTech",
+      "region": "NG",
+      "opportunity_score": 62.0,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 62.0,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 75,
+        "growth_rate": 65,
+        "regulatory_clarity": 50,
+        "ecosystem_maturity": 50,
+        "competitive_gap": 72,
+        "tech_readiness": 55
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "Infrastructure",
+      "region": "NG",
+      "opportunity_score": 59.0,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 59.0,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 65,
+        "growth_rate": 75,
+        "regulatory_clarity": 35,
+        "ecosystem_maturity": 55,
+        "competitive_gap": 65,
+        "tech_readiness": 60
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "RWA",
+      "region": "NG",
+      "opportunity_score": 57.6,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 57.6,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 72,
+        "growth_rate": 72,
+        "regulatory_clarity": 30,
+        "ecosystem_maturity": 38,
+        "competitive_gap": 80,
+        "tech_readiness": 55
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "NFT",
+      "region": "NG",
+      "opportunity_score": 51.2,
+      "tier": "EMERGING",
+      "base_score": 51.2,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 55,
+        "growth_rate": 60,
+        "regulatory_clarity": 25,
+        "ecosystem_maturity": 50,
+        "competitive_gap": 70,
+        "tech_readiness": 60
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    }
+  ]
+}

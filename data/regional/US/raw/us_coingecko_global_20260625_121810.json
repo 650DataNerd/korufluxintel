@@ -1,0 +1,21 @@
+{
+  "source": "us_coingecko_global",
+  "url": "https://api.coingecko.com/api/v3/global",
+  "timestamp": "2026-06-25T12:18:10.534104+00:00",
+  "category": "us_market_data",
+  "entities": [
+    "Bitcoin",
+    "Ethereum",
+    "Crypto Market"
+  ],
+  "raw_data": "{}",
+  "clean_data": {
+    "total_market_cap_usd": 2186908914892.6973,
+    "total_volume_24h_usd": 100415636534.53053,
+    "btc_dominance": 56.04,
+    "active_cryptos": 17383,
+    "market_cap_change_24h": -1.9278225119857901,
+    "source_url": "https://api.coingecko.com/api/v3/global"
+  },
+  "record_hash": "us_coingecko_global_20260625"
+}

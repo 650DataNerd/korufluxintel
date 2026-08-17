@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}KoruFlux · Data Sources{% endblock %}
+{% block page_title %}Data Sources{% endblock %}
+{% block content %}
+<div class="card">
+  <div class="card-header">
+    <div class="card-title"><i data-lucide="rss"></i> Configured Scrape Targets</div>
+    <span style="font-size:12px;color:var(--muted)">{{ targets|length }} sources · Toggle to enable/disable</span>
+  </div>
+  <div class="card-body" style="padding:0">
+    <table>
+      <thead><tr><th>Source</th><th>Type</th><th>Category</th><th>URL</th><th>Enabled</th></tr></thead>
+      <tbody>
+        {% for t in targets %}
+        <tr id="row-{{ t.id }}" style="{% if not t.enabled %}opacity:0.5{% endif %}">
+          <td><strong>{{ t.id }}</strong></td>
+          <td>
+            {% if t.type=='api_json' %}<span class="badge badge-green">API JSON</span>
+            {% elif t.type=='rss' %}<span class="badge badge-amber">RSS Feed</span>
+            {% else %}<span class="badge badge-gray">HTML</span>{% endif %}
+          </td>
+          <td style="font-size:12px;color:var(--muted)">{{ t.category }}</td>
+          <td style="font-size:11px"><a href="{{ t.url }}" target="_blank" style="color:var(--secondary)">{{ t.url[:55] }}{% if t.url|length > 55 %}...{% endif %}</a></td>
+          <td>
+            <label class="toggle">
+              <input type="checkbox" {% if t.enabled %}checked{% endif %} onchange="toggleSource('{{ t.id }}',this)">
+              <span class="slider"></span>
+            </label>
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  <div class="card-footer">
+    <div style="font-size:12px;color:var(--muted)">
+      To add a new source, edit <code>config/config.yaml</code> under <code>scrape_targets</code> and restart the server.
+    </div>
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+function toggleSource(id,cb){
+  fetch(`/sources/toggle/${id}`,{method:'POST'}).then(r=>r.json()).then(()=>{
+    document.getElementById(`row-${id}`).style.opacity=cb.checked?'1':'0.5';
+  });
+}
+</script>
+{% endblock %}

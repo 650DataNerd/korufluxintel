@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}KoruFlux · Reports{% endblock %}
+{% block page_title %}Reports &amp; Exports{% endblock %}
+{% block content %}
+<div class="grid-2">
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title"><i data-lucide="download"></i> Export Files</div>
+      <span style="font-size:12px;color:var(--muted)">{{ exports|length }} files</span>
+    </div>
+    <div class="card-body" style="padding:0">
+      {% if exports %}
+      <table>
+        <thead><tr><th>File</th><th>Size</th><th>Generated</th><th></th></tr></thead>
+        <tbody>
+          {% for f in exports %}
+          <tr>
+            <td>
+              <div style="display:flex;align-items:center;gap:8px">
+                <i data-lucide="{% if '.xlsx' in f.name %}table-2{% elif '.md' in f.name %}file-text{% else %}file{% endif %}" style="width:14px;height:14px;color:var(--muted)"></i>
+                <span style="font-size:12px;font-weight:500">{{ f.name }}</span>
+              </div>
+            </td>
+            <td style="color:var(--muted);font-size:12px">{{ f.size }}</td>
+            <td style="color:var(--muted);font-size:12px">{{ f.modified }}</td>
+            <td><a href="/download/{{ f.name }}" class="btn btn-primary btn-sm"><i data-lucide="download"></i> Download</a></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% else %}
+      <div class="empty-state"><i data-lucide="inbox"></i><p>No exports yet. Run the pipeline first.</p></div>
+      {% endif %}
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title"><i data-lucide="file-json"></i> Intelligence Reports</div>
+      <span style="font-size:12px;color:var(--muted)">{{ reports|length }} reports</span>
+    </div>
+    <div class="card-body" style="padding:0">
+      {% if reports %}
+      <table>
+        <thead><tr><th>Report</th><th>Size</th><th>Generated</th></tr></thead>
+        <tbody>
+          {% for r in reports %}
+          <tr>
+            <td style="font-size:12px">{{ r.name }}</td>
+            <td style="color:var(--muted);font-size:12px">{{ r.size }}</td>
+            <td style="color:var(--muted);font-size:12px">{{ r.modified }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% else %}
+      <div class="empty-state"><i data-lucide="file-x"></i><p>No reports yet.</p></div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+<div class="card">
+  <div class="card-header">
+    <div class="card-title"><i data-lucide="monitor"></i> Interactive Dashboard</div>
+  </div>
+  <div class="card-body">
+    <p style="font-size:13px;color:var(--muted);margin-bottom:14px">The full 8-tab interactive dashboard — share this HTML file directly with clients.</p>
+    <a href="/dashboard-embed" target="_blank" class="btn btn-success"><i data-lucide="external-link"></i> Open Full Dashboard</a>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,160 @@
+{
+  "source": "ea_techpoint",
+  "url": "https://techpoint.africa/feed/",
+  "timestamp": "2026-06-25T12:17:27.959513+00:00",
+  "category": "ea_tech_news",
+  "entities": [
+    "Europe",
+    "Kenya",
+    "SEC",
+    "Nigeria",
+    "AI",
+    "fintech",
+    "blockchain"
+  ],
+  "raw_data": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\n\txmlns:media=\"http://search.yahoo.com/mrss/\" >\n\n<channel>\n\t<title>Techpoint Africa</title>\n\t<atom:link href=\"https://techpoint.africa/feed/\" rel=\"self\" type=\"application/rss+xml\" />\n\t<link>https://techpoint.africa</link>\n\t<description>Startups, Innovation and Technology in Africa</description>\n\t<lastBuildDate>Thu, 25 Jun 2026 10:58:07 +0000</lastBuildDate>\n\t<language>en-US</language>\n\t<sy:updatePeriod>\n\thourly\t</sy:updatePeriod>\n\t<sy:updateFrequency>\n\t1\t</sy:updateFrequency>\n\t<generator>https://wordpress.org/?v=7.0</generator>\n\n<image>\n\t<url>https://techpoint.africa/wp-content/uploads/2021/03/cropped-techpoint-icon-150x150-1-32x3",
+  "clean_data": {
+    "feed_title": "Techpoint Africa",
+    "region": "EA",
+    "article_count": 11,
+    "articles": [
+      {
+        "title": "Paystack\u2019s new experiment lets AI agents make everyday payments for users",
+        "summary": "Paystack has launched Paystack Index, an experimental checkout product that lets users complete everyday transactions through AI agents, marking an early bet on agentic commerce in Africa.",
+        "url": "https://techpoint.africa/insight/paystack-launches-ai-checkout-index/",
+        "published": "Thu, 25 Jun 2026 09:00:00 +0000",
+        "entities": [
+          "AI"
+        ],
+        "source_name": "TechPoint Africa",
+        "verified": true,
+        "source_url": "https://techpoint.africa/feed/"
+      },
+      {
+        "title": "Nigeria wants African trade settled without dollar conversions",
+        "summary": "On Techpoint Digest, we talk about Nigeria's desire for a cross-border card that does not use third-party currencies, Yellow Card's approval in Switzerland, and Daya's $2.4 million fundraising effort to build stablecoin payment infrastructure.",
+        "url": "https://techpoint.africa/insight/techpoint-digest-1374/",
+        "published": "Thu, 25 Jun 2026 07:00:00 +0000",
+        "entities": [
+          "Nigeria",
+          "AI"
+        ],
+        "source_name": "TechPoint Africa",
+        "verified": true,
+        "source_url": "https://techpoint.africa/feed/"
+      },
+      {
+        "title": "Namibia deals Starlink another blow, rejects Starlink appeal",
+        "summary": "On Techpoint Digest, we discuss Namibia's refusal to change the Starlink rule, Moov Africa's telecom service issues, and Naspers launching free AI for South African businesses.",
+        "url": "https://techpoint.africa/insight/techpoint-digest-1373/",
+        "published": "Wed, 24 Jun 2026 07:00:00 +0000",
+        "entities": [
+          "AI"
+        ],
+        "source_name": "TechPoint Africa",
+        "verified": true,
+        "source_url": "https://techpoint.africa/feed/"
+      },
+      {
+        "title": "Chaka Launches Hisa as It Builds a Pan-African Investment Platform",
+        "summary": "The Nigerian fintech that became the country's first SEC-licensed digital...",
+        "url": "https://techpoint.africa/brandpress/chaka-launches-hisa-as-it-builds-a-pan-african-investment-platform/",
+        "published": "Tue, 23 Jun 2026 14:42:27 +0000",
+        "entities": [
+          "Nigeria",
+          "SEC",
+          "fintech"
+        ],
+        "source_name": "TechPoint Africa",
+        "verified": true,
+        "source_url": "https://techpoint.africa/feed/"
+      },
+      {
+        "title": "OneDosh Bridges U.S. Fintech and African Markets With Cash App Funding",
+        "summary": "OneDosh, a global financial technology platform built for cross-border money...",
+        "url": "https://techpoint.africa/brandpress/onedosh-bridges-u-s-fintech-and-african-markets/",
+        "published": "Tue, 23 Jun 2026 13:35:26 +0000",
+        "entities": [
+          "fintech"
+        ],
+        "source_name": "TechPoint Africa",
+        "verified": true,
+        "source_url": "https://techpoint.africa/feed/"
+      },
+      {
+        "title": "Public data is a national asset, not a revenue shortcut",
+        "summary": "A trusted data economy will not be built by selling what citizens submitted in good faith. It will be built by proving that Kenya can turn data into public value without turning citizens into raw material for revenue.",
+        "url": "https://techpoint.africa/insight/public-data-is-a-national-asset/",
+        "published": "Tue, 23 Jun 2026 10:50:30 +0000",
+        "entities": [
+          "Kenya",
+          "AI"
+        ],
+        "source_name": "TechPoint Africa",
+        "verified": true,
+        "source_url": "https://techpoint.africa/feed/"
+      },
+      {
+        "title": "Ivorypay Becomes the First Company in Africa to Launch X402 Payments, Enabling Machine-to-Machine Stablecoin Transactions Across all Major Blockchains",
+        "summary": "Ivorypay, a stablecoin payment infrastructure company operating across 17 African...",
+        "url": "https://techpoint.africa/brandpress/ivorypay-becomes-the-first-company-in-africa-to-launch-x402-payments/",
+        "published": "Tue, 23 Jun 2026 09:42:14 +0000",
+        "entities": [
+          "blockchain",
+          "AI"
+        ],
+        "source_name": "TechPoint Africa",
+        "verified": true,
+        "source_url": "https://techpoint.africa/feed/"
+      },
+      {
+        "title": "NCC tightens enforcement on telecom ownership changes",
+        "summary": "On Techpoint Digest, we discuss how the NCC and CAC are tightening the screws on telecom ownership changes, Africa's EV darling Spiro's $55 million, how US-Iran peace talks could save MTN's frozen asset, and how DStv Stream will now be preloaded on S",
+        "url": "https://techpoint.africa/insight/techpoint-digest-1372/",
+        "published": "Tue, 23 Jun 2026 07:00:00 +0000",
+        "entities": [],
+        "source_name": "TechPoint Africa",
+        "verified": true,
+        "source_url": "https://techpoint.africa/feed/"
+      },
+      {
+        "title": "Payaza launches Shopaza, integrates AI to simplify eCommerce",
+        "summary": "Payaza has launched Shopaza, an eCommerce platform now live across 23 countries in Africa, North America, and Europe, built on Payaza's own payment infrastructure for instant settlement.",
+        "url": "https://techpoint.africa/coverage/shopaza-ecommerce-launch-2026/",
+        "published": "Mon, 22 Jun 2026 11:53:09 +0000",
+        "entities": [
+          "Europe",
+          "AI"
+        ],
+        "source_name": "TechPoint Africa",
+        "verified": true,
+        "source_url": "https://techpoint.africa/feed/"
+      },
+      {
+        "title": "Voranex Africa Expands Its Global Footprint Following Uk Government Delegation And Canada\u2013Africa Chamber Recognition",
+        "summary": "Voranex Africa, a B2B commercial execution firm helping global companies...",
+        "url": "https://techpoint.africa/brandpress/voranex-africa-expands-its-global-footprint-following-uk-government/",
+        "published": "Mon, 22 Jun 2026 08:00:00 +0000",
+        "entities": [],
+        "source_name": "TechPoint Africa",
+        "verified": true,
+        "source_url": "https://techpoint.africa/feed/"
+      },
+      {
+        "title": "South Africa\u2019s Yoco expands beyond payments with AI deal",
+        "summary": "On Techpoint Digest, we talk about SA's Yoco expanding beyond payments with an AI deal, the CBN's data localisation rule, which raises fintech concerns, and Visa\u2019s AI plan to shop with your card in SA.",
+        "url": "https://techpoint.africa/insight/techpoint-digest-1371/",
+        "published": "Mon, 22 Jun 2026 07:00:00 +0000",
+        "entities": [
+          "AI",
+          "fintech"
+        ],
+        "source_name": "TechPoint Africa",
+        "verified": true,
+        "source_url": "https://techpoint.africa/feed/"
+      }
+    ],
+    "source_url": "https://techpoint.africa/feed/"
+  },
+  "record_hash": "ea_techpoint_20260625"
+}

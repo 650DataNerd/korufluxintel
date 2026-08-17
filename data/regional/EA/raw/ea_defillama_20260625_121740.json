@@ -1,0 +1,155 @@
+{
+  "source": "ea_defillama",
+  "url": "https://api.llama.fi/protocols",
+  "timestamp": "2026-06-25T12:17:40.604636+00:00",
+  "category": "ea_defi_data",
+  "entities": [
+    "Binance CEX",
+    "OKX",
+    "Bitfinex",
+    "Lido",
+    "Bybit",
+    "Aave V3",
+    "Robinhood",
+    "SSV Network",
+    "LayerZero V2",
+    "WBTC",
+    "Morpho Blue",
+    "Binance staked ETH",
+    "Hyperliquid Bridge",
+    "Sky Lending",
+    "Coinbase Bridge",
+    "MEXC",
+    "EigenCloud",
+    "Ethena USDe",
+    "Bitget",
+    "Gate"
+  ],
+  "raw_data": "{}",
+  "clean_data": {
+    "top_protocols": [
+      {
+        "name": "Binance CEX",
+        "tvl_usd": 135014518184,
+        "category": "CEX",
+        "chain": "Multi-Chain"
+      },
+      {
+        "name": "OKX",
+        "tvl_usd": 21680659087,
+        "category": "CEX",
+        "chain": "Multi-Chain"
+      },
+      {
+        "name": "Bitfinex",
+        "tvl_usd": 16256995546,
+        "category": "CEX",
+        "chain": "Multi-Chain"
+      },
+      {
+        "name": "Lido",
+        "tvl_usd": 14902370447,
+        "category": "Liquid Staking",
+        "chain": "Multi-Chain"
+      },
+      {
+        "name": "Bybit",
+        "tvl_usd": 13678775094,
+        "category": "CEX",
+        "chain": "Multi-Chain"
+      },
+      {
+        "name": "Aave V3",
+        "tvl_usd": 12013154075,
+        "category": "Lending",
+        "chain": "Multi-Chain"
+      },
+      {
+        "name": "Robinhood",
+        "tvl_usd": 10884168170,
+        "category": "CEX",
+        "chain": "Multi-Chain"
+      },
+      {
+        "name": "SSV Network",
+        "tvl_usd": 8067617008,
+        "category": "Staking Pool",
+        "chain": "Ethereum"
+      },
+      {
+        "name": "LayerZero V2",
+        "tvl_usd": 7406443178,
+        "category": "Bridge",
+        "chain": "Multi-Chain"
+      },
+      {
+        "name": "WBTC",
+        "tvl_usd": 6990384942,
+        "category": "Bridge",
+        "chain": "Bitcoin"
+      },
+      {
+        "name": "Morpho Blue",
+        "tvl_usd": 6665018594,
+        "category": "Lending",
+        "chain": "Multi-Chain"
+      },
+      {
+        "name": "Binance staked ETH",
+        "tvl_usd": 6087643449,
+        "category": "Liquid Staking",
+        "chain": "Multi-Chain"
+      },
+      {
+        "name": "Hyperliquid Bridge",
+        "tvl_usd": 5701125290,
+        "category": "Bridge",
+        "chain": "Multi-Chain"
+      },
+      {
+        "name": "Sky Lending",
+        "tvl_usd": 5644346592,
+        "category": "CDP",
+        "chain": "Ethereum"
+      },
+      {
+        "name": "Coinbase Bridge",
+        "tvl_usd": 5392806645,
+        "category": "Bridge",
+        "chain": "Multi-Chain"
+      },
+      {
+        "name": "MEXC",
+        "tvl_usd": 4701048638,
+        "category": "CEX",
+        "chain": "Multi-Chain"
+      },
+      {
+        "name": "EigenCloud",
+        "tvl_usd": 4526999325,
+        "category": "Restaking",
+        "chain": "Ethereum"
+      },
+      {
+        "name": "Ethena USDe",
+        "tvl_usd": 4473837541,
+        "category": "Basis Trading",
+        "chain": "Ethereum"
+      },
+      {
+        "name": "Bitget",
+        "tvl_usd": 4353893404,
+        "category": "CEX",
+        "chain": "Multi-Chain"
+      },
+      {
+        "name": "Gate",
+        "tvl_usd": 4342864971,
+        "category": "CEX",
+        "chain": "Multi-Chain"
+      }
+    ],
+    "source_url": "https://api.llama.fi/protocols"
+  },
+  "record_hash": "ea_defillama_20260625"
+}

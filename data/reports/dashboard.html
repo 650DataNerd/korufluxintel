@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KoruFlux · Intelligence Dashboard</title>
+<style>
+  * { box-sizing:border-box; margin:0; padding:0 }
+  body { font-family:'Segoe UI',Arial,sans-serif; background:#F8F9FA; color:#1A1A2E }
+  .header { background:linear-gradient(135deg,#0A2E36,#00B4D8); color:white; padding:32px 40px }
+  .header h1 { font-size:28px; font-weight:800; letter-spacing:1px }
+  .header p { opacity:0.85; margin-top:6px; font-size:15px }
+  .meta { font-size:12px; opacity:0.7; margin-top:10px }
+  .container { max-width:1100px; margin:32px auto; padding:0 24px }
+  .section { background:white; border-radius:12px; padding:24px; margin-bottom:28px; box-shadow:0 2px 10px rgba(0,0,0,0.06) }
+  h2 { color:#0A2E36; font-size:19px; margin-bottom:18px; border-bottom:2px solid #00B4D8; padding-bottom:8px }
+  table { width:100%; border-collapse:collapse; font-size:14px }
+  th { background:#0A2E36; color:white; padding:10px 12px; text-align:left }
+  td { padding:9px 12px; border-bottom:1px solid #eee }
+  tr:hover td { background:#f0f9ff }
+  .stat-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(180px,1fr)); gap:16px; margin-bottom:8px }
+  .stat { background:#F8F9FA; border-radius:10px; padding:16px; text-align:center; border:1px solid #e0e0e0 }
+  .stat .val { font-size:26px; font-weight:800; color:#00B4D8 }
+  .stat .lbl { font-size:13px; color:#8D99AE; margin-top:4px }
+  footer { text-align:center; color:#8D99AE; font-size:12px; padding:24px 0 }
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>🌍 KoruFlux Intelligence Dashboard</h1>
+  <p>Web3 · AI · Data · East Africa Market Entry</p>
+  <div class="meta">Generated: 2026-06-25 12:22:10 UTC &nbsp;|&nbsp;
+  Records analysed: 5 &nbsp;|&nbsp;
+  Sources: 5</div>
+</div>
+
+<div class="container">
+
+  <!-- Summary Stats -->
+  <div class="section">
+    <h2>📊 Market Summary</h2>
+    <div class="stat-grid">
+      <div class="stat"><div class="val">9</div><div class="lbl">Sectors Scored</div></div>
+      <div class="stat"><div class="val">95.0</div><div class="lbl">Top Score: Payments</div></div>
+      <div class="stat"><div class="val">4</div><div class="lbl">High Opportunity Sectors</div></div>
+      <div class="stat"><div class="val">0</div><div class="lbl">Risk Signals Detected</div></div>
+    </div>
+  </div>
+
+  <!-- Opportunity Leaderboard -->
+  <div class="section">
+    <h2>🏆 Opportunity Leaderboard</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Sector</th><th>Score</th><th>Tier</th>
+          <th>Mentions</th><th>Momentum</th>
+          <th>Market Size</th><th>Reg. Clarity</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Payments</strong></td>
+          <td style="text-align:center;font-weight:bold;font-size:16px">95.0</td>
+          <td><span style="background:#2EC4B6;color:white;padding:3px 8px;border-radius:12px;font-size:12px;font-weight:600">HIGH OPPORTUNITY</span></td>
+          <td style="text-align:center">4</td>
+          <td style="text-align:center">↑ growing</td>
+          <td style="text-align:center">90</td>
+          <td style="text-align:center">70</td>
+        </tr>
+        <tr>
+          <td><strong>AI_Fintech</strong></td>
+          <td style="text-align:center;font-weight:bold;font-size:16px">90.0</td>
+          <td><span style="background:#2EC4B6;color:white;padding:3px 8px;border-radius:12px;font-size:12px;font-weight:600">HIGH OPPORTUNITY</span></td>
+          <td style="text-align:center">5</td>
+          <td style="text-align:center">↑ growing</td>
+          <td style="text-align:center">80</td>
+          <td style="text-align:center">55</td>
+        </tr>
+        <tr>
+          <td><strong>DeFi</strong></td>
+          <td style="text-align:center;font-weight:bold;font-size:16px">85.2</td>
+          <td><span style="background:#2EC4B6;color:white;padding:3px 8px;border-radius:12px;font-size:12px;font-weight:600">HIGH OPPORTUNITY</span></td>
+          <td style="text-align:center">5</td>
+          <td style="text-align:center">↑ growing</td>
+          <td style="text-align:center">70</td>
+          <td style="text-align:center">45</td>
+        </tr>
+        <tr>
+          <td><strong>Regulatory</strong></td>
+          <td style="text-align:center;font-weight:bold;font-size:16px">77.5</td>
+          <td><span style="background:#2EC4B6;color:white;padding:3px 8px;border-radius:12px;font-size:12px;font-weight:600">HIGH OPPORTUNITY</span></td>
+          <td style="text-align:center">5</td>
+          <td style="text-align:center">↑ growing</td>
+          <td style="text-align:center">50</td>
+          <td style="text-align:center">65</td>
+        </tr>
+        <tr>
+          <td><strong>RWA</strong></td>
+          <td style="text-align:center;font-weight:bold;font-size:16px">65.5</td>
+          <td><span style="background:#F4A261;color:white;padding:3px 8px;border-radius:12px;font-size:12px;font-weight:600">MODERATE OPPORTUNITY</span></td>
+          <td style="text-align:center">2</td>
+          <td style="text-align:center">→ stable</td>
+          <td style="text-align:center">75</td>
+          <td style="text-align:center">40</td>
+        </tr>
+        <tr>
+          <td><strong>NFT</strong></td>
+          <td style="text-align:center;font-weight:bold;font-size:16px">63.8</td>
+          <td><span style="background:#F4A261;color:white;padding:3px 8px;border-radius:12px;font-size:12px;font-weight:600">MODERATE OPPORTUNITY</span></td>
+          <td style="text-align:center">4</td>
+          <td style="text-align:center">↑ growing</td>
+          <td style="text-align:center">40</td>
+          <td style="text-align:center">30</td>
+        </tr>
+        <tr>
+          <td><strong>DAO</strong></td>
+          <td style="text-align:center;font-weight:bold;font-size:16px">61.8</td>
+          <td><span style="background:#F4A261;color:white;padding:3px 8px;border-radius:12px;font-size:12px;font-weight:600">MODERATE OPPORTUNITY</span></td>
+          <td style="text-align:center">4</td>
+          <td style="text-align:center">↑ growing</td>
+          <td style="text-align:center">35</td>
+          <td style="text-align:center">20</td>
+        </tr>
+        <tr>
+          <td><strong>AgriTech</strong></td>
+          <td style="text-align:center;font-weight:bold;font-size:16px">61.5</td>
+          <td><span style="background:#F4A261;color:white;padding:3px 8px;border-radius:12px;font-size:12px;font-weight:600">MODERATE OPPORTUNITY</span></td>
+          <td style="text-align:center">0</td>
+          <td style="text-align:center">→ stable</td>
+          <td style="text-align:center">65</td>
+          <td style="text-align:center">60</td>
+        </tr>
+        <tr>
+          <td><strong>Infrastructure</strong></td>
+          <td style="text-align:center;font-weight:bold;font-size:16px">60.2</td>
+          <td><span style="background:#F4A261;color:white;padding:3px 8px;border-radius:12px;font-size:12px;font-weight:600">MODERATE OPPORTUNITY</span></td>
+          <td style="text-align:center">1</td>
+          <td style="text-align:center">→ stable</td>
+          <td style="text-align:center">60</td>
+          <td style="text-align:center">50</td>
+        </tr></tbody>
+    </table>
+  </div>
+
+  <!-- Theme Clusters -->
+  <div class="section">
+    <h2>🎯 Strategic Theme Clusters</h2>
+    
+        <div style="background:white;border-left:5px solid #2EC4B6;padding:16px;border-radius:8px;margin-bottom:12px;box-shadow:0 2px 6px rgba(0,0,0,0.06)">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <h4 style="margin:0;color:#0A2E36">Market Demand</h4>
+            <span style="font-size:22px;font-weight:800;color:#2EC4B6">78.0</span>
+          </div>
+          <div style="color:#8D99AE;font-size:13px;margin-top:4px">↑ Strong · Payments, AI_Fintech, RWA, AgriTech</div>
+        </div>
+        <div style="background:white;border-left:5px solid #2EC4B6;padding:16px;border-radius:8px;margin-bottom:12px;box-shadow:0 2px 6px rgba(0,0,0,0.06)">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <h4 style="margin:0;color:#0A2E36">Competitive Landscape</h4>
+            <span style="font-size:22px;font-weight:800;color:#2EC4B6">80.1</span>
+          </div>
+          <div style="color:#8D99AE;font-size:13px;margin-top:4px">↑ Strong · Payments, DeFi, Infrastructure</div>
+        </div>
+        <div style="background:white;border-left:5px solid #2EC4B6;padding:16px;border-radius:8px;margin-bottom:12px;box-shadow:0 2px 6px rgba(0,0,0,0.06)">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <h4 style="margin:0;color:#0A2E36">Technology Trends</h4>
+            <span style="font-size:22px;font-weight:800;color:#2EC4B6">74.3</span>
+          </div>
+          <div style="color:#8D99AE;font-size:13px;margin-top:4px">↑ Strong · DeFi, AI_Fintech, Infrastructure, DAO</div>
+        </div>
+        <div style="background:white;border-left:5px solid #2EC4B6;padding:16px;border-radius:8px;margin-bottom:12px;box-shadow:0 2px 6px rgba(0,0,0,0.06)">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <h4 style="margin:0;color:#0A2E36">Investment Signals</h4>
+            <span style="font-size:22px;font-weight:800;color:#2EC4B6">76.1</span>
+          </div>
+          <div style="color:#8D99AE;font-size:13px;margin-top:4px">↑ Strong · DeFi, RWA, AI_Fintech, NFT</div>
+        </div>
+        <div style="background:white;border-left:5px solid #2EC4B6;padding:16px;border-radius:8px;margin-bottom:12px;box-shadow:0 2px 6px rgba(0,0,0,0.06)">
+          <div style="display:flex;justify-content:space-between;align-items:center">
+            <h4 style="margin:0;color:#0A2E36">Regulatory Environment</h4>
+            <span style="font-size:22px;font-weight:800;color:#2EC4B6">85.9</span>
+          </div>
+          <div style="color:#8D99AE;font-size:13px;margin-top:4px">↑ Strong · Regulatory, Payments, DeFi</div>
+        </div>
+  </div>
+
+  <!-- Client Insights -->
+  <div class="section">
+    <h2>💡 Client Intelligence Briefs</h2>
+    <h3 style='color:#0A2E36;margin-top:28px'>🚀 Web3 Startup Entering Kenya</h3>
+            <div style="background:white;padding:16px;border-radius:10px;margin-bottom:12px;box-shadow:0 2px 8px rgba(0,0,0,0.07)">
+              <div style="display:flex;justify-content:space-between;align-items:flex-start">
+                <div>
+                  <strong style="font-size:16px;color:#0A2E36">Payments</strong>
+                  <span style="background:#2EC4B6;color:white;padding:3px 8px;border-radius:12px;font-size:12px;font-weight:600">HIGH OPPORTUNITY</span>
+                </div>
+                <div style="font-size:24px;font-weight:800;color:#00B4D8">95.0</div>
+              </div>
+              <p style="color:#444;margin:10px 0 8px 0;font-size:14px">Payments is hyper-competitive (M-Pesa ~95% mobile money dominance) but cross-border and B2B stablecoin rails remain open. Focus on the $48B East African remittance corridor — USDT/USDC rails outcompete SWIFT on cost. Regulatory path: engage CBK directly, use KoruFlux's existing contacts.</p>
+              <div style="font-size:13px;color:#555">
+                <strong>Action items:</strong>
+                <ul style="margin:6px 0 0 0;padding-left:18px">
+                  <li>Identify cross-border stablecoin corridor (KES/UGX/TZS)</li><li>Engage CBK FinTech liaison office</li><li>Pilot with 3 Kenyan SMEs on B2B payment flows</li><li>Legal: review VASP framework timeline</li>
+                </ul>
+              </div>
+            </div>
+            <div style="background:white;padding:16px;border-radius:10px;margin-bottom:12px;box-shadow:0 2px 8px rgba(0,0,0,0.07)">
+              <div style="display:flex;justify-content:space-between;align-items:flex-start">
+                <div>
+                  <strong style="font-size:16px;color:#0A2E36">DeFi</strong>
+                  <span style="background:#2EC4B6;color:white;padding:3px 8px;border-radius:12px;font-size:12px;font-weight:600">HIGH OPPORTUNITY</span>
+                </div>
+                <div style="font-size:24px;font-weight:800;color:#00B4D8">85.2</div>
+              </div>
+              <p style="color:#444;margin:10px 0 8px 0;font-size:14px">Kenya's DeFi market shows strong upside. Regulatory clarity is improving post-CMA sandbox framework. Entry via lending/stablecoin products aligned with existing M-Pesa corridors offers fastest PMF path. Partner with local SACCOs or MFIs to build trust and distribution.</p>
+              <div style="font-size:13px;color:#555">
+                <strong>Action items:</strong>
+                <ul style="margin:6px 0 0 0;padding-left:18px">
+                  <li>Engage CMA Kenya sandbox programme</li><li>Map existing SACCO and MFI networks for distribution partnerships</li><li>Audit competitor protocols (no EA-native DeFi leaders yet)</li><li>Commission KoruFlux Jurisdiction Intelligence sprint</li>
+                </ul>
+              </div>
+            </div>
+            <div style="background:white;padding:16px;border-radius:10px;margin-bottom:12px;box-shadow:0 2px 8px rgba(0,0,0,0.07)">
+              <div style="display:flex;justify-content:space-between;align-items:flex-start">
+                <div>
+                  <strong style="font-size:16px;color:#0A2E36">Infrastructure</strong>
+                  <span style="background:#F4A261;color:white;padding:3px 8px;border-radius:12px;font-size:12px;font-weight:600">MODERATE OPPORTUNITY</span>
+                </div>
+                <div style="font-size:24px;font-weight:800;color:#00B4D8">60.2</div>
+              </div>
+              <p style="color:#444;margin:10px 0 8px 0;font-size:14px">Node infrastructure and oracle networks in EA are thin — significant gap for middleware/tooling plays. Low-risk entry: build developer tooling that doesn't require local regulatory approval. GitHub activity in 'blockchain Kenya' is growing 40%+ YoY signalling developer demand.</p>
+              <div style="font-size:13px;color:#555">
+                <strong>Action items:</strong>
+                <ul style="margin:6px 0 0 0;padding-left:18px">
+                  <li>Research Infrastructure landscape in target market</li><li>Identify 3-5 potential local partners</li><li>Assess regulatory requirements</li><li>Develop pilot scope with KoruFlux advisory support</li>
+                </ul>
+              </div>
+            </div><h3 style='color:#0A2E36;margin-top:28px'>🤖 AI Fintech Opportunity in East Africa</h3>
+            <div style="background:white;padding:16px;border-radius:10px;margin-bottom:12px;box-shadow:0 2px 8px rgba(0,0,0,0.07)">
+              <div style="display:flex;justify-content:space-between;align-items:flex-start">
+                <div>
+                  <strong style="font-size:16px;color:#0A2E36">Payments</strong>
+                  <span style="background:#2EC4B6;color:white;padding:3px 8px;border-radius:12px;font-size:12px;font-weight:600">HIGH OPPORTUNITY</span>
+                </div>
+                <div style="font-size:24px;font-weight:800;color:#00B4D8">95.0</div>
+              </div>
+              <p style="color:#444;margin:10px 0 8px 0;font-size:14px">AI + Payments convergence is the core opportunity. M-Pesa processes $314B/year in Kenya alone. Embedding AI credit, risk, and personalisation layers into existing payment flows — without replacing the rails — is the fastest GTM. Regulatory path: partner with licensed EMI or bank for immediate market access.</p>
+              <div style="font-size:13px;color:#555">
+                <strong>Action items:</strong>
+                <ul style="margin:6px 0 0 0;padding-left:18px">
+                  <li>Secure API partnership with Safaricom Daraja</li><li>Build AI fraud layer as white-label offering to PSPs</li><li>Engage CBK on AI model risk disclosure requirements</li><li>KoruFlux can facilitate Safaricom / Equity Bank introductions</li>
+                </ul>
+              </div>
+            </div>
+            <div style="background:white;padding:16px;border-radius:10px;margin-bottom:12px;box-shadow:0 2px 8px rgba(0,0,0,0.07)">
+              <div style="display:flex;justify-content:space-between;align-items:flex-start">
+                <div>
+                  <strong style="font-size:16px;color:#0A2E36">AI_Fintech</strong>
+                  <span style="background:#2EC4B6;color:white;padding:3px 8px;border-radius:12px;font-size:12px;font-weight:600">HIGH OPPORTUNITY</span>
+                </div>
+                <div style="font-size:24px;font-weight:800;color:#00B4D8">90.0</div>
+              </div>
+              <p style="color:#444;margin:10px 0 8px 0;font-size:14px">East Africa represents one of the highest-upside AI fintech markets globally. Thin incumbent AI infrastructure, massive mobile-first data pools, and a young (median age 20) digitally-native population. Priority use cases: alternative credit scoring (67% unbanked in EA), fraud detection for mobile money, and AI-driven KYC automation.</p>
+              <div style="font-size:13px;color:#555">
+                <strong>Action items:</strong>
+                <ul style="margin:6px 0 0 0;padding-left:18px">
+                  <li>Source anonymised mobile money transaction datasets</li><li>Pilot alternative credit scoring model with MFI partner</li><li>Register data processor under Kenya Data Protection Act 2019</li><li>Build local AI/ML team (Nairobi has 3rd-largest AI talent pool in Africa)</li>
+                </ul>
+              </div>
+            </div>
+            <div style="background:white;padding:16px;border-radius:10px;margin-bottom:12px;box-shadow:0 2px 8px rgba(0,0,0,0.07)">
+              <div style="display:flex;justify-content:space-between;align-items:flex-start">
+                <div>
+                  <strong style="font-size:16px;color:#0A2E36">AgriTech</strong>
+                  <span style="background:#F4A261;color:white;padding:3px 8px;border-radius:12px;font-size:12px;font-weight:600">MODERATE OPPORTUNITY</span>
+                </div>
+                <div style="font-size:24px;font-weight:800;color:#00B4D8">61.5</div>
+              </div>
+              <p style="color:#444;margin:10px 0 8px 0;font-size:14px">Agricultural AI in EA is underserved and high-impact. 70%+ of EA workforce is in agriculture. AI-driven crop prediction, supply chain finance, and satellite data-based insurance represent a $2B+ addressable market by 2028. USAID and WFP actively funding pilot programmes — useful non-dilutive entry path.</p>
+              <div style="font-size:13px;color:#555">
+                <strong>Action items:</strong>
+                <ul style="margin:6px 0 0 0;padding-left:18px">
+                  <li>Research AgriTech landscape in target market</li><li>Identify 3-5 potential local partners</li><li>Assess regulatory requirements</li><li>Develop pilot scope with KoruFlux advisory support</li>
+                </ul>
+              </div>
+            </div>
+  </div>
+
+  <!-- Risk Flags -->
+  <div class="section">
+    <h2>⚠️ Risk Signals</h2>
+    <table>
+      <thead><tr><th>Signal</th><th>Source</th><th>Severity</th></tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+</div>
+<footer>KoruFlux Intelligence System · Build. Transition. Strategize. Land. · hello@koruflux.io</footer>
+</body>
+</html>

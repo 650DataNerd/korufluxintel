@@ -1,0 +1,431 @@
+{
+  "region_code": "EA",
+  "region_name": "East Africa",
+  "generated_at": "2026-06-25T12:22:11.749284+00:00",
+  "data_points": 0,
+  "meta": {
+    "name": "East Africa",
+    "gdp_usd": "350B (bloc)",
+    "unbanked_pct": 67,
+    "mobile_money_users": "80M+",
+    "internet_penetration_pct": 28,
+    "key_stat": "67% unbanked \u2014 largest DeFi addressable market globally",
+    "key_regulator": "Multiple: CBK, BoT, BoU, BNR",
+    "sandbox": false,
+    "data_source": "World Bank 2024, GSMA Mobile Economy 2024"
+  },
+  "market_sentiment": {
+    "score": 0.0,
+    "label": "neutral",
+    "momentum": "Stable",
+    "positive_signals": 0,
+    "negative_signals": 0
+  },
+  "opportunity_leaderboard": [
+    {
+      "sector": "Payments",
+      "opportunity_score": 73.4,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 73.4,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 88,
+        "growth_rate": 82,
+        "regulatory_clarity": 60,
+        "ecosystem_maturity": 70,
+        "competitive_gap": 50,
+        "tech_readiness": 75
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 65.8,
+        "tier": "GOOD FIT"
+      }
+    },
+    {
+      "sector": "AgriTech",
+      "opportunity_score": 68.8,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 68.8,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 82,
+        "growth_rate": 75,
+        "regulatory_clarity": 62,
+        "ecosystem_maturity": 58,
+        "competitive_gap": 70,
+        "tech_readiness": 52
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 63.6,
+        "tier": "GOOD FIT"
+      }
+    },
+    {
+      "sector": "AI_Fintech",
+      "opportunity_score": 68.0,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 68.0,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 78,
+        "growth_rate": 90,
+        "regulatory_clarity": 50,
+        "ecosystem_maturity": 45,
+        "competitive_gap": 82,
+        "tech_readiness": 55
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 61.6,
+        "tier": "GOOD FIT"
+      }
+    },
+    {
+      "sector": "DeFi",
+      "opportunity_score": 59.8,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 59.8,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 65,
+        "growth_rate": 85,
+        "regulatory_clarity": 35,
+        "ecosystem_maturity": 40,
+        "competitive_gap": 80,
+        "tech_readiness": 55
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 54.5,
+        "tier": "POSSIBLE FIT"
+      }
+    },
+    {
+      "sector": "RWA",
+      "opportunity_score": 59.7,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 59.7,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 72,
+        "growth_rate": 78,
+        "regulatory_clarity": 35,
+        "ecosystem_maturity": 35,
+        "competitive_gap": 88,
+        "tech_readiness": 50
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 54.0,
+        "tier": "POSSIBLE FIT"
+      }
+    },
+    {
+      "sector": "Regulatory",
+      "opportunity_score": 54.8,
+      "tier": "EMERGING / MONITOR",
+      "base_score": 54.8,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 48,
+        "growth_rate": 60,
+        "regulatory_clarity": 55,
+        "ecosystem_maturity": 55,
+        "competitive_gap": 60,
+        "tech_readiness": 55
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 56.1,
+        "tier": "GOOD FIT"
+      }
+    },
+    {
+      "sector": "Infrastructure",
+      "opportunity_score": 54.7,
+      "tier": "EMERGING / MONITOR",
+      "base_score": 54.7,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 50,
+        "growth_rate": 72,
+        "regulatory_clarity": 45,
+        "ecosystem_maturity": 42,
+        "competitive_gap": 75,
+        "tech_readiness": 50
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 54.1,
+        "tier": "POSSIBLE FIT"
+      }
+    },
+    {
+      "sector": "NFT",
+      "opportunity_score": 38.7,
+      "tier": "EMERGING / MONITOR",
+      "base_score": 38.7,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 30,
+        "growth_rate": 48,
+        "regulatory_clarity": 25,
+        "ecosystem_maturity": 25,
+        "competitive_gap": 88,
+        "tech_readiness": 40
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 42.4,
+        "tier": "POSSIBLE FIT"
+      }
+    },
+    {
+      "sector": "DAO",
+      "opportunity_score": 37.3,
+      "tier": "EMERGING / MONITOR",
+      "base_score": 37.3,
+      "sentiment_adjustment": 0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 28,
+        "growth_rate": 52,
+        "regulatory_clarity": 18,
+        "ecosystem_maturity": 22,
+        "competitive_gap": 92,
+        "tech_readiness": 38
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0,
+        "label": "neutral",
+        "momentum": "Stable"
+      },
+      "client_relevance": {
+        "score": 40.5,
+        "tier": "POSSIBLE FIT"
+      }
+    }
+  ],
+  "top_sector": {
+    "sector": "Payments",
+    "opportunity_score": 73.4,
+    "tier": "MODERATE OPPORTUNITY",
+    "base_score": 73.4,
+    "sentiment_adjustment": 0,
+    "mention_boost": 0.0,
+    "dimensions": {
+      "market_size": 88,
+      "growth_rate": 82,
+      "regulatory_clarity": 60,
+      "ecosystem_maturity": 70,
+      "competitive_gap": 50,
+      "tech_readiness": 75
+    },
+    "mention_count": 0,
+    "sentiment": {
+      "score": 0,
+      "label": "neutral",
+      "momentum": "Stable"
+    },
+    "client_relevance": {
+      "score": 65.8,
+      "tier": "GOOD FIT"
+    }
+  },
+  "high_opportunity_count": 0,
+  "news_items": [],
+  "social_items": [],
+  "regulatory_items": [],
+  "risk_signals": [],
+  "sources_used": [],
+  "client_relevance_ranking": [
+    {
+      "sector": "Payments",
+      "score": 65.8,
+      "tier": "GOOD FIT"
+    },
+    {
+      "sector": "AgriTech",
+      "score": 63.6,
+      "tier": "GOOD FIT"
+    },
+    {
+      "sector": "AI_Fintech",
+      "score": 61.6,
+      "tier": "GOOD FIT"
+    },
+    {
+      "sector": "Regulatory",
+      "score": 56.1,
+      "tier": "GOOD FIT"
+    },
+    {
+      "sector": "DeFi",
+      "score": 54.5,
+      "tier": "POSSIBLE FIT"
+    },
+    {
+      "sector": "Infrastructure",
+      "score": 54.1,
+      "tier": "POSSIBLE FIT"
+    },
+    {
+      "sector": "RWA",
+      "score": 54.0,
+      "tier": "POSSIBLE FIT"
+    },
+    {
+      "sector": "NFT",
+      "score": 42.4,
+      "tier": "POSSIBLE FIT"
+    },
+    {
+      "sector": "DAO",
+      "score": 40.5,
+      "tier": "POSSIBLE FIT"
+    }
+  ],
+  "jurisdiction_intelligence": {
+    "entity_structure": "Kenya Ltd as regional holding entity, with branch registration in Tanzania, Uganda, Rwanda as needed. EAC Common Market Protocol eases cross-border operations.",
+    "tax_exposure": "30% corporate tax (Kenya/Tanzania/Uganda), 28% (Rwanda). No harmonised digital asset tax \u2014 assess per-country.",
+    "compliance_framework": "Fragmented \u2014 each central bank regulates independently. Rwanda's BNR is most progressive on fintech sandboxes. KIFC positioning as a future tokenisation hub.",
+    "rwa_tokenization_status": "No regional framework. Rwanda's KIFC is positioning as a future tokenisation hub.",
+    "recommended_engagement": "Diagnostic Session",
+    "engagement_rationale": "Multi-jurisdiction complexity requires a Diagnostic to sequence which EA country to enter first.",
+    "network_access": "KoruFlux's Nairobi base provides direct access to EAC policy networks and cross-border payment corridors."
+  },
+  "client_archetypes": [
+    {
+      "archetype": "DeFi Platform",
+      "description": "Lending, trading, and yield platforms seeking regulatory clarity for market entry.",
+      "avg_opportunity_score": 67.1,
+      "avg_client_fit_score": 60.6,
+      "best_sector": "Payments",
+      "best_sector_score": 73.4,
+      "recommended_engagement": "Diagnostic Session",
+      "engagement_rationale": "Multi-jurisdiction complexity requires a Diagnostic to sequence which EA country to enter first.",
+      "priority_sectors": [
+        {
+          "sector": "DeFi",
+          "opportunity": 59.8,
+          "client_fit": 54.5
+        },
+        {
+          "sector": "Payments",
+          "opportunity": 73.4,
+          "client_fit": 65.8
+        },
+        {
+          "sector": "AI_Fintech",
+          "opportunity": 68.0,
+          "client_fit": 61.6
+        }
+      ]
+    },
+    {
+      "archetype": "RWA Project",
+      "description": "Real-world asset tokenisation projects evaluating jurisdictions for issuer registration.",
+      "avg_opportunity_score": 56.4,
+      "avg_client_fit_score": 54.7,
+      "best_sector": "RWA",
+      "best_sector_score": 59.7,
+      "recommended_engagement": "Diagnostic Session",
+      "engagement_rationale": "Multi-jurisdiction complexity requires a Diagnostic to sequence which EA country to enter first.",
+      "priority_sectors": [
+        {
+          "sector": "RWA",
+          "opportunity": 59.7,
+          "client_fit": 54.0
+        },
+        {
+          "sector": "Regulatory",
+          "opportunity": 54.8,
+          "client_fit": 56.1
+        },
+        {
+          "sector": "Infrastructure",
+          "opportunity": 54.7,
+          "client_fit": 54.1
+        }
+      ]
+    },
+    {
+      "archetype": "Web3 Protocol",
+      "description": "Infrastructure, L2s, oracles, and developer tooling expanding into new jurisdictions.",
+      "avg_opportunity_score": 50.6,
+      "avg_client_fit_score": 49.7,
+      "best_sector": "DeFi",
+      "best_sector_score": 59.8,
+      "recommended_engagement": "Diagnostic Session",
+      "engagement_rationale": "Multi-jurisdiction complexity requires a Diagnostic to sequence which EA country to enter first.",
+      "priority_sectors": [
+        {
+          "sector": "Infrastructure",
+          "opportunity": 54.7,
+          "client_fit": 54.1
+        },
+        {
+          "sector": "DeFi",
+          "opportunity": 59.8,
+          "client_fit": 54.5
+        },
+        {
+          "sector": "DAO",
+          "opportunity": 37.3,
+          "client_fit": 40.5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "region_code": "KE",
+  "region_name": "M-Pesa processes $314B annually",
+  "generated_at": "2026-06-08T06:00:26.094283+00:00",
+  "records_used": 0,
+  "region_meta": {
+    "gdp_usd_bn": 118,
+    "mobile_penetration_pct": 63,
+    "internet_penetration_pct": 42,
+    "unbanked_pct": 27,
+    "key_stat": "M-Pesa processes $314B annually",
+    "risk_level": "MODERATE",
+    "regulatory_stance": "Cautiously progressive"
+  },
+  "opportunity_leaderboard": [
+    {
+      "sector": "Payments",
+      "region": "KE",
+      "opportunity_score": 76.0,
+      "tier": "HIGH OPPORTUNITY",
+      "base_score": 76.0,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 90,
+        "growth_rate": 75,
+        "regulatory_clarity": 70,
+        "ecosystem_maturity": 80,
+        "competitive_gap": 40,
+        "tech_readiness": 85
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "AI_Fintech",
+      "region": "KE",
+      "opportunity_score": 70.5,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 70.5,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 80,
+        "growth_rate": 90,
+        "regulatory_clarity": 55,
+        "ecosystem_maturity": 50,
+        "competitive_gap": 80,
+        "tech_readiness": 60
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "DeFi",
+      "region": "KE",
+      "opportunity_score": 64.5,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 64.5,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 65,
+        "growth_rate": 85,
+        "regulatory_clarity": 45,
+        "ecosystem_maturity": 55,
+        "competitive_gap": 75,
+        "tech_readiness": 65
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "AgriTech",
+      "region": "KE",
+      "opportunity_score": 62.8,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 62.8,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 70,
+        "growth_rate": 65,
+        "regulatory_clarity": 60,
+        "ecosystem_maturity": 55,
+        "competitive_gap": 70,
+        "tech_readiness": 50
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "RWA",
+      "region": "KE",
+      "opportunity_score": 60.5,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 60.5,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 70,
+        "growth_rate": 75,
+        "regulatory_clarity": 40,
+        "ecosystem_maturity": 40,
+        "competitive_gap": 85,
+        "tech_readiness": 55
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "Regulatory",
+      "region": "KE",
+      "opportunity_score": 59.2,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 59.2,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 55,
+        "growth_rate": 60,
+        "regulatory_clarity": 65,
+        "ecosystem_maturity": 60,
+        "competitive_gap": 55,
+        "tech_readiness": 60
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "Infrastructure",
+      "region": "KE",
+      "opportunity_score": 58.5,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 58.5,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 60,
+        "growth_rate": 70,
+        "regulatory_clarity": 50,
+        "ecosystem_maturity": 50,
+        "competitive_gap": 65,
+        "tech_readiness": 55
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "NFT",
+      "region": "KE",
+      "opportunity_score": 42.2,
+      "tier": "EMERGING",
+      "base_score": 42.2,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 35,
+        "growth_rate": 50,
+        "regulatory_clarity": 30,
+        "ecosystem_maturity": 30,
+        "competitive_gap": 85,
+        "tech_readiness": 45
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "DAO",
+      "region": "KE",
+      "opportunity_score": 40.2,
+      "tier": "EMERGING",
+      "base_score": 40.2,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 30,
+        "growth_rate": 60,
+        "regulatory_clarity": 20,
+        "ecosystem_maturity": 25,
+        "competitive_gap": 90,
+        "tech_readiness": 40
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    }
+  ],
+  "top_entities": [],
+  "news_articles": [],
+  "regulatory_updates": [],
+  "social_signals": {
+    "available": false,
+    "platforms": [],
+    "total_posts": 0
+  },
+  "market_data": {},
+  "risk_flags": [],
+  "watch_list": [
+    {
+      "sector": "DeFi",
+      "region": "KE",
+      "opportunity_score": 64.5,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 64.5,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 65,
+        "growth_rate": 85,
+        "regulatory_clarity": 45,
+        "ecosystem_maturity": 55,
+        "competitive_gap": 75,
+        "tech_readiness": 65
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "AgriTech",
+      "region": "KE",
+      "opportunity_score": 62.8,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 62.8,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 70,
+        "growth_rate": 65,
+        "regulatory_clarity": 60,
+        "ecosystem_maturity": 55,
+        "competitive_gap": 70,
+        "tech_readiness": 50
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "RWA",
+      "region": "KE",
+      "opportunity_score": 60.5,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 60.5,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 70,
+        "growth_rate": 75,
+        "regulatory_clarity": 40,
+        "ecosystem_maturity": 40,
+        "competitive_gap": 85,
+        "tech_readiness": 55
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    },
+    {
+      "sector": "Regulatory",
+      "region": "KE",
+      "opportunity_score": 59.2,
+      "tier": "MODERATE OPPORTUNITY",
+      "base_score": 59.2,
+      "sentiment_adjustment": 0.0,
+      "mention_boost": 0.0,
+      "dimensions": {
+        "market_size": 55,
+        "growth_rate": 60,
+        "regulatory_clarity": 65,
+        "ecosystem_maturity": 60,
+        "competitive_gap": 55,
+        "tech_readiness": 60
+      },
+      "mention_count": 0,
+      "sentiment": {
+        "score": 0.0,
+        "label": "neutral",
+        "momentum": "Stable",
+        "positive_signals": 0,
+        "negative_signals": 0
+      }
+    }
+  ]
+}

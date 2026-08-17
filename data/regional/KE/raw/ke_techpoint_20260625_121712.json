@@ -1,0 +1,33 @@
+{
+  "source": "ke_techpoint",
+  "url": "https://techpoint.africa/feed/",
+  "timestamp": "2026-06-25T12:17:12.606888+00:00",
+  "category": "ke_tech_news",
+  "entities": [
+    "Kenya",
+    "AI"
+  ],
+  "raw_data": "<?xml version=\"1.0\" encoding=\"UTF-8\"?><rss version=\"2.0\"\n\txmlns:content=\"http://purl.org/rss/1.0/modules/content/\"\n\txmlns:wfw=\"http://wellformedweb.org/CommentAPI/\"\n\txmlns:dc=\"http://purl.org/dc/elements/1.1/\"\n\txmlns:atom=\"http://www.w3.org/2005/Atom\"\n\txmlns:sy=\"http://purl.org/rss/1.0/modules/syndication/\"\n\txmlns:slash=\"http://purl.org/rss/1.0/modules/slash/\"\n\txmlns:media=\"http://search.yahoo.com/mrss/\" >\n\n<channel>\n\t<title>Techpoint Africa</title>\n\t<atom:link href=\"https://techpoint.africa/feed/\" rel=\"self\" type=\"application/rss+xml\" />\n\t<link>https://techpoint.africa</link>\n\t<description>Startups, Innovation and Technology in Africa</description>\n\t<lastBuildDate>Thu, 25 Jun 2026 10:58:07 +0000</lastBuildDate>\n\t<language>en-US</language>\n\t<sy:updatePeriod>\n\thourly\t</sy:updatePeriod>\n\t<sy:updateFrequency>\n\t1\t</sy:updateFrequency>\n\t<generator>https://wordpress.org/?v=7.0</generator>\n\n<image>\n\t<url>https://techpoint.africa/wp-content/uploads/2021/03/cropped-techpoint-icon-150x150-1-32x3",
+  "clean_data": {
+    "feed_title": "Techpoint Africa",
+    "region": "KE",
+    "article_count": 1,
+    "articles": [
+      {
+        "title": "Public data is a national asset, not a revenue shortcut",
+        "summary": "A trusted data economy will not be built by selling what citizens submitted in good faith. It will be built by proving that Kenya can turn data into public value without turning citizens into raw material for revenue.",
+        "url": "https://techpoint.africa/insight/public-data-is-a-national-asset/",
+        "published": "Tue, 23 Jun 2026 10:50:30 +0000",
+        "entities": [
+          "Kenya",
+          "AI"
+        ],
+        "source_name": "TechPoint Africa",
+        "verified": true,
+        "source_url": "https://techpoint.africa/feed/"
+      }
+    ],
+    "source_url": "https://techpoint.africa/feed/"
+  },
+  "record_hash": "ke_techpoint_20260625"
+}

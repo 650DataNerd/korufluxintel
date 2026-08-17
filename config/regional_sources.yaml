@@ -1,0 +1,547 @@
+# ============================================================
+# KoruFlux Intelligence System — Regional Sources Config
+# ============================================================
+# All sources are verified public feeds.
+# Each region has dedicated sources — no cross-contamination.
+# Social sources are clearly marked with their API requirements.
+# ============================================================
+
+regions:
+
+  # ── KENYA / NAIROBI ────────────────────────────────────────
+  KE:
+    name: "Kenya / Nairobi"
+    code: "KE"
+    regulatory_bodies: ["CMA", "CBK", "KEBS", "ODPC"]
+    currency: "KES"
+    sources:
+
+      - id: "ke_cbk_press"
+        name: "Central Bank of Kenya — Press Releases"
+        url: "https://www.centralbank.go.ke/press-releases/"
+        type: "html"
+        category: "regulatory"
+        verified: true
+        selectors:
+          articles: "h3 a, .press-release a, article h2 a"
+
+      - id: "ke_cma_news"
+        name: "Capital Markets Authority Kenya"
+        url: "https://www.cma.or.ke/index.php/media-center/news"
+        type: "html"
+        category: "regulatory"
+        verified: true
+        selectors:
+          articles: "h3 a, h4 a, .news-item a"
+
+      - id: "ke_bitcoinke"
+        name: "BitcoinKE — Kenya Crypto News"
+        url: "https://bitcoinke.io/feed/"
+        type: "rss"
+        category: "crypto_news"
+        verified: true
+
+      - id: "ke_techpoint"
+        name: "TechPoint Africa"
+        url: "https://techpoint.africa/feed/"
+        type: "rss"
+        category: "tech_news"
+        verified: true
+
+      - id: "ke_business_daily"
+        name: "Business Daily Africa"
+        url: "https://www.businessdailyafrica.com/bd/economy/rss"
+        type: "rss"
+        category: "business_news"
+        verified: true
+
+      - id: "ke_safaricom_investor"
+        name: "Safaricom Investor Relations"
+        url: "https://www.safaricom.co.ke/investor-relations/press-releases"
+        type: "html"
+        category: "market_signal"
+        verified: true
+        selectors:
+          articles: "h3 a, .press-release-item a"
+
+      - id: "ke_github_activity"
+        name: "GitHub — Kenya Web3 Developer Activity"
+        url: "https://api.github.com/search/repositories"
+        type: "api_json"
+        category: "dev_activity"
+        verified: true
+        params:
+          q: "blockchain kenya OR web3 nairobi OR defi kenya"
+          sort: "updated"
+          per_page: 20
+
+      - id: "ke_farcaster"
+        name: "Farcaster — Kenya Web3 Channel"
+        url: "https://api.warpcast.com/v2/casts"
+        type: "farcaster"
+        category: "social_web3"
+        verified: true
+        params:
+          channel: "kenya"
+          limit: 25
+
+  # ── EAST AFRICA ────────────────────────────────────────────
+  EA:
+    name: "East Africa"
+    code: "EA"
+    regulatory_bodies: ["CBK", "BoT", "BOU", "NBR", "NBE"]
+    currency: "Mixed (KES/TZS/UGX/RWF/ETB)"
+    sources:
+
+      - id: "ea_disrupt_africa"
+        name: "Disrupt Africa — EA Startups"
+        url: "https://disrupt-africa.com/feed/"
+        type: "rss"
+        category: "startup_news"
+        verified: true
+
+      - id: "ea_weetracker"
+        name: "WeeTracker — Africa Startup Intelligence"
+        url: "https://weetracker.com/feed/"
+        type: "rss"
+        category: "startup_funding"
+        verified: true
+
+      - id: "ea_techcrunch_africa"
+        name: "TechCrunch Africa"
+        url: "https://techcrunch.com/tag/africa/feed/"
+        type: "rss"
+        category: "tech_news"
+        verified: true
+
+      - id: "ea_ventureburn"
+        name: "VentureBurn — Africa"
+        url: "https://ventureburn.com/feed/"
+        type: "rss"
+        category: "startup_news"
+        verified: true
+
+      - id: "ea_africaarena"
+        name: "Africa Arena — Startup Database"
+        url: "https://africaarena.com/feed"
+        type: "rss"
+        category: "ecosystem"
+        verified: true
+
+      - id: "ea_github_activity"
+        name: "GitHub — East Africa Dev Activity"
+        url: "https://api.github.com/search/repositories"
+        type: "api_json"
+        category: "dev_activity"
+        verified: true
+        params:
+          q: "blockchain tanzania OR web3 uganda OR fintech rwanda OR defi ethiopia"
+          sort: "updated"
+          per_page: 20
+
+      - id: "ea_coingecko_africa"
+        name: "CoinGecko — Africa Category"
+        url: "https://api.coingecko.com/api/v3/coins/markets"
+        type: "api_json"
+        category: "crypto_market"
+        verified: true
+        params:
+          vs_currency: "usd"
+          category: "african-projects"
+          order: "market_cap_desc"
+          per_page: 20
+
+  # ── NIGERIA ────────────────────────────────────────────────
+  NG:
+    name: "Nigeria"
+    code: "NG"
+    regulatory_bodies: ["CBN", "SEC Nigeria", "NITDA", "EFCC"]
+    currency: "NGN"
+    sources:
+
+      - id: "ng_techcabal"
+        name: "TechCabal — Nigeria Tech"
+        url: "https://techcabal.com/feed/"
+        type: "rss"
+        category: "tech_news"
+        verified: true
+
+      - id: "ng_nairametrics"
+        name: "Nairametrics — Nigeria Finance"
+        url: "https://nairametrics.com/feed/"
+        type: "rss"
+        category: "financial_news"
+        verified: true
+
+      - id: "ng_coindesk_nigeria"
+        name: "CoinDesk — Nigeria Tag"
+        url: "https://www.coindesk.com/arc/outboundfeeds/rss/"
+        type: "rss"
+        category: "crypto_news"
+        verified: true
+        filter_keyword: "nigeria"
+
+      - id: "ng_sec_news"
+        name: "SEC Nigeria — Press Releases"
+        url: "https://sec.gov.ng/category/press-releases/"
+        type: "html"
+        category: "regulatory"
+        verified: true
+        selectors:
+          articles: "h2 a, h3 a, .entry-title a"
+
+      - id: "ng_github_activity"
+        name: "GitHub — Nigeria Web3 Dev Activity"
+        url: "https://api.github.com/search/repositories"
+        type: "api_json"
+        category: "dev_activity"
+        verified: true
+        params:
+          q: "blockchain nigeria OR web3 lagos OR defi nigeria"
+          sort: "stars"
+          per_page: 20
+
+      - id: "ng_farcaster"
+        name: "Farcaster — Nigeria Web3"
+        url: "https://api.warpcast.com/v2/casts"
+        type: "farcaster"
+        category: "social_web3"
+        verified: true
+        params:
+          channel: "nigeria"
+          limit: 25
+
+  # ── UNITED STATES ──────────────────────────────────────────
+  US:
+    name: "United States"
+    code: "US"
+    regulatory_bodies: ["SEC", "CFTC", "FinCEN", "OCC", "Federal Reserve"]
+    currency: "USD"
+    sources:
+
+      - id: "us_sec_crypto"
+        name: "SEC — Digital Assets Press Releases"
+        url: "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=&dateb=&owner=include&count=20&search_text=&action=getcompany"
+        type: "html"
+        category: "regulatory"
+        verified: true
+        selectors:
+          articles: ".article a, h3 a"
+
+      - id: "us_sec_rss"
+        name: "SEC — Press Release RSS"
+        url: "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=&CIK=&type=&dateb=&owner=include&count=10&search_text=&action=getcompany&output=atom"
+        type: "rss"
+        category: "regulatory"
+        verified: true
+
+      - id: "us_coindesk"
+        name: "CoinDesk — US Policy & Regulation"
+        url: "https://www.coindesk.com/arc/outboundfeeds/rss/"
+        type: "rss"
+        category: "crypto_news"
+        verified: true
+
+      - id: "us_cointelegraph"
+        name: "CoinTelegraph — US Markets"
+        url: "https://cointelegraph.com/rss"
+        type: "rss"
+        category: "crypto_news"
+        verified: true
+
+      - id: "us_defillama_global"
+        name: "DeFiLlama — Global TVL"
+        url: "https://api.llama.fi/protocols"
+        type: "api_json"
+        category: "web3_tvl"
+        verified: true
+
+      - id: "us_coingecko_global"
+        name: "CoinGecko — Global Market Data"
+        url: "https://api.coingecko.com/api/v3/global"
+        type: "api_json"
+        category: "crypto_market"
+        verified: true
+
+      - id: "us_github_web3"
+        name: "GitHub — Top Web3 Repos (US)"
+        url: "https://api.github.com/search/repositories"
+        type: "api_json"
+        category: "dev_activity"
+        verified: true
+        params:
+          q: "web3 defi solidity location:usa"
+          sort: "stars"
+          per_page: 20
+
+      - id: "us_farcaster_trending"
+        name: "Farcaster — Trending Web3"
+        url: "https://api.warpcast.com/v2/trending-casts"
+        type: "farcaster"
+        category: "social_web3"
+        verified: true
+        params:
+          limit: 30
+
+      - id: "us_twitter_web3"
+        name: "Twitter/X — Web3 & Crypto (API Key Required)"
+        url: "https://api.twitter.com/2/tweets/search/recent"
+        type: "twitter"
+        category: "social_sentiment"
+        verified: true
+        requires_key: true
+        key_env: "TWITTER_BEARER_TOKEN"
+        params:
+          query: "web3 defi crypto -is:retweet lang:en"
+          max_results: 50
+
+  # ── EUROPEAN UNION ─────────────────────────────────────────
+  EU:
+    name: "European Union"
+    code: "EU"
+    regulatory_bodies: ["ESMA", "EBA", "ECB", "MiCA Framework"]
+    currency: "EUR"
+    sources:
+
+      - id: "eu_esma_news"
+        name: "ESMA — Press Releases"
+        url: "https://www.esma.europa.eu/press-news/esma-news"
+        type: "html"
+        category: "regulatory"
+        verified: true
+        selectors:
+          articles: "h3 a, .views-row a, article h2 a"
+
+      - id: "eu_ecb_crypto"
+        name: "ECB — Crypto & Digital Euro News"
+        url: "https://www.ecb.europa.eu/rss/press.html"
+        type: "rss"
+        category: "regulatory"
+        verified: true
+
+      - id: "eu_cointelegraph"
+        name: "CoinTelegraph — EU Regulation"
+        url: "https://cointelegraph.com/rss/tag/european-union"
+        type: "rss"
+        category: "crypto_news"
+        verified: true
+
+      - id: "eu_defillama_chains"
+        name: "DeFiLlama — Chain TVL (EU protocols)"
+        url: "https://api.llama.fi/chains"
+        type: "api_json"
+        category: "web3_tvl"
+        verified: true
+
+      - id: "eu_coingecko_markets"
+        name: "CoinGecko — Top Markets"
+        url: "https://api.coingecko.com/api/v3/coins/markets"
+        type: "api_json"
+        category: "crypto_market"
+        verified: true
+        params:
+          vs_currency: "eur"
+          order: "market_cap_desc"
+          per_page: 20
+
+      - id: "eu_farcaster"
+        name: "Farcaster — EU Web3 Channel"
+        url: "https://api.warpcast.com/v2/casts"
+        type: "farcaster"
+        category: "social_web3"
+        verified: true
+        params:
+          channel: "mica"
+          limit: 20
+
+  # ── UNITED KINGDOM ─────────────────────────────────────────
+  GB:
+    name: "United Kingdom"
+    code: "GB"
+    regulatory_bodies: ["FCA", "Bank of England", "HM Treasury"]
+    currency: "GBP"
+    sources:
+
+      - id: "gb_fca_news"
+        name: "FCA — Regulatory News"
+        url: "https://www.fca.org.uk/news/rss.xml"
+        type: "rss"
+        category: "regulatory"
+        verified: true
+
+      - id: "gb_coindesk_uk"
+        name: "CoinDesk — UK News"
+        url: "https://www.coindesk.com/arc/outboundfeeds/rss/"
+        type: "rss"
+        category: "crypto_news"
+        verified: true
+        filter_keyword: "uk"
+
+      - id: "gb_cointelegraph_uk"
+        name: "CoinTelegraph — UK"
+        url: "https://cointelegraph.com/rss/tag/united-kingdom"
+        type: "rss"
+        category: "crypto_news"
+        verified: true
+
+      - id: "gb_github_fintech"
+        name: "GitHub — UK Fintech & Web3"
+        url: "https://api.github.com/search/repositories"
+        type: "api_json"
+        category: "dev_activity"
+        verified: true
+        params:
+          q: "fintech web3 location:london"
+          sort: "stars"
+          per_page: 20
+
+  # ── SINGAPORE ──────────────────────────────────────────────
+  SG:
+    name: "Singapore"
+    code: "SG"
+    regulatory_bodies: ["MAS", "ACRA", "MTI"]
+    currency: "SGD"
+    sources:
+
+      - id: "sg_mas_news"
+        name: "MAS — Press Releases"
+        url: "https://www.mas.gov.sg/news"
+        type: "html"
+        category: "regulatory"
+        verified: true
+        selectors:
+          articles: "h3 a, .news-item a, article a"
+
+      - id: "sg_mas_rss"
+        name: "MAS — Speeches & Monetary Policy RSS"
+        url: "https://www.mas.gov.sg/rss/speeches"
+        type: "rss"
+        category: "regulatory"
+        verified: true
+
+      - id: "sg_coindesk_sg"
+        name: "CoinDesk — Singapore"
+        url: "https://www.coindesk.com/arc/outboundfeeds/rss/"
+        type: "rss"
+        category: "crypto_news"
+        verified: true
+        filter_keyword: "singapore"
+
+      - id: "sg_defillama"
+        name: "DeFiLlama — Asia DeFi Protocols"
+        url: "https://api.llama.fi/protocols"
+        type: "api_json"
+        category: "web3_tvl"
+        verified: true
+
+      - id: "sg_coingecko_trending"
+        name: "CoinGecko — Trending (Asia Hours)"
+        url: "https://api.coingecko.com/api/v3/search/trending"
+        type: "api_json"
+        category: "crypto_trending"
+        verified: true
+
+      - id: "sg_github_activity"
+        name: "GitHub — Singapore Web3"
+        url: "https://api.github.com/search/repositories"
+        type: "api_json"
+        category: "dev_activity"
+        verified: true
+        params:
+          q: "blockchain web3 location:singapore"
+          sort: "stars"
+          per_page: 20
+
+      - id: "sg_farcaster"
+        name: "Farcaster — Singapore Web3"
+        url: "https://api.warpcast.com/v2/casts"
+        type: "farcaster"
+        category: "social_web3"
+        verified: true
+        params:
+          channel: "singapore"
+          limit: 20
+
+  # ── UAE / DUBAI ────────────────────────────────────────────
+  AE:
+    name: "UAE / Dubai"
+    code: "AE"
+    regulatory_bodies: ["VARA", "DIFC", "ADGM", "CBUAE", "SCA"]
+    currency: "AED"
+    sources:
+
+      - id: "ae_vara_news"
+        name: "VARA — Virtual Asset Regulatory Authority"
+        url: "https://www.vara.ae/en/news-events/news/"
+        type: "html"
+        category: "regulatory"
+        verified: true
+        selectors:
+          articles: "h3 a, .news-card a, article h2 a"
+
+      - id: "ae_difc_news"
+        name: "DIFC — Financial Centre News"
+        url: "https://www.difc.ae/whats-on/news/"
+        type: "html"
+        category: "regulatory"
+        verified: true
+        selectors:
+          articles: "h3 a, .news-item a"
+
+      - id: "ae_coindesk_uae"
+        name: "CoinDesk — UAE & Middle East"
+        url: "https://www.coindesk.com/arc/outboundfeeds/rss/"
+        type: "rss"
+        category: "crypto_news"
+        verified: true
+        filter_keyword: "dubai"
+
+      - id: "ae_cointelegraph_mena"
+        name: "CoinTelegraph — MENA"
+        url: "https://cointelegraph.com/rss/tag/middle-east"
+        type: "rss"
+        category: "crypto_news"
+        verified: true
+
+      - id: "ae_github_activity"
+        name: "GitHub — UAE Web3 Dev Activity"
+        url: "https://api.github.com/search/repositories"
+        type: "api_json"
+        category: "dev_activity"
+        verified: true
+        params:
+          q: "blockchain web3 location:dubai OR location:UAE"
+          sort: "stars"
+          per_page: 20
+
+      - id: "ae_farcaster"
+        name: "Farcaster — Dubai Web3 / MENA"
+        url: "https://api.warpcast.com/v2/casts"
+        type: "farcaster"
+        category: "social_web3"
+        verified: true
+        params:
+          channel: "dubai"
+          limit: 25
+
+# ── Social Media API Keys ─────────────────────────────────────
+# Set these as environment variables or in config/config.yaml
+social_keys:
+  twitter:
+    env_var: "TWITTER_BEARER_TOKEN"
+    docs: "https://developer.twitter.com/en/docs/authentication/oauth-2-0/bearer-tokens"
+    tier_required: "Basic ($100/month) or higher"
+    fallback: "RSS-based news aggregators used when key not set"
+
+  farcaster:
+    env_var: null
+    docs: "https://docs.farcaster.xyz/reference/hubble/httpapi/casts"
+    tier_required: "Free — no key needed"
+    note: "Uses Warpcast public API"
+
+  linkedin:
+    env_var: "LINKEDIN_ACCESS_TOKEN"
+    docs: "https://learn.microsoft.com/en-us/linkedin/shared/authentication"
+    tier_required: "Partner Program required for company/post data"
+    fallback: "Crunchbase RSS used as verified funding intelligence alternative"
+    note: "Direct scraping violates LinkedIn ToS — not implemented"

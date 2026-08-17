@@ -1,0 +1,151 @@
+{
+  "source": "sg_github",
+  "url": "https://api.github.com/search/repositories",
+  "timestamp": "2026-06-10T06:39:12.077180+00:00",
+  "category": "sg_dev_activity",
+  "entities": [
+    "vivienbeautysg-max/evox-sg",
+    "Brion14/Real_Estate_Power_BI_analysis",
+    "Jackleow153/sellingsgproperty",
+    "B67687/BusHop",
+    "QuantStrategyLab/LongBridgePlatform",
+    "opengovsg/isomer",
+    "yt-codex/sg-developers-health-monitor",
+    "opengovsg/FormSG",
+    "Scarce01/bunkerguard-ai",
+    "Kendraspoken575/ai-engineer-singapore-2026-real-agent-workshop",
+    "vikukp/SingaporeBuddy",
+    "catyheavy849/novafinance",
+    "arianabra7734/sgcarboncalculator",
+    "nawzaysfinah/wildiq",
+    "hahhahahahahha/jobs-sg"
+  ],
+  "raw_data": "{}",
+  "clean_data": {
+    "total": 12119,
+    "repos": [
+      {
+        "name": "vivienbeautysg-max/evox-sg",
+        "desc": "EVOX Smart Mobile Energy - Battery Energy Storage Systems for Singapore",
+        "stars": 0,
+        "lang": "HTML",
+        "updated": "2026-06-10T06:35:39Z",
+        "url": "https://github.com/vivienbeautysg-max/evox-sg"
+      },
+      {
+        "name": "Brion14/Real_Estate_Power_BI_analysis",
+        "desc": "End-to-end Power BI project analyzing Singapore's HDB resale market. Features data cleaning, modeling, KPI development, and interactive dashboards exploring pricing trends, regional performance, lease age effects, transaction activity, and investment opportunities.",
+        "stars": 0,
+        "lang": null,
+        "updated": "2026-06-10T06:35:11Z",
+        "url": "https://github.com/Brion14/Real_Estate_Power_BI_analysis"
+      },
+      {
+        "name": "Jackleow153/sellingsgproperty",
+        "desc": "SEO & AEO optimized Singapore property insights site (13 articles, clean URLs, dynamic schema, sitemap)",
+        "stars": 0,
+        "lang": "HTML",
+        "updated": "2026-06-10T06:35:05Z",
+        "url": "https://github.com/Jackleow153/sellingsgproperty"
+      },
+      {
+        "name": "B67687/BusHop",
+        "desc": "Lightweight Singapore Bus Timing App",
+        "stars": 0,
+        "lang": "Kotlin",
+        "updated": "2026-06-10T06:34:24Z",
+        "url": "https://github.com/B67687/BusHop"
+      },
+      {
+        "name": "QuantStrategyLab/LongBridgePlatform",
+        "desc": "LongBridge execution platform for QuantStrategyLab us_equity and hk_equity strategies across paper/HK/SG Cloud Run services, with region config, dry-run controls, and .HK/HKD support.",
+        "stars": 1,
+        "lang": "Python",
+        "updated": "2026-06-10T06:34:20Z",
+        "url": "https://github.com/QuantStrategyLab/LongBridgePlatform"
+      },
+      {
+        "name": "opengovsg/isomer",
+        "desc": "Secure, reliable, accessible, and cost-effective static website builder for the Singapore Government",
+        "stars": 27,
+        "lang": "TypeScript",
+        "updated": "2026-06-10T06:13:53Z",
+        "url": "https://github.com/opengovsg/isomer"
+      },
+      {
+        "name": "yt-codex/sg-developers-health-monitor",
+        "desc": "Monitors vulnerability signals for Singapore property developers",
+        "stars": 0,
+        "lang": "JavaScript",
+        "updated": "2026-06-10T06:13:03Z",
+        "url": "https://github.com/yt-codex/sg-developers-health-monitor"
+      },
+      {
+        "name": "opengovsg/FormSG",
+        "desc": "Form builder for the Singapore Government",
+        "stars": 356,
+        "lang": "TypeScript",
+        "updated": "2026-06-10T06:11:38Z",
+        "url": "https://github.com/opengovsg/FormSG"
+      },
+      {
+        "name": "Scarce01/bunkerguard-ai",
+        "desc": "Maritime fraud-intelligence platform for Singapore bunkering \u2014 4-agent LLM workflow + evidence reports",
+        "stars": 0,
+        "lang": "TypeScript",
+        "updated": "2026-06-10T06:04:53Z",
+        "url": "https://github.com/Scarce01/bunkerguard-ai"
+      },
+      {
+        "name": "Kendraspoken575/ai-engineer-singapore-2026-real-agent-workshop",
+        "desc": "Build a self-improving RAG system for legal research using autonomous LangGraph agents and automated feedback loops for document retrieval.",
+        "stars": 0,
+        "lang": "TypeScript",
+        "updated": "2026-06-10T05:55:36Z",
+        "url": "https://github.com/Kendraspoken575/ai-engineer-singapore-2026-real-agent-workshop"
+      },
+      {
+        "name": "vikukp/SingaporeBuddy",
+        "desc": null,
+        "stars": 0,
+        "lang": "Python",
+        "updated": "2026-06-10T05:53:44Z",
+        "url": "https://github.com/vikukp/SingaporeBuddy"
+      },
+      {
+        "name": "catyheavy849/novafinance",
+        "desc": "Calculate Singapore loans, CPF, investments, and retirement with smart financial tools built for clear planning",
+        "stars": 0,
+        "lang": "HTML",
+        "updated": "2026-06-10T05:46:50Z",
+        "url": "https://github.com/catyheavy849/novafinance"
+      },
+      {
+        "name": "arianabra7734/sgcarboncalculator",
+        "desc": "Calculate Singapore carbon emissions with AI insights, charts, and clear reports for tracking and reducing your footprint",
+        "stars": 0,
+        "lang": "JavaScript",
+        "updated": "2026-06-10T05:46:44Z",
+        "url": "https://github.com/arianabra7734/sgcarboncalculator"
+      },
+      {
+        "name": "nawzaysfinah/wildiq",
+        "desc": "Conservation Q&A agent for Singapore wildlife powered by local LLMs (Ollama) + semantic search (ChromaDB) + React UI",
+        "stars": 0,
+        "lang": "Python",
+        "updated": "2026-06-10T05:35:30Z",
+        "url": "https://github.com/nawzaysfinah/wildiq"
+      },
+      {
+        "name": "hahhahahahahha/jobs-sg",
+        "desc": "Analyze Singapore job market data by mapping 562 occupations with AI exposure scores using Ministry of Manpower wage and SSOC metadata.",
+        "stars": 0,
+        "lang": "Python",
+        "updated": "2026-06-10T05:30:48Z",
+        "url": "https://github.com/hahhahahahahha/jobs-sg"
+      }
+    ],
+    "source_url": "https://api.github.com/search/repositories"
+  },
+  "record_hash": "sg_github_20260610"
+}

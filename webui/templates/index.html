@@ -1,0 +1,161 @@
+{% extends "base.html" %}
+{% block title %}KoruFlux · Control Panel{% endblock %}
+{% block page_title %}Control Panel{% endblock %}
+{% block content %}
+
+<div class="grid-4" style="margin-bottom:24px">
+  <div class="stat-card">
+    <div class="stat-header">
+      <div class="stat-label">Top Score</div>
+      <div class="stat-icon"><i data-lucide="trending-up"></i></div>
+    </div>
+    <div class="stat-value">{{ stats.top_score }}</div>
+    <div class="stat-sub">{{ stats.top_sector }}</div>
+  </div>
+  <div class="stat-card" style="border-top-color:#2EC4B6">
+    <div class="stat-header">
+      <div class="stat-label">High Opportunity</div>
+      <div class="stat-icon"><i data-lucide="target"></i></div>
+    </div>
+    <div class="stat-value" style="color:#2EC4B6">{{ stats.high_opps }}</div>
+    <div class="stat-sub">Sectors scored &ge; 75</div>
+  </div>
+  <div class="stat-card" style="border-top-color:#F4A261">
+    <div class="stat-header">
+      <div class="stat-label">Records Analysed</div>
+      <div class="stat-icon"><i data-lucide="database"></i></div>
+    </div>
+    <div class="stat-value" style="color:#F4A261">{{ stats.records }}</div>
+    <div class="stat-sub">Last run: {{ stats.last_run }}</div>
+  </div>
+  <div class="stat-card" style="border-top-color:#8D99AE">
+    <div class="stat-header">
+      <div class="stat-label">History Points</div>
+      <div class="stat-icon"><i data-lucide="calendar"></i></div>
+    </div>
+    <div class="stat-value" style="color:#8D99AE">{{ stats.history_points }}</div>
+    <div class="stat-sub">Pipeline runs logged</div>
+  </div>
+</div>
+
+<div class="grid-2">
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-title"><i data-lucide="bar-chart-horizontal"></i> Opportunity Leaderboard</div>
+      <a href="/dashboard-embed" target="_blank" class="btn btn-outline btn-sm"><i data-lucide="external-link"></i> Full View</a>
+    </div>
+    <div class="card-body">
+      {% for o in opp %}
+      {% set score = o.opportunity_score %}
+      {% if score >= 75 %}{% set color = '#2EC4B6' %}
+      {% elif score >= 55 %}{% set color = '#F4A261' %}
+      {% elif score >= 35 %}{% set color = '#FFB703' %}
+      {% else %}{% set color = '#E63946' %}{% endif %}
+      <div style="display:flex;align-items:center;gap:12px;padding:7px 0;border-bottom:1px solid #F5F7F9">
+        <div style="width:110px;font-size:13px;font-weight:600;color:var(--text)">{{ o.sector }}</div>
+        <div class="score-bar-wrap" style="flex:1">
+          <div class="score-bar" style="width:{{ score }}%;background:{{ color }}"></div>
+        </div>
+        <div style="width:32px;text-align:right;font-weight:800;font-size:14px;color:{{ color }}">{{ score }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div>
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><i data-lucide="play-circle"></i> Pipeline</div>
+        <div class="pipeline-indicator">
+          <div class="status-dot {% if pipeline.running %}running{% else %}idle{% endif %}"></div>
+          <span style="font-size:12px">{% if pipeline.running %}Running{% else %}{{ pipeline.last_status }}{% endif %}</span>
+        </div>
+      </div>
+      <div class="card-body">
+        <p style="font-size:12px;color:var(--muted);margin-bottom:14px">Last run: <strong>{{ stats.last_run }}</strong></p>
+        <div style="display:flex;gap:8px;margin-bottom:14px">
+          <button class="btn btn-success" id="btnLive" onclick="triggerRun(false)" {% if pipeline.running %}disabled{% endif %}>
+            <i data-lucide="globe"></i> Live Scrape
+          </button>
+          <button class="btn btn-primary" id="btnCached" onclick="triggerRun(true)" {% if pipeline.running %}disabled{% endif %}>
+            <i data-lucide="zap"></i> Cached Run
+          </button>
+        </div>
+        <div class="log-console" id="miniLog" style="height:160px">Ready. Press a button to run the pipeline.</div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><i data-lucide="globe-2"></i> Markets Covered</div>
+      </div>
+      <div class="card-body">
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+          {% for m in [('KE','Kenya'),('EA','East Africa'),('NG','Nigeria'),('US','United States'),('EU','EU'),('GB','UK'),('SG','Singapore'),('AE','UAE')] %}
+          <span class="badge badge-blue">{{ m[1] }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-title"><i data-lucide="download"></i> Recent Exports</div>
+        <a href="/reports" class="btn btn-outline btn-sm">View all</a>
+      </div>
+      <div class="card-body" style="padding:0">
+        {% if exports %}
+        <table>
+          <tbody>
+            {% for f in exports[:3] %}
+            <tr>
+              <td>
+                <div style="display:flex;align-items:center;gap:8px">
+                  <i data-lucide="{% if '.xlsx' in f.name %}table-2{% elif '.md' in f.name %}file-text{% else %}file{% endif %}" style="width:14px;height:14px;color:var(--muted)"></i>
+                  <span style="font-size:12px;font-weight:500">{{ f.name }}</span>
+                </div>
+              </td>
+              <td style="color:var(--muted);font-size:11px">{{ f.size }}</td>
+              <td><a href="/download/{{ f.name }}" class="btn btn-outline btn-sm"><i data-lucide="download"></i></a></td>
+            </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+        {% else %}
+        <div class="empty-state"><i data-lucide="inbox"></i><p>No exports yet</p></div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+let es = null;
+function triggerRun(skip) {
+  ['btnLive','btnCached'].forEach(id => document.getElementById(id).disabled = true);
+  const log = document.getElementById('miniLog');
+  log.textContent = 'Starting pipeline...\n';
+  fetch('/run', {
+    method:'POST', headers:{'Content-Type':'application/x-www-form-urlencoded'},
+    body:`skip_scrape=${skip}`
+  }).then(r=>r.json()).then(d=>{
+    if(d.error){log.textContent+=`Error: ${d.error}\n`;resetBtns();return}
+    if(es) es.close();
+    es = new EventSource('/stream-logs');
+    es.onmessage = e => {
+      if(e.data==='__DONE__'){es.close();resetBtns();log.textContent+='\nDone. Refresh to see updated data.';return}
+      if(e.data!=='...'){log.textContent+=e.data.replace(/<br>/g,'\n')+'\n';log.scrollTop=log.scrollHeight}
+    };
+  });
+}
+function resetBtns(){['btnLive','btnCached'].forEach(id=>document.getElementById(id).disabled=false)}
+{% if pipeline.running %}
+const log=document.getElementById('miniLog');
+const es2=new EventSource('/stream-logs');
+es2.onmessage=e=>{if(e.data==='__DONE__'){es2.close();resetBtns()}else if(e.data!=='...'){log.textContent+=e.data.replace(/<br>/g,'\n')+'\n';log.scrollTop=log.scrollHeight}};
+{% endif %}
+</script>
+{% endblock %}

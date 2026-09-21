@@ -7,7 +7,7 @@
 
 ## What This Is
 
-A data scraping, analysis, and visualization system built for [KoruFlux](https://koruflux.com) — a Nairobi-based strategy consultancy specialising in Web3 and African market entry.
+A data scraping, analysis, and visualization system built for [KoruFlux](https://koruflux.com)  a Nairobi-based strategy consultancy specialising in Web3 and African market entry.
 
 The system collects intelligence from 14+ live sources, scores opportunities across 9 sectors and 8 markets, and produces client-ready dashboards and reports automatically.
 

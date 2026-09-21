@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Data files (generated — not stored in git)
+data/raw/
+data/processed/
+data/reports/
+data/exports/
+data/history/
+data/ai_narratives/
+data/regional/
+data/scheduler_history.json
+data/scraper.log
+data/scheduler.log
+
+# Duplicate folder
+dashboards/
+
+# Sensitive
+.env
+*.key

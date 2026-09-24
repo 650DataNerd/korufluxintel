@@ -1,0 +1,111 @@
+name: KoruFlux Daily Intelligence Pipeline
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+    inputs:
+      skip_scrape:
+        description: 'Skip live scraping'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  run-pipeline:
+    name: Run Intelligence Pipeline
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y poppler-utils
+
+      - name: Install Python dependencies
+        run: |
+          pip install --upgrade pip
+          pip install pyyaml requests beautifulsoup4 lxml matplotlib openpyxl flask pypdf numpy
+
+      - name: Create data directories
+        run: |
+          mkdir -p data/raw data/processed data/reports/charts
+          mkdir -p data/exports data/history data/dashboards
+          mkdir -p data/regional/KE data/regional/EA data/regional/NG
+          mkdir -p data/regional/US data/regional/EU data/regional/GB
+          mkdir -p data/regional/SG data/regional/AE data/ai_narratives
+
+      - name: Restore history cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/history/
+            data/regional/
+          key: koruflux-history-${{ github.run_number }}
+          restore-keys: |
+            koruflux-history-
+
+      - name: Run KoruFlux Intelligence Pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+        run: |
+          if [ "${{ github.event.inputs.skip_scrape }}" = "true" ]; then
+            python main.py --skip-scrape
+          else
+            python main.py
+          fi
+
+      - name: Show results summary
+        run: |
+          echo "=== Pipeline Results ==="
+          ls -lh data/dashboards/*.html 2>/dev/null || echo "No dashboards"
+          ls -lh data/exports/ 2>/dev/null || echo "No exports"
+
+      - name: Upload dashboards artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: koruflux-dashboards-${{ github.run_number }}
+          path: data/dashboards/
+          retention-days: 30
+
+      - name: Upload exports artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: koruflux-exports-${{ github.run_number }}
+          path: data/exports/
+          retention-days: 30
+
+      - name: Deploy to Netlify
+        uses: nwtgck/actions-netlify@v3.0
+        with:
+          publish-dir: './data/dashboards'
+          production-branch: main
+          production-deploy: true
+          deploy-message: "KoruFlux Intelligence Update #${{ github.run_number }}"
+          enable-commit-comment: false
+          enable-pull-request-comment: false
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        timeout-minutes: 5
+
+      - name: Save history cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/history/
+            data/regional/
+          key: koruflux-history-${{ github.run_number }}

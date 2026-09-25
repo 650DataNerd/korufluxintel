@@ -94,7 +94,7 @@ jobs:
           publish-dir: './data/dashboards'
           production-branch: main
           production-deploy: true
-          deploy-message: "KoruFlux Intelligence Update #${{ github.run_number }}"
+          deploy-message: "KoruFlux Intelligence Update"
           enable-commit-comment: false
           enable-pull-request-comment: false
         env:
